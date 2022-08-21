@@ -10,6 +10,9 @@
 module load mpi/openmpi-x86_64
 module load gsl/2.6/gcc.8.4.0
 
-mpirun demcmc kepler36_longcadence.in kepler36.pldin 
+./lcout kepler36_longcadence.in kepler36.pldin
+python LC_Plot.py
+
+
 
 
