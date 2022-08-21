@@ -1,0 +1,30 @@
+planet         period (d)               T0 (d)                  e                   i (deg)                 Omega (deg)               omega(deg)               mp (mjup)              rpors           
+0.1	13.869842990233256	808.706994254617371	0.025056136216550	90.288022185816857	0.000000000000000	56.324460055415429	0.013161316692308	0.008249231502590
+0.2	16.217436038134146	802.660567086256492	0.021035840217447	90.151405732903655	0.000000000000000	8.221634213773669	0.024313550376481	0.020749976708076
+1.071000000000000 ; Mstar (M_sol)
+1.626000000000000 ; Rstar (R_sol)
+0.419565835333256 ; c1 (linear limb darkening) 
+0.095013008526486 ; c2 (quadratic limb darkening) 
+0.000000000000000 ; dilution (frac light not from stars in system)
+ ; Comments: These coordinates are jacobian (see Lee & Peale 2003).
+ ; neg2loglike = 57367.246633709895832
+planet         period (d)               T0 (d)              sqrt[e] cos(omega)        sqrt[e] sin(omega)        i (deg)                 Omega (deg)            mp (mjup)              rpors           
+0.1	13.869842990233256	808.706994254617371	0.087770818649210	0.131728583117704	90.288022185816857	0.000000000000000	0.013161316692308	0.008249231502590
+0.2	16.217436038134146	802.660567086256492	0.143546725386246	0.020740729214106	90.151405732903655	0.000000000000000	0.024313550376481	0.020749976708076
+1.071000000000000 ; Mstar (M_sol)
+1.626000000000000 ; Rstar (R_sol)
+0.419565835333256 ; c1 (linear limb darkening) 
+0.095013008526486 ; c2 (quadratic limb darkening) 
+0.000000000000000 ; dilution (frac light not from stars in system)
+ ; Comments: These coordinates are jacobian (see Lee & Peale 2003).
+ ; neg2loglike = 57367.246633709895832
+planet         a (AU)                   e                       i (deg)                omega (deg)          Omega (deg)               f (deg)               mp (mjup)              rpors           
+0.1	0.115588226010657	0.025056136216550	90.288022185816857	56.324460055415429	0.000000000000000	166.781635630332858	0.013161316692308	0.008249231502590
+0.2	0.128289319689468	0.021035840217447	90.151405732903655	8.221634213773669	0.000000000000000	21.196930046635664	0.024313550376481	0.020749976708076
+1.071000000000000 ; Mstar (M_sol)
+1.626000000000000 ; Rstar (R_sol)
+0.419565835333256 ; c1 (linear limb darkening) 
+0.095013008526486 ; c2 (quadratic limb darkening) 
+0.000000000000000 ; dilution (frac light not from stars in system)
+ ; Comments: These coordinates are jacobian (see Lee & Peale 2003).
+ ; neg2loglike = 57367.246633709895832

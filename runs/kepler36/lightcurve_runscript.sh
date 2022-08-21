@@ -64,7 +64,7 @@ echo ""
 
 # Make lightcurve using lcout
 
-../../src/lcout kepler36_longcadence.in kepler36.pldin 
+./lcout kepler36_longcadence.in kepler36.pldin 
 
 echo ""
 echo "lcout complete"

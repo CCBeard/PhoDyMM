@@ -1,0 +1,44 @@
+cadenceswitch = 1
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+celerite=0
+RVcelerite=0
+pstar=5
+radius spectroscopy off
+mass spectroscopy off
+LDLAW = 0
+sqrte, ecuton, eprior[0], esigma = 1, 1, -1941313400, 0.050000
+bimodf = 50
+t0 = 50.000000
+t1 = 1570.000000
+cadenceswitch = 1
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+celerite=0
+RVcelerite=0
+pstar=5
+radius spectroscopy off
+mass spectroscopy off
+LDLAW = 0
+sqrte, ecuton, eprior[0], esigma = 1, 1, 81270920, 0.050000
+bimodf = 50
+t0 = 50.000000
+t1 = 1570.000000
+13.869843
+16.217436
+./kplr011401755_1440_1a.txt
+13.869843
+16.217436
+./kplr011401755_1440_1a.txt
+pre RV
+Initializing Walkers
+Initialized Walkers
+Setup Complete
+Beginning DEMCMC (this may take a very long time)
+pre RV
+Initializing Walkers
+Initialized Walkers
+Setup Complete
+Beginning DEMCMC (this may take a very long time)
+Total run time = 2649.819215422000 secs
+Total run time = 2649.821551853000 secs
