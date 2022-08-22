@@ -3,7 +3,7 @@
 #SBATCH --job-name=Kepler36
 #SBATCH --output=sbatch.o
 #SBATCH --error=sbatch.o
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=2
 #SBATCH --ntasks=2
 #SBATCH -A probert1_lab
 
@@ -11,8 +11,9 @@ module load mpi/openmpi-x86_64
 module load gsl/2.6/gcc.8.4.0
 
 ./lcout kepler36_longcadence.in kepler36.pldin
-python LC_Plot.py
-
-
+python LC_Plot.py orig
+python Make_Pldin.py
+./lcout kepler36_longcadence.in post_demcmc.pldin
+python LC_Plot.py post_demcmc
 
 

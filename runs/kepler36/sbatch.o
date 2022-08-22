@@ -30,16 +30,63 @@ post ttvjitter:
 neg2loglike=57367.246634
 post priors:
 neg2loglike=57367.246634
-Total run time = 1.269827977000 secs
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:94: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, trange)
+Total run time = 1.023918562000 secs
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:94: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, trange)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:94: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, trange)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
+cadenceswitch = 1
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+celerite=0
+RVcelerite=0
+pstar=5
+radius spectroscopy off
+mass spectroscopy off
+LDLAW = 0
+sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.050000
+bimodf = 50
+t0 = 50.000000
+t1 = 1570.000000
+13.869747
+16.217403
+./kplr011401755_1440_1a.txt
+pre RV
+Sanity check:
+p[][2]=13.869747, orbelemets[2]=13.869747
+int_in 3.000000, 800.000000, 1.071000, 0.000013
+starting integration.
+t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=0.000010
+RE starting integration.
+t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=-0.000010
+Integration Complete
+kk=57084
+pre rvjitter:
+neg2loglike=112377.634289
+post ttvjitter:
+neg2loglike=112377.634289
+post priors:
+neg2loglike=112377.634289
+Total run time = 1.520575892000 secs
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:192: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  f.tight_layout()

@@ -6,11 +6,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import glob
 import pandas as pd
+import matplotlib as mpl
+mpl.rcParams['agg.path.chunksize'] = 100000
+import sys
+
+outname = sys.argv[1]
 
 colorlist = ['b', 'r', 'g', 'y', 'c', 'm', 'midnightblue', 'yellow']
 letters = ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k']
 
-def plotlc(time, flux, error, model, zoomrange=None):
+def plotlc(time, flux, error, model, outname, zoomrange=None):
 
     plt.figure(figsize=(14,8))
 
@@ -38,7 +43,7 @@ def plotlc(time, flux, error, model, zoomrange=None):
 
     plt.ylim(0.999, top+1e-4/2)
     plt.legend(fontsize=16)
-    plt.savefig('lc_zoom_all.png',dpi=300)
+    plt.savefig(outname+'_all.png',dpi=300)
 
     if zoomrange is not None:
         for z in zoomrange:
@@ -68,7 +73,7 @@ def plotlc(time, flux, error, model, zoomrange=None):
 
             plt.ylim(0.999, top+1e-4/2)
             plt.xlim(z[0], z[1])
-            plt.savefig('lc_zoom_{}.png'.format(z), dpi=300)
+            plt.savefig(outname+'_zoom_{}.png'.format(z), dpi=300)
 
 ####
 
@@ -91,10 +96,10 @@ err = lcdata[:,3]
 
 ####
 
-plotlc(time, flux, err, model, trange)
+plotlc(time, flux, err, model, outname, trange)
 
 
-def Plot_Phasefold(time, flux, err):
+def Plot_Phasefold(time, flux, err, outname):
 
     tbvfilelist = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     nfiles = len(tbvfilelist)
@@ -185,8 +190,8 @@ def Plot_Phasefold(time, flux, err):
     plt.xlabel('Phase (days)', fontsize=20)
     #plt.ylabel('Normalized Flux')
     f.tight_layout()
-    plt.savefig('PhaseFolded.png')
+    plt.savefig(outname+'.png')
 
 
-Plot_Phasefold(time, flux, err)
+Plot_Phasefold(time, flux, err, outname)
 
