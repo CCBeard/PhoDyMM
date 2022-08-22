@@ -30,7 +30,7 @@ post ttvjitter:
 neg2loglike=57367.246634
 post priors:
 neg2loglike=57367.246634
-Total run time = 1.023918562000 secs
+Total run time = 2.082978950000 secs
 /dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
@@ -75,7 +75,7 @@ post ttvjitter:
 neg2loglike=112377.634289
 post priors:
 neg2loglike=112377.634289
-Total run time = 1.520575892000 secs
+Total run time = 1.733961913000 secs
 /dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
@@ -88,5 +88,3 @@ Total run time = 1.520575892000 secs
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:192: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
-  f.tight_layout()
