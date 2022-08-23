@@ -195,3 +195,56 @@ def Plot_Phasefold(time, flux, err, outname):
 
 Plot_Phasefold(time, flux, err, outname)
 
+
+def Plot_all_transits(time, flux, error, model, outname):
+    
+    flux_start = np.min(time)
+    flux_end = np.max(time)
+    
+    
+    tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
+    for i in range(len(tbv)):
+        f = tbv[i]
+        ttimes = pd.read_csv(f, '  ', header=None)
+        for j in range(len(ttimes[1])):
+            
+            if ttimes[1][j] < flux_start or ttimes[1][j] > flux_end:
+                continue
+            else:
+                
+                mask = (np.abs(time - ttimes[1][j]) < 0.3)
+                
+                
+                try:
+                    tran_min = np.min(flux[mask])
+                    tran_max = np.max(flux[mask])
+                except ValueError:
+                    continue
+            
+                plt.figure(figsize=(8,3))
+
+                plt.errorbar(time, flux, yerr=error, c='k', fmt='o') 
+                plt.plot(time, model, c=colorlist[i], zorder=1000)
+                plt.axvline(ttimes[1][j], ls='--', alpha=0.5, color='gray', label=np.round(ttimes[1][j],5))
+                plt.title('Planet {}'.format(letters[i]))
+                plt.legend()
+
+
+                top = np.max(flux + 0.0001)
+
+                plt.plot([ttimes[1][j], ttimes[1][j]], [top, top+1e-4],
+                         c=colorlist[i], marker="None") 
+
+                plt.xlabel('Time (days)', fontsize=20)
+                plt.ylabel('Flux', fontsize=20)
+                plt.xlim(ttimes[1][j] - 0.3, ttimes[1][j] + 0.3)
+                plt.ylim(tran_min-1e-4, tran_max+1e-4)
+
+                plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], j))
+
+    
+
+
+
+
+Plot_all_transits(time, flux, err, model, outname)

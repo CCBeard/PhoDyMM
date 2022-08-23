@@ -30,7 +30,7 @@ post ttvjitter:
 neg2loglike=57367.246634
 post priors:
 neg2loglike=57367.246634
-Total run time = 0.629962625000 secs
+Total run time = 2.093772679000 secs
 /dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
@@ -43,6 +43,32 @@ Total run time = 0.629962625000 secs
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:224: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(8,3))
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/export/spool/slurm/slurmd.spool/job14471089/slurm_script: line 24: 14453 Killed                  python LC_Plot.py orig
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            hpc3-14-13
+  Device name:           i40iw0
+  Device vendor ID:      0x8086
+  Device vendor part ID: 14289
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
 cadenceswitch = 1
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -52,13 +78,10 @@ pstar=5
 radius spectroscopy off
 mass spectroscopy off
 LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, -1823594360, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, 1430562952, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-13.869843
-16.217436
-./kplr011401755_1440_1a.txt
 cadenceswitch = 1
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -68,27 +91,33 @@ pstar=5
 radius spectroscopy off
 mass spectroscopy off
 LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, 308496520, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, 8267912, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
 13.869843
 16.217436
+13.869843
+16.217436
+./kplr011401755_1440_1a.txt
 ./kplr011401755_1440_1a.txt
 pre RV
 Initializing Walkers
-Initialized Walkers
-Setup Complete
-Beginning DEMCMC (this may take a very long time)
 pre RV
 Initializing Walkers
 Initialized Walkers
 Setup Complete
+Initialized Walkers
+Setup Complete
 Beginning DEMCMC (this may take a very long time)
-Total run time = 24442.599833360000 secs
-Total run time = 24442.602093451998 secs
+Beginning DEMCMC (this may take a very long time)
+[hpc3-14-13:17203] 3 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[hpc3-14-13:17203] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Total run time = 2461.181101619000 secs
+Total run time = 2461.316142606000 secs
 WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
 WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
+No burnin given, using 0.
 
 number of lines per output in demcmc_kepler36_longcadence.out, number of planets, number of extra parameters, number of lines to skip : 
 8 2 5 1
@@ -106,12 +135,12 @@ sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-13.869702
-16.217419
+13.869711
+16.217414
 ./kplr011401755_1440_1a.txt
 pre RV
 Sanity check:
-p[][2]=13.869702, orbelemets[2]=13.869702
+p[][2]=13.869711, orbelemets[2]=13.869711
 int_in 3.000000, 800.000000, 1.071000, 0.000013
 starting integration.
 t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=0.000010
@@ -120,12 +149,12 @@ t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=-0.000010
 Integration Complete
 kk=57084
 pre rvjitter:
-neg2loglike=110378.353141
+neg2loglike=111090.339030
 post ttvjitter:
-neg2loglike=110378.353141
+neg2loglike=111090.339030
 post priors:
-neg2loglike=110378.353141
-Total run time = 0.925203647000 secs
+neg2loglike=111090.339030
+Total run time = 1.473681535000 secs
 /dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
@@ -138,3 +167,13 @@ Total run time = 0.925203647000 secs
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:224: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure(figsize=(8,3))
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/export/spool/slurm/slurmd.spool/job14471089/slurm_script: line 32: 34957 Killed                  python LC_Plot.py post_demcmc
+slurmstepd: error: Detected 2 oom-kill event(s) in step 14471089.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

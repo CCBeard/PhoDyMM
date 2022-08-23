@@ -14,7 +14,7 @@ double epoch= 800.0
 // Number of individual demcmc walkers
 long nwalkers= 20
 // Number of generations the demcmc will run (i.e. the number of steps per walker)
-long nsteps= 10001
+long nsteps= 1001
 // Data cadence type switch. 0 = short cadence data, 1 = long cadence data, 2 = mixed
 int cadenceswitch= 1
 // File path and name for data
