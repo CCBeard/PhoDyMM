@@ -12,6 +12,8 @@ module load gsl/2.6/gcc.8.4.0
 
 ./lcout kepler36_longcadence.in kepler36.pldin
 python LC_Plot.py orig
+mpirun demcmc kepler36_longcadence.in kepler36.pldin
+python demcmc_quick_analyze.py kepler36_longcadence.in 2000
 rm tbv*
 rm *.lcout
 rm xyz*
