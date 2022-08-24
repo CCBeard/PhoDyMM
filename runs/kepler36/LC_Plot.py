@@ -240,9 +240,9 @@ def Plot_all_transits(time, flux, error, model, outname):
                 plt.xlim(ttimes[1][j] - 0.3, ttimes[1][j] + 0.3)
                 plt.ylim(tran_min-1e-4, tran_max+1e-4)
 
-                plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], j))
+                plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
 
-    
+                plt.close()    
 
 
 
