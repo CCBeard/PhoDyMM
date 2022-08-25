@@ -1,5 +1,5 @@
 ### Edit this range to plot a different segment of data
-trange = [[100., 150.], [300, 350]]
+trange = [[2000., 2050.]]
 #
 
 import numpy as np
@@ -25,6 +25,8 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
 
 
     top = np.max(flux + 0.0001)
+    timemin = np.min(time)
+    timemax = np.max(time)
 
     tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     for i in range(len(tbv)):
@@ -41,6 +43,7 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
     plt.ylabel('Flux', fontsize=20)
     savestr = 'lcplot'
 
+    plt.xlim(timemin-1, timemax + 1)
     plt.ylim(0.999, top+1e-4/2)
     plt.legend(fontsize=16)
     plt.savefig(outname+'_all.png',dpi=300)

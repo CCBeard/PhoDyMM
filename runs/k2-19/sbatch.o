@@ -1,5 +1,7 @@
-rm: cannot remove ‘*.png’: No such file or directory
 rm: cannot remove ‘analysis_dir’: No such file or directory
+rm: cannot remove ‘gamma*’: No such file or directory
+rm: cannot remove ‘mcmc*’: No such file or directory
+rm: cannot remove ‘demcmc.stdout’: No such file or directory
 rm: cannot remove ‘post_demcmc.pldin’: No such file or directory
 cadenceswitch = 1
 pperplan=8
@@ -50,18 +52,14 @@ post ttvjitter:
 neg2loglike=6591.040537
 post priors:
 neg2loglike=6533.328796
-Total run time = 0.498503242000 secs
-/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+Total run time = 0.477416180000 secs
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:102: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:102: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
   return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:140: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:143: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
   othertts = np.hstack(np.array(othertts))
