@@ -1,6 +1,3 @@
-rm: cannot remove ‘xyz*’: No such file or directory
-rm: cannot remove ‘*.lcout’: No such file or directory
-rm: cannot remove ‘post_demcmc.pldin’: No such file or directory
 cadenceswitch = 1
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -33,7 +30,7 @@ post ttvjitter:
 neg2loglike=57367.246634
 post priors:
 neg2loglike=57367.246634
-Total run time = 1.397297301000 secs
+Total run time = 0.965693742000 secs
 /dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
   plotlc(time, flux, err, model, outname, trange)
 /data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
@@ -70,19 +67,19 @@ pstar=5
 radius spectroscopy off
 mass spectroscopy off
 LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, -295356280, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, -1956800376, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-sqrte, ecuton, eprior[0], esigma = 1, 1, 1814911112, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, -34695032, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-13.869843
-16.217436
 13.869843
 16.217436
 ./kplr011401755_1440_1a.txt
+13.869843
+16.217436
 ./kplr011401755_1440_1a.txt
 pre RV
 Initializing Walkers
@@ -94,21 +91,14 @@ Initializing Walkers
 Initialized Walkers
 Setup Complete
 Beginning DEMCMC (this may take a very long time)
-Total run time = 2529.788817549000 secs
-Total run time = 2529.910348884000 secs
+Total run time = 26172.049454811000 secs
+Total run time = 26172.058586687999 secs
 WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
 WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
-No burnin given, using 0.
 
 number of lines per output in demcmc_kepler36_longcadence.out, number of planets, number of extra parameters, number of lines to skip : 
 8 2 5 1
 
-Traceback (most recent call last):
-  File "/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/Make_Pldin.py", line 32, in <module>
-    Make_Pldin_from_mcmc(mcmcfile, Nplanets)
-  File "/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/Make_Pldin.py", line 18, in Make_Pldin_from_mcmc
-    for line in (file.readlines() [-N:]):
-TypeError: slice indices must be integers or None or have an __index__ method
 cadenceswitch = 1
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -122,6 +112,41 @@ sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-Bad pldin Input File NameThis script must be run in the directory containing the lc_RUNNAME.lcout
-    file produced with the 'lcout' command. No such file was not found here.
-    Aborting
+13.869842
+16.217437
+./kplr011401755_1440_1a.txt
+pre RV
+Sanity check:
+p[][2]=13.869842, orbelemets[2]=13.869842
+int_in 3.000000, 800.000000, 1.071000, 0.000013
+starting integration.
+t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=0.000010
+RE starting integration.
+t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=-0.000010
+Integration Complete
+kk=57084
+pre rvjitter:
+neg2loglike=57365.526181
+post ttvjitter:
+neg2loglike=57365.526181
+post priors:
+neg2loglike=57365.526181
+Total run time = 2.097341131000 secs
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  Plot_all_transits(time, flux, err, model, outname)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)

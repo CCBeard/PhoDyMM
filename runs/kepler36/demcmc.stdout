@@ -1,309 +1,3009 @@
 begin gen 0
-Gen 0  run time = 2.369126691000 secs
+Gen 0  run time = 2.603506677000 secs
 Chain 0 has Best neg2loglike so far: 57366.956483
-Gen 0  run time + message passing = 3.012434712000 secs
+Gen 0  run time + message passing = 2.703199866000 secs
 Chain 0 has Best neg2loglike so far: 57366.441080
 Chain 3 has Best neg2loglike so far: 57366.298893
 Chain 5 has Best neg2loglike so far: 57366.269829
 Chain 3 has Best neg2loglike so far: 57365.960148
 Chain 1 has Best neg2loglike so far: 57365.526181
 begin gen 10
-Gen 10  run time = 2.553935815000 secs
-Gen 10  run time + message passing = 2.865936454000 secs
+Gen 10  run time = 2.633179852000 secs
+Gen 10  run time + message passing = 2.689927617000 secs
 begin gen 20
-Gen 20  run time = 2.350761543000 secs
-Gen 20  run time + message passing = 2.743930922000 secs
+Gen 20  run time = 2.647434051000 secs
+Gen 20  run time + message passing = 2.766042564000 secs
 begin gen 30
-Gen 30  run time = 2.353429943000 secs
-Gen 30  run time + message passing = 2.736720717000 secs
+Gen 30  run time = 2.598947052000 secs
+Gen 30  run time + message passing = 2.672235489000 secs
 begin gen 40
-Gen 40  run time = 2.442664090000 secs
-Gen 40  run time + message passing = 2.765333014000 secs
+Gen 40  run time = 2.638762626000 secs
+Gen 40  run time + message passing = 2.768156962000 secs
 begin gen 50
-Gen 50  run time = 2.468331922000 secs
-Gen 50  run time + message passing = 2.895627055000 secs
+Gen 50  run time = 2.591054772000 secs
+Gen 50  run time + message passing = 2.710117674000 secs
 begin gen 60
-Gen 60  run time = 2.355355627000 secs
-Gen 60  run time + message passing = 3.019552579000 secs
+Gen 60  run time = 2.665903466000 secs
+Gen 60  run time + message passing = 2.911674479000 secs
 begin gen 70
-Gen 70  run time = 2.378420668000 secs
-Gen 70  run time + message passing = 2.780076992000 secs
+Gen 70  run time = 2.601704413000 secs
+Gen 70  run time + message passing = 2.688146549000 secs
 begin gen 80
-Gen 80  run time = 2.529419345000 secs
-Gen 80  run time + message passing = 2.964760586000 secs
+Gen 80  run time = 2.663809110000 secs
+Gen 80  run time + message passing = 2.736872364000 secs
 begin gen 90
-Gen 90  run time = 2.514310998000 secs
-Gen 90  run time + message passing = 2.943715549000 secs
+Gen 90  run time = 2.612808867000 secs
+Gen 90  run time + message passing = 2.711253166000 secs
 begin gen 100
-Gen 100  run time = 2.514096880000 secs
-Gen 100  run time + message passing = 2.917699621000 secs
+Gen 100  run time = 2.654782033000 secs
+Gen 100  run time + message passing = 2.721429346000 secs
 begin gen 110
-Gen 110  run time = 2.518108634000 secs
-Gen 110  run time + message passing = 2.952519638000 secs
+Gen 110  run time = 2.616598577000 secs
+Gen 110  run time + message passing = 2.683558269000 secs
 begin gen 120
-Gen 120  run time = 2.514193144000 secs
-Gen 120  run time + message passing = 2.793891265000 secs
+Gen 120  run time = 2.648794014000 secs
+Gen 120  run time + message passing = 2.695738821000 secs
 begin gen 130
-Gen 130  run time = 2.513079145000 secs
-Gen 130  run time + message passing = 3.379569574000 secs
+Gen 130  run time = 2.680720433000 secs
+Gen 130  run time + message passing = 2.781952789000 secs
 begin gen 140
-Gen 140  run time = 2.517957788000 secs
-Gen 140  run time + message passing = 2.910808617000 secs
+Gen 140  run time = 2.667907690000 secs
+Gen 140  run time + message passing = 2.720283329000 secs
 begin gen 150
-Gen 150  run time = 2.513858584000 secs
-Gen 150  run time + message passing = 2.952205310000 secs
+Gen 150  run time = 2.651480817000 secs
+Gen 150  run time + message passing = 2.702834310000 secs
 begin gen 160
-Gen 160  run time = 2.523031042000 secs
-Gen 160  run time + message passing = 2.745527783000 secs
+Gen 160  run time = 2.650599322000 secs
+Gen 160  run time + message passing = 2.723401909000 secs
 begin gen 170
-Gen 170  run time = 2.522071024000 secs
-Gen 170  run time + message passing = 2.837683038000 secs
+Gen 170  run time = 2.685340902000 secs
+Gen 170  run time + message passing = 2.727901943000 secs
 begin gen 180
-Gen 180  run time = 2.271229629000 secs
-Gen 180  run time + message passing = 2.528906389000 secs
+Gen 180  run time = 2.428102174000 secs
+Gen 180  run time + message passing = 2.485392551000 secs
 begin gen 190
-Gen 190  run time = 2.523126476000 secs
-Gen 190  run time + message passing = 3.059627029000 secs
+Gen 190  run time = 2.735903593000 secs
+Gen 190  run time + message passing = 2.802554381000 secs
 begin gen 200
-Gen 200  run time = 2.020139787000 secs
-Gen 200  run time + message passing = 2.296655266000 secs
+Gen 200  run time = 2.204585985000 secs
+Gen 200  run time + message passing = 2.243407530000 secs
 begin gen 210
-Gen 210  run time = 2.272015482000 secs
-Gen 210  run time + message passing = 2.537294739000 secs
+Gen 210  run time = 2.423067491000 secs
+Gen 210  run time + message passing = 2.479750030000 secs
 begin gen 220
-Gen 220  run time = 2.524813941000 secs
-Gen 220  run time + message passing = 2.911861750000 secs
+Gen 220  run time = 2.739789759000 secs
+Gen 220  run time + message passing = 2.788505669000 secs
 begin gen 230
-Gen 230  run time = 2.524206618000 secs
-Gen 230  run time + message passing = 2.864167856000 secs
+Gen 230  run time = 2.695154157000 secs
+Gen 230  run time + message passing = 2.737154409000 secs
 begin gen 240
-Gen 240  run time = 2.525517001000 secs
-Gen 240  run time + message passing = 2.807305452000 secs
+Gen 240  run time = 2.748085740000 secs
+Gen 240  run time + message passing = 2.800938923000 secs
 begin gen 250
-Gen 250  run time = 2.021347139000 secs
-Gen 250  run time + message passing = 2.473778762000 secs
+Gen 250  run time = 2.156301461000 secs
+Gen 250  run time + message passing = 2.441233654000 secs
 begin gen 260
-Gen 260  run time = 2.526732011000 secs
-Gen 260  run time + message passing = 2.899835507000 secs
+Gen 260  run time = 2.757010123000 secs
+Gen 260  run time + message passing = 2.812799428000 secs
 begin gen 270
-Gen 270  run time = 2.526526123000 secs
-Gen 270  run time + message passing = 2.799016245000 secs
+Gen 270  run time = 2.701998667000 secs
+Gen 270  run time + message passing = 2.759324909000 secs
 begin gen 280
-Gen 280  run time = 2.525850164000 secs
-Gen 280  run time + message passing = 2.708469868000 secs
+Gen 280  run time = 2.653281634000 secs
+Gen 280  run time + message passing = 2.703486901000 secs
 begin gen 290
-Gen 290  run time = 2.527530172000 secs
-Gen 290  run time + message passing = 2.865975728000 secs
+Gen 290  run time = 2.623550380000 secs
+Gen 290  run time + message passing = 2.684194758000 secs
 begin gen 300
-Gen 300  run time = 2.277467930000 secs
-Gen 300  run time + message passing = 2.698758689000 secs
+Gen 300  run time = 2.413442773000 secs
+Gen 300  run time + message passing = 2.469620035000 secs
 begin gen 310
-Gen 310  run time = 2.524379042000 secs
-Gen 310  run time + message passing = 2.906757522000 secs
+Gen 310  run time = 2.611204663000 secs
+Gen 310  run time + message passing = 2.645645674000 secs
 begin gen 320
-Gen 320  run time = 2.524107494000 secs
-Gen 320  run time + message passing = 2.871408707000 secs
+Gen 320  run time = 2.672255661000 secs
+Gen 320  run time + message passing = 2.703931947000 secs
 begin gen 330
-Gen 330  run time = 2.522341810000 secs
-Gen 330  run time + message passing = 2.723170861000 secs
+Gen 330  run time = 2.686712813000 secs
+Gen 330  run time + message passing = 2.739377761000 secs
 begin gen 340
-Gen 340  run time = 2.521043795000 secs
-Gen 340  run time + message passing = 2.942290910000 secs
+Gen 340  run time = 2.692413369000 secs
+Gen 340  run time + message passing = 2.720913000000 secs
 begin gen 350
-Gen 350  run time = 1.765101403000 secs
-Gen 350  run time + message passing = 2.381415832000 secs
+Gen 350  run time = 1.884361238000 secs
+Gen 350  run time + message passing = 2.432161897000 secs
 begin gen 360
-Gen 360  run time = 2.520125578000 secs
-Gen 360  run time + message passing = 2.732537558000 secs
+Gen 360  run time = 2.692788357000 secs
+Gen 360  run time + message passing = 2.721454024000 secs
 begin gen 370
-Gen 370  run time = 2.520587777000 secs
-Gen 370  run time + message passing = 2.869269989000 secs
+Gen 370  run time = 2.692805638000 secs
+Gen 370  run time + message passing = 2.769568762000 secs
 begin gen 380
-Gen 380  run time = 2.269201172000 secs
-Gen 380  run time + message passing = 2.577840363000 secs
+Gen 380  run time = 2.432379568000 secs
+Gen 380  run time + message passing = 2.708078614000 secs
 begin gen 390
-Gen 390  run time = 2.265159297000 secs
-Gen 390  run time + message passing = 2.650615502000 secs
+Gen 390  run time = 2.443869299000 secs
+Gen 390  run time + message passing = 2.501859308000 secs
 begin gen 400
-Gen 400  run time = 2.261657160000 secs
-Gen 400  run time + message passing = 2.626235379000 secs
+Gen 400  run time = 2.427729402000 secs
+Gen 400  run time + message passing = 2.455501266000 secs
 begin gen 410
-Gen 410  run time = 2.514023374000 secs
-Gen 410  run time + message passing = 2.904117546000 secs
+Gen 410  run time = 2.613897252000 secs
+Gen 410  run time + message passing = 2.631756283000 secs
 begin gen 420
-Gen 420  run time = 2.512280900000 secs
-Gen 420  run time + message passing = 2.861381690000 secs
+Gen 420  run time = 2.613984699000 secs
+Gen 420  run time + message passing = 2.633987133000 secs
 begin gen 430
-Gen 430  run time = 2.514258628000 secs
-Gen 430  run time + message passing = 2.751751637000 secs
+Gen 430  run time = 2.593454706000 secs
+Gen 430  run time + message passing = 2.608317105000 secs
 begin gen 440
-Gen 440  run time = 2.512789760000 secs
-Gen 440  run time + message passing = 2.871055491000 secs
+Gen 440  run time = 2.615361893000 secs
+Gen 440  run time + message passing = 2.633462172000 secs
 begin gen 450
-Gen 450  run time = 1.509987288000 secs
-Gen 450  run time + message passing = 2.628743284000 secs
+Gen 450  run time = 1.569118075000 secs
+Gen 450  run time + message passing = 2.618258024000 secs
 begin gen 460
-Gen 460  run time = 2.513423672000 secs
-Gen 460  run time + message passing = 3.030725672000 secs
+Gen 460  run time = 2.615423503000 secs
+Gen 460  run time + message passing = 2.627414725000 secs
 begin gen 470
-Gen 470  run time = 2.511558145000 secs
-Gen 470  run time + message passing = 2.846960724000 secs
+Gen 470  run time = 2.568155968000 secs
+Gen 470  run time + message passing = 2.577137435000 secs
 begin gen 480
-Gen 480  run time = 2.512752419000 secs
-Gen 480  run time + message passing = 2.868754748000 secs
+Gen 480  run time = 2.572357996000 secs
+Gen 480  run time + message passing = 2.578856914000 secs
 begin gen 490
-Gen 490  run time = 2.513777729000 secs
-Gen 490  run time + message passing = 3.031343646000 secs
+Gen 490  run time = 2.587574387000 secs
+Gen 490  run time + message passing = 2.593829236000 secs
 begin gen 500
-Gen 500  run time = 1.759122298000 secs
-Gen 500  run time + message passing = 2.035986462000 secs
+Gen 500  run time = 1.809270126000 secs
+Gen 500  run time + message passing = 2.079845556000 secs
 begin gen 510
-Gen 510  run time = 2.262324118000 secs
-Gen 510  run time + message passing = 2.558914161000 secs
+Gen 510  run time = 2.328385041000 secs
+Gen 510  run time + message passing = 2.594512072000 secs
 begin gen 520
-Gen 520  run time = 2.260683429000 secs
-Gen 520  run time + message passing = 2.627805352000 secs
+Gen 520  run time = 2.328556226000 secs
+Gen 520  run time + message passing = 2.336134857000 secs
 begin gen 530
-Gen 530  run time = 2.260097712000 secs
-Gen 530  run time + message passing = 2.607032780000 secs
+Gen 530  run time = 2.293439734000 secs
+Gen 530  run time + message passing = 2.556844830000 secs
 begin gen 540
-Gen 540  run time = 2.261399905000 secs
-Gen 540  run time + message passing = 2.578168984000 secs
+Gen 540  run time = 2.290748465000 secs
+Gen 540  run time + message passing = 2.555248160000 secs
 begin gen 550
-Gen 550  run time = 2.516896271000 secs
-Gen 550  run time + message passing = 2.816257179000 secs
+Gen 550  run time = 2.546767880000 secs
+Gen 550  run time + message passing = 2.552002428000 secs
 begin gen 560
-Gen 560  run time = 2.259216699000 secs
-Gen 560  run time + message passing = 2.539199940000 secs
+Gen 560  run time = 2.286072430000 secs
+Gen 560  run time + message passing = 2.549316775000 secs
 begin gen 570
-Gen 570  run time = 2.508638996000 secs
-Gen 570  run time + message passing = 2.725598841000 secs
+Gen 570  run time = 2.536831445000 secs
+Gen 570  run time + message passing = 2.543124709000 secs
 begin gen 580
-Gen 580  run time = 2.510484928000 secs
-Gen 580  run time + message passing = 2.799449564000 secs
+Gen 580  run time = 2.536750598000 secs
+Gen 580  run time + message passing = 2.542891198000 secs
 begin gen 590
-Gen 590  run time = 2.261492323000 secs
-Gen 590  run time + message passing = 2.500142338000 secs
+Gen 590  run time = 2.284863276000 secs
+Gen 590  run time + message passing = 2.545157771000 secs
 begin gen 600
-Gen 600  run time = 2.262084702000 secs
-Gen 600  run time + message passing = 3.216543625000 secs
+Gen 600  run time = 2.287036183000 secs
+Gen 600  run time + message passing = 2.292283389000 secs
 begin gen 610
-Gen 610  run time = 2.510170902000 secs
-Gen 610  run time + message passing = 3.356410791000 secs
+Gen 610  run time = 2.538247987000 secs
+Gen 610  run time + message passing = 2.547265375000 secs
 begin gen 620
-Gen 620  run time = 2.513211724000 secs
-Gen 620  run time + message passing = 2.812739109000 secs
+Gen 620  run time = 2.539828005000 secs
+Gen 620  run time + message passing = 2.545609264000 secs
 begin gen 630
-Gen 630  run time = 2.259787746000 secs
-Gen 630  run time + message passing = 2.629445180000 secs
+Gen 630  run time = 2.284786439000 secs
+Gen 630  run time + message passing = 2.548767398000 secs
 begin gen 640
-Gen 640  run time = 2.260551501000 secs
-Gen 640  run time + message passing = 2.513136677000 secs
+Gen 640  run time = 2.284814854000 secs
+Gen 640  run time + message passing = 2.295131220000 secs
 begin gen 650
-Gen 650  run time = 2.011436833000 secs
-Gen 650  run time + message passing = 2.210462646000 secs
+Gen 650  run time = 2.036411596000 secs
+Gen 650  run time + message passing = 2.041415654000 secs
 begin gen 660
-Gen 660  run time = 2.012262590000 secs
-Gen 660  run time + message passing = 2.789330597000 secs
+Gen 660  run time = 2.035062376000 secs
+Gen 660  run time + message passing = 2.556363046000 secs
 begin gen 670
-Gen 670  run time = 2.261520199000 secs
-Gen 670  run time + message passing = 2.576677885000 secs
+Gen 670  run time = 2.286629346000 secs
+Gen 670  run time + message passing = 2.549101143000 secs
 begin gen 680
-Gen 680  run time = 2.516180624000 secs
-Gen 680  run time + message passing = 2.852180533000 secs
+Gen 680  run time = 2.542659823000 secs
+Gen 680  run time + message passing = 2.547741384000 secs
 begin gen 690
-Gen 690  run time = 2.265531322000 secs
-Gen 690  run time + message passing = 2.534863677000 secs
+Gen 690  run time = 2.288911608000 secs
+Gen 690  run time + message passing = 2.294144571000 secs
 begin gen 700
-Gen 700  run time = 2.014183246000 secs
-Gen 700  run time + message passing = 2.415949527000 secs
+Gen 700  run time = 2.035357058000 secs
+Gen 700  run time + message passing = 2.297918236000 secs
 begin gen 710
-Gen 710  run time = 2.519193140000 secs
-Gen 710  run time + message passing = 2.995902846000 secs
+Gen 710  run time = 2.605134283000 secs
+Gen 710  run time + message passing = 2.616174089000 secs
 begin gen 720
-Gen 720  run time = 2.268890626000 secs
-Gen 720  run time + message passing = 2.639911395000 secs
+Gen 720  run time = 2.391705672000 secs
+Gen 720  run time + message passing = 2.587812967000 secs
 begin gen 730
-Gen 730  run time = 2.510172156000 secs
-Gen 730  run time + message passing = 2.730467537000 secs
+Gen 730  run time = 2.546730861000 secs
+Gen 730  run time + message passing = 2.553813163000 secs
 begin gen 740
-Gen 740  run time = 2.509229887000 secs
-Gen 740  run time + message passing = 2.765496040000 secs
+Gen 740  run time = 2.549245185000 secs
+Gen 740  run time + message passing = 2.555811029000 secs
 begin gen 750
-Gen 750  run time = 2.258730065000 secs
-Gen 750  run time + message passing = 2.563407389000 secs
+Gen 750  run time = 2.341173475000 secs
+Gen 750  run time + message passing = 2.346323438000 secs
 begin gen 760
-Gen 760  run time = 2.507269437000 secs
-Gen 760  run time + message passing = 2.707830516000 secs
+Gen 760  run time = 2.552335430000 secs
+Gen 760  run time + message passing = 2.559129410000 secs
 begin gen 770
-Gen 770  run time = 2.231593598000 secs
-Gen 770  run time + message passing = 2.550220142000 secs
+Gen 770  run time = 2.347845039000 secs
+Gen 770  run time + message passing = 3.835794749000 secs
 begin gen 780
-Gen 780  run time = 2.217416952000 secs
-Gen 780  run time + message passing = 2.404892367000 secs
+Gen 780  run time = 2.393609318000 secs
+Gen 780  run time + message passing = 2.948918023000 secs
 begin gen 790
-Gen 790  run time = 2.465866538000 secs
-Gen 790  run time + message passing = 2.725871470000 secs
+Gen 790  run time = 2.652549911000 secs
+Gen 790  run time + message passing = 3.053974419000 secs
 begin gen 800
-Gen 800  run time = 1.991358465000 secs
-Gen 800  run time + message passing = 2.381358306000 secs
+Gen 800  run time = 2.088746457000 secs
+Gen 800  run time + message passing = 2.278814859000 secs
 begin gen 810
-Gen 810  run time = 2.500656318000 secs
-Gen 810  run time + message passing = 2.778609789000 secs
+Gen 810  run time = 2.643206762000 secs
+Gen 810  run time + message passing = 2.666369433000 secs
 begin gen 820
-Gen 820  run time = 2.499638117000 secs
-Gen 820  run time + message passing = 2.706652015000 secs
+Gen 820  run time = 2.551683079000 secs
+Gen 820  run time + message passing = 2.557697399000 secs
 begin gen 830
-Gen 830  run time = 2.213516888000 secs
-Gen 830  run time + message passing = 2.465495126000 secs
+Gen 830  run time = 2.295391634000 secs
+Gen 830  run time + message passing = 2.560453276000 secs
 begin gen 840
-Gen 840  run time = 2.206556914000 secs
-Gen 840  run time + message passing = 2.477446646000 secs
+Gen 840  run time = 2.294579491000 secs
+Gen 840  run time + message passing = 2.557657014000 secs
 begin gen 850
-Gen 850  run time = 2.208254926000 secs
-Gen 850  run time + message passing = 2.551585687000 secs
+Gen 850  run time = 2.294649867000 secs
+Gen 850  run time + message passing = 2.299893962000 secs
 begin gen 860
-Gen 860  run time = 1.960281158000 secs
-Gen 860  run time + message passing = 2.495321866000 secs
+Gen 860  run time = 2.037855036000 secs
+Gen 860  run time + message passing = 2.563106859000 secs
 begin gen 870
-Gen 870  run time = 2.382103761000 secs
-Gen 870  run time + message passing = 2.607589040000 secs
+Gen 870  run time = 2.545430525000 secs
+Gen 870  run time + message passing = 2.553147255000 secs
 begin gen 880
-Gen 880  run time = 1.877912334000 secs
-Gen 880  run time + message passing = 2.433062780000 secs
+Gen 880  run time = 2.038712977000 secs
+Gen 880  run time + message passing = 2.558151328000 secs
 begin gen 890
-Gen 890  run time = 2.172467586000 secs
-Gen 890  run time + message passing = 2.561667584000 secs
+Gen 890  run time = 2.291532053000 secs
+Gen 890  run time + message passing = 2.555521375000 secs
 begin gen 900
-Gen 900  run time = 2.347161430000 secs
-Gen 900  run time + message passing = 2.671646248000 secs
+Gen 900  run time = 2.545898016000 secs
+Gen 900  run time + message passing = 2.551292122000 secs
 begin gen 910
-Gen 910  run time = 2.352373654000 secs
-Gen 910  run time + message passing = 2.643389050000 secs
+Gen 910  run time = 2.543451423000 secs
+Gen 910  run time + message passing = 2.549646599000 secs
 begin gen 920
-Gen 920  run time = 2.377465648000 secs
-Gen 920  run time + message passing = 2.634331035000 secs
+Gen 920  run time = 2.542055272000 secs
+Gen 920  run time + message passing = 2.547676399000 secs
 begin gen 930
-Gen 930  run time = 2.116283679000 secs
-Gen 930  run time + message passing = 2.361525246000 secs
+Gen 930  run time = 2.290027531000 secs
+Gen 930  run time + message passing = 2.549192390000 secs
 begin gen 940
-Gen 940  run time = 2.116468198000 secs
-Gen 940  run time + message passing = 2.408031520000 secs
+Gen 940  run time = 2.286900005000 secs
+Gen 940  run time + message passing = 2.546392176000 secs
 begin gen 950
-Gen 950  run time = 1.674962219000 secs
-Gen 950  run time + message passing = 2.183277806000 secs
+Gen 950  run time = 1.780145491000 secs
+Gen 950  run time + message passing = 2.296184664000 secs
 begin gen 960
-Gen 960  run time = 1.646433298000 secs
-Gen 960  run time + message passing = 2.371743647000 secs
+Gen 960  run time = 1.778536266000 secs
+Gen 960  run time + message passing = 2.552705354000 secs
 begin gen 970
-Gen 970  run time = 2.113207044000 secs
-Gen 970  run time + message passing = 2.387906430000 secs
+Gen 970  run time = 2.284911126000 secs
+Gen 970  run time + message passing = 2.548533625000 secs
 begin gen 980
-Gen 980  run time = 1.406471139000 secs
-Gen 980  run time + message passing = 2.462338417000 secs
+Gen 980  run time = 1.524800267000 secs
+Gen 980  run time + message passing = 2.550172145000 secs
 begin gen 990
-Gen 990  run time = 2.197893298000 secs
-Gen 990  run time + message passing = 2.355666377000 secs
+Gen 990  run time = 2.284346450000 secs
+Gen 990  run time + message passing = 2.291467584000 secs
 begin gen 1000
-Gen 1000  run time = 1.895676294000 secs
-Gen 1000  run time + message passing = 2.229256539000 secs
+Gen 1000  run time = 2.032632798000 secs
+Gen 1000  run time + message passing = 2.037763100000 secs
+begin gen 1010
+Gen 1010  run time = 2.540205182000 secs
+Gen 1010  run time + message passing = 2.545456825000 secs
+begin gen 1020
+Gen 1020  run time = 2.286727143000 secs
+Gen 1020  run time + message passing = 2.292548920000 secs
+begin gen 1030
+Gen 1030  run time = 2.545245183000 secs
+Gen 1030  run time + message passing = 2.550912288000 secs
+begin gen 1040
+Gen 1040  run time = 2.540581075000 secs
+Gen 1040  run time + message passing = 2.545194770000 secs
+begin gen 1050
+Gen 1050  run time = 1.782375285000 secs
+Gen 1050  run time + message passing = 1.793098810000 secs
+begin gen 1060
+Gen 1060  run time = 2.545097598000 secs
+Gen 1060  run time + message passing = 2.550032272000 secs
+begin gen 1070
+Gen 1070  run time = 2.291593663000 secs
+Gen 1070  run time + message passing = 2.550900824000 secs
+begin gen 1080
+Gen 1080  run time = 2.544826940000 secs
+Gen 1080  run time + message passing = 2.549769054000 secs
+begin gen 1090
+Gen 1090  run time = 2.547923172000 secs
+Gen 1090  run time + message passing = 2.552429709000 secs
+begin gen 1100
+Gen 1100  run time = 2.295624697000 secs
+Gen 1100  run time + message passing = 2.300727328000 secs
+begin gen 1110
+Gen 1110  run time = 2.041594234000 secs
+Gen 1110  run time + message passing = 2.301129160000 secs
+begin gen 1120
+Gen 1120  run time = 2.293613843000 secs
+Gen 1120  run time + message passing = 2.554515813000 secs
+begin gen 1130
+Gen 1130  run time = 2.293723201000 secs
+Gen 1130  run time + message passing = 2.556325983000 secs
+begin gen 1140
+Gen 1140  run time = 2.549560020000 secs
+Gen 1140  run time + message passing = 2.554640713000 secs
+begin gen 1150
+Gen 1150  run time = 2.550573344000 secs
+Gen 1150  run time + message passing = 2.555756382000 secs
+begin gen 1160
+Gen 1160  run time = 2.548002751000 secs
+Gen 1160  run time + message passing = 2.553562241000 secs
+begin gen 1170
+Gen 1170  run time = 2.551706920000 secs
+Gen 1170  run time + message passing = 2.557017584000 secs
+begin gen 1180
+Gen 1180  run time = 2.552937800000 secs
+Gen 1180  run time + message passing = 2.558674002000 secs
+begin gen 1190
+Gen 1190  run time = 2.295649714000 secs
+Gen 1190  run time + message passing = 2.558014080000 secs
+begin gen 1200
+Gen 1200  run time = 2.296154623000 secs
+Gen 1200  run time + message passing = 2.302548833000 secs
+begin gen 1210
+Gen 1210  run time = 2.296689509000 secs
+Gen 1210  run time + message passing = 2.302777584000 secs
+begin gen 1220
+Gen 1220  run time = 2.042192600000 secs
+Gen 1220  run time + message passing = 2.548490623000 secs
+begin gen 1230
+Gen 1230  run time = 2.297677895000 secs
+Gen 1230  run time + message passing = 2.569910636000 secs
+begin gen 1240
+Gen 1240  run time = 2.037721728000 secs
+Gen 1240  run time + message passing = 2.550920790000 secs
+begin gen 1250
+Gen 1250  run time = 2.036614598000 secs
+Gen 1250  run time + message passing = 2.041542815000 secs
+begin gen 1260
+Gen 1260  run time = 2.546867405000 secs
+Gen 1260  run time + message passing = 2.551174176000 secs
+begin gen 1270
+Gen 1270  run time = 2.288437106000 secs
+Gen 1270  run time + message passing = 2.546879329000 secs
+begin gen 1280
+Gen 1280  run time = 2.544966553000 secs
+Gen 1280  run time + message passing = 2.550057576000 secs
+begin gen 1290
+Gen 1290  run time = 2.543799937000 secs
+Gen 1290  run time + message passing = 2.549600918000 secs
+begin gen 1300
+Gen 1300  run time = 2.292464539000 secs
+Gen 1300  run time + message passing = 2.297316555000 secs
+begin gen 1310
+Gen 1310  run time = 2.547428242000 secs
+Gen 1310  run time + message passing = 2.552609306000 secs
+begin gen 1320
+Gen 1320  run time = 2.545195922000 secs
+Gen 1320  run time + message passing = 2.550360240000 secs
+begin gen 1330
+Gen 1330  run time = 2.546080143000 secs
+Gen 1330  run time + message passing = 2.553066605000 secs
+begin gen 1340
+Gen 1340  run time = 2.290897800000 secs
+Gen 1340  run time + message passing = 2.296496854000 secs
+begin gen 1350
+Gen 1350  run time = 2.296102227000 secs
+Gen 1350  run time + message passing = 2.301521131000 secs
+begin gen 1360
+Gen 1360  run time = 2.289925864000 secs
+Gen 1360  run time + message passing = 2.548070290000 secs
+begin gen 1370
+Gen 1370  run time = 2.544261246000 secs
+Gen 1370  run time + message passing = 2.548626471000 secs
+begin gen 1380
+Gen 1380  run time = 2.292638459000 secs
+Gen 1380  run time + message passing = 2.298021282000 secs
+begin gen 1390
+Gen 1390  run time = 2.544810551000 secs
+Gen 1390  run time + message passing = 2.549334080000 secs
+begin gen 1400
+Gen 1400  run time = 2.294075273000 secs
+Gen 1400  run time + message passing = 2.299189080000 secs
+begin gen 1410
+Gen 1410  run time = 2.548204661000 secs
+Gen 1410  run time + message passing = 2.554445420000 secs
+begin gen 1420
+Gen 1420  run time = 2.549787572000 secs
+Gen 1420  run time + message passing = 2.554645933000 secs
+begin gen 1430
+Gen 1430  run time = 2.293479335000 secs
+Gen 1430  run time + message passing = 2.551014403000 secs
+begin gen 1440
+Gen 1440  run time = 2.549652591000 secs
+Gen 1440  run time + message passing = 2.554797194000 secs
+begin gen 1450
+Gen 1450  run time = 2.298176783000 secs
+Gen 1450  run time + message passing = 2.303204666000 secs
+begin gen 1460
+Gen 1460  run time = 2.298802841000 secs
+Gen 1460  run time + message passing = 2.303739829000 secs
+begin gen 1470
+Gen 1470  run time = 2.296709801000 secs
+Gen 1470  run time + message passing = 2.554181481000 secs
+begin gen 1480
+Gen 1480  run time = 2.294421277000 secs
+Gen 1480  run time + message passing = 2.299284303000 secs
+begin gen 1490
+Gen 1490  run time = 2.552578393000 secs
+Gen 1490  run time + message passing = 2.558289973000 secs
+begin gen 1500
+Gen 1500  run time = 1.531192367000 secs
+Gen 1500  run time + message passing = 1.787851823000 secs
+begin gen 1510
+Gen 1510  run time = 2.296465084000 secs
+Gen 1510  run time + message passing = 2.301963363000 secs
+begin gen 1520
+Gen 1520  run time = 2.556030842000 secs
+Gen 1520  run time + message passing = 2.561248004000 secs
+begin gen 1530
+Gen 1530  run time = 2.300072094000 secs
+Gen 1530  run time + message passing = 2.555095185000 secs
+begin gen 1540
+Gen 1540  run time = 2.555562197000 secs
+Gen 1540  run time + message passing = 2.560246746000 secs
+begin gen 1550
+Gen 1550  run time = 1.532734202000 secs
+Gen 1550  run time + message passing = 2.303188879000 secs
+begin gen 1560
+Gen 1560  run time = 2.299110227000 secs
+Gen 1560  run time + message passing = 2.303792378000 secs
+begin gen 1570
+Gen 1570  run time = 2.552410414000 secs
+Gen 1570  run time + message passing = 2.557066305000 secs
+begin gen 1580
+Gen 1580  run time = 2.555694083000 secs
+Gen 1580  run time + message passing = 2.560505508000 secs
+begin gen 1590
+Gen 1590  run time = 2.298263255000 secs
+Gen 1590  run time + message passing = 2.303493425000 secs
+begin gen 1600
+Gen 1600  run time = 2.296082283000 secs
+Gen 1600  run time + message passing = 2.301435859000 secs
+begin gen 1610
+Gen 1610  run time = 2.294406275000 secs
+Gen 1610  run time + message passing = 2.298669675000 secs
+begin gen 1620
+Gen 1620  run time = 2.547552023000 secs
+Gen 1620  run time + message passing = 2.552463728000 secs
+begin gen 1630
+Gen 1630  run time = 2.544357687000 secs
+Gen 1630  run time + message passing = 2.549072673000 secs
+begin gen 1640
+Gen 1640  run time = 2.545152920000 secs
+Gen 1640  run time + message passing = 2.550511713000 secs
+begin gen 1650
+Gen 1650  run time = 1.778209608000 secs
+Gen 1650  run time + message passing = 2.042211834000 secs
+begin gen 1660
+Gen 1660  run time = 2.546180499000 secs
+Gen 1660  run time + message passing = 2.551057196000 secs
+begin gen 1670
+Gen 1670  run time = 2.290882315000 secs
+Gen 1670  run time + message passing = 2.547201080000 secs
+begin gen 1680
+Gen 1680  run time = 2.545867746000 secs
+Gen 1680  run time + message passing = 2.551006163000 secs
+begin gen 1690
+Gen 1690  run time = 2.544023048000 secs
+Gen 1690  run time + message passing = 2.549281136000 secs
+begin gen 1700
+Gen 1700  run time = 2.036460254000 secs
+Gen 1700  run time + message passing = 2.041615235000 secs
+begin gen 1710
+Gen 1710  run time = 2.549903608000 secs
+Gen 1710  run time + message passing = 2.555716779000 secs
+begin gen 1720
+Gen 1720  run time = 2.546051596000 secs
+Gen 1720  run time + message passing = 2.551873052000 secs
+begin gen 1730
+Gen 1730  run time = 2.291823452000 secs
+Gen 1730  run time + message passing = 2.297211798000 secs
+begin gen 1740
+Gen 1740  run time = 2.545933710000 secs
+Gen 1740  run time + message passing = 2.550786725000 secs
+begin gen 1750
+Gen 1750  run time = 2.296748156000 secs
+Gen 1750  run time + message passing = 2.301440418000 secs
+begin gen 1760
+Gen 1760  run time = 2.293594497000 secs
+Gen 1760  run time + message passing = 2.299095931000 secs
+begin gen 1770
+Gen 1770  run time = 2.294817559000 secs
+Gen 1770  run time + message passing = 2.300320677000 secs
+begin gen 1780
+Gen 1780  run time = 2.549803428000 secs
+Gen 1780  run time + message passing = 2.554653901000 secs
+begin gen 1790
+Gen 1790  run time = 2.296339251000 secs
+Gen 1790  run time + message passing = 2.551298208000 secs
+begin gen 1800
+Gen 1800  run time = 2.301861619000 secs
+Gen 1800  run time + message passing = 2.313708715000 secs
+begin gen 1810
+Gen 1810  run time = 2.301891383000 secs
+Gen 1810  run time + message passing = 2.307344755000 secs
+begin gen 1820
+Gen 1820  run time = 2.554854927000 secs
+Gen 1820  run time + message passing = 2.560407750000 secs
+begin gen 1830
+Gen 1830  run time = 2.558506580000 secs
+Gen 1830  run time + message passing = 2.563517606000 secs
+begin gen 1840
+Gen 1840  run time = 2.553023306000 secs
+Gen 1840  run time + message passing = 2.557825700000 secs
+begin gen 1850
+Gen 1850  run time = 1.788601833000 secs
+Gen 1850  run time + message passing = 1.793348314000 secs
+begin gen 1860
+Gen 1860  run time = 2.552828861000 secs
+Gen 1860  run time + message passing = 2.557780274000 secs
+begin gen 1870
+Gen 1870  run time = 2.551657822000 secs
+Gen 1870  run time + message passing = 2.556690971000 secs
+begin gen 1880
+Gen 1880  run time = 2.553571564000 secs
+Gen 1880  run time + message passing = 2.561536554000 secs
+begin gen 1890
+Gen 1890  run time = 2.043076342000 secs
+Gen 1890  run time + message passing = 2.300264338000 secs
+begin gen 1900
+Gen 1900  run time = 2.297420958000 secs
+Gen 1900  run time + message passing = 2.302313933000 secs
+begin gen 1910
+Gen 1910  run time = 2.555130484000 secs
+Gen 1910  run time + message passing = 2.560194888000 secs
+begin gen 1920
+Gen 1920  run time = 2.297759800000 secs
+Gen 1920  run time + message passing = 2.303582806000 secs
+begin gen 1930
+Gen 1930  run time = 2.552508399000 secs
+Gen 1930  run time + message passing = 2.557397611000 secs
+begin gen 1940
+Gen 1940  run time = 2.553051425000 secs
+Gen 1940  run time + message passing = 2.558769864000 secs
+begin gen 1950
+Gen 1950  run time = 2.298698530000 secs
+Gen 1950  run time + message passing = 2.303459556000 secs
+begin gen 1960
+Gen 1960  run time = 2.548899301000 secs
+Gen 1960  run time + message passing = 2.559710573000 secs
+begin gen 1970
+Gen 1970  run time = 2.290822448000 secs
+Gen 1970  run time + message passing = 2.550536226000 secs
+begin gen 1980
+Gen 1980  run time = 2.291122608000 secs
+Gen 1980  run time + message passing = 2.295882362000 secs
+begin gen 1990
+Gen 1990  run time = 2.289590283000 secs
+Gen 1990  run time + message passing = 2.294252340000 secs
+begin gen 2000
+Gen 2000  run time = 2.033047859000 secs
+Gen 2000  run time + message passing = 2.293929023000 secs
+begin gen 2010
+Gen 2010  run time = 2.545663292000 secs
+Gen 2010  run time + message passing = 2.551145225000 secs
+begin gen 2020
+Gen 2020  run time = 2.551410134000 secs
+Gen 2020  run time + message passing = 2.556871749000 secs
+begin gen 2030
+Gen 2030  run time = 2.547341221000 secs
+Gen 2030  run time + message passing = 2.553829955000 secs
+begin gen 2040
+Gen 2040  run time = 2.547427159000 secs
+Gen 2040  run time + message passing = 2.553317177000 secs
+begin gen 2050
+Gen 2050  run time = 1.781807115000 secs
+Gen 2050  run time + message passing = 1.787122252000 secs
+begin gen 2060
+Gen 2060  run time = 2.549207626000 secs
+Gen 2060  run time + message passing = 2.555294516000 secs
+begin gen 2070
+Gen 2070  run time = 2.548530367000 secs
+Gen 2070  run time + message passing = 2.553258267000 secs
+begin gen 2080
+Gen 2080  run time = 2.551129456000 secs
+Gen 2080  run time + message passing = 2.555885808000 secs
+begin gen 2090
+Gen 2090  run time = 2.547545651000 secs
+Gen 2090  run time + message passing = 2.555999615000 secs
+begin gen 2100
+Gen 2100  run time = 1.779386238000 secs
+Gen 2100  run time + message passing = 2.044024534000 secs
+begin gen 2110
+Gen 2110  run time = 2.548930917000 secs
+Gen 2110  run time + message passing = 2.553485803000 secs
+begin gen 2120
+Gen 2120  run time = 2.549215679000 secs
+Gen 2120  run time + message passing = 2.553974085000 secs
+begin gen 2130
+Gen 2130  run time = 2.552427029000 secs
+Gen 2130  run time + message passing = 2.558705017000 secs
+begin gen 2140
+Gen 2140  run time = 2.551431315000 secs
+Gen 2140  run time + message passing = 2.556466809000 secs
+begin gen 2150
+Gen 2150  run time = 2.039595256000 secs
+Gen 2150  run time + message passing = 2.297761355000 secs
+begin gen 2160
+Gen 2160  run time = 2.556783738000 secs
+Gen 2160  run time + message passing = 2.561276642000 secs
+begin gen 2170
+Gen 2170  run time = 2.556649045000 secs
+Gen 2170  run time + message passing = 2.561418071000 secs
+begin gen 2180
+Gen 2180  run time = 2.556696562000 secs
+Gen 2180  run time + message passing = 2.562249636000 secs
+begin gen 2190
+Gen 2190  run time = 2.556046252000 secs
+Gen 2190  run time + message passing = 2.560945765000 secs
+begin gen 2200
+Gen 2200  run time = 2.055211703000 secs
+Gen 2200  run time + message passing = 2.061260032000 secs
+begin gen 2210
+Gen 2210  run time = 2.555033173000 secs
+Gen 2210  run time + message passing = 2.560704375000 secs
+begin gen 2220
+Gen 2220  run time = 2.556597910000 secs
+Gen 2220  run time + message passing = 2.562012496000 secs
+begin gen 2230
+Gen 2230  run time = 2.559159227000 secs
+Gen 2230  run time + message passing = 2.563826229000 secs
+begin gen 2240
+Gen 2240  run time = 2.558897842000 secs
+Gen 2240  run time + message passing = 2.563612616000 secs
+begin gen 2250
+Gen 2250  run time = 2.298906034000 secs
+Gen 2250  run time + message passing = 2.304190932000 secs
+begin gen 2260
+Gen 2260  run time = 2.556626386000 secs
+Gen 2260  run time + message passing = 2.566961797000 secs
+begin gen 2270
+Gen 2270  run time = 2.555801807000 secs
+Gen 2270  run time + message passing = 2.561273210000 secs
+begin gen 2280
+Gen 2280  run time = 2.552089268000 secs
+Gen 2280  run time + message passing = 2.557322343000 secs
+begin gen 2290
+Gen 2290  run time = 2.296099334000 secs
+Gen 2290  run time + message passing = 2.556932023000 secs
+begin gen 2300
+Gen 2300  run time = 1.273129868000 secs
+Gen 2300  run time + message passing = 1.533670863000 secs
+begin gen 2310
+Gen 2310  run time = 2.546515020000 secs
+Gen 2310  run time + message passing = 2.551321544000 secs
+begin gen 2320
+Gen 2320  run time = 2.544475059000 secs
+Gen 2320  run time + message passing = 2.549303889000 secs
+begin gen 2330
+Gen 2330  run time = 2.546715691000 secs
+Gen 2330  run time + message passing = 2.552457821000 secs
+begin gen 2340
+Gen 2340  run time = 2.547213113000 secs
+Gen 2340  run time + message passing = 2.552272458000 secs
+begin gen 2350
+Gen 2350  run time = 2.035777582000 secs
+Gen 2350  run time + message passing = 2.040263989000 secs
+begin gen 2360
+Gen 2360  run time = 2.544183648000 secs
+Gen 2360  run time + message passing = 2.550106637000 secs
+begin gen 2370
+Gen 2370  run time = 2.543171898000 secs
+Gen 2370  run time + message passing = 2.548281927000 secs
+begin gen 2380
+Gen 2380  run time = 2.288327101000 secs
+Gen 2380  run time + message passing = 2.549557937000 secs
+begin gen 2390
+Gen 2390  run time = 2.543170311000 secs
+Gen 2390  run time + message passing = 2.549525356000 secs
+begin gen 2400
+Gen 2400  run time = 2.545484833000 secs
+Gen 2400  run time + message passing = 2.550636265000 secs
+begin gen 2410
+Gen 2410  run time = 2.542708851000 secs
+Gen 2410  run time + message passing = 2.547855462000 secs
+begin gen 2420
+Gen 2420  run time = 2.543065753000 secs
+Gen 2420  run time + message passing = 2.548289418000 secs
+begin gen 2430
+Gen 2430  run time = 2.542382601000 secs
+Gen 2430  run time + message passing = 2.547797018000 secs
+begin gen 2440
+Gen 2440  run time = 2.542403112000 secs
+Gen 2440  run time + message passing = 2.548385787000 secs
+begin gen 2450
+Gen 2450  run time = 2.037836017000 secs
+Gen 2450  run time + message passing = 2.042525012000 secs
+begin gen 2460
+Gen 2460  run time = 2.544233833000 secs
+Gen 2460  run time + message passing = 2.549693809000 secs
+begin gen 2470
+Gen 2470  run time = 2.289883463000 secs
+Gen 2470  run time + message passing = 2.299165778000 secs
+begin gen 2480
+Gen 2480  run time = 2.546117431000 secs
+Gen 2480  run time + message passing = 2.553536089000 secs
+begin gen 2490
+Gen 2490  run time = 2.545398994000 secs
+Gen 2490  run time + message passing = 2.553307962000 secs
+begin gen 2500
+Gen 2500  run time = 2.039133017000 secs
+Gen 2500  run time + message passing = 2.559235634000 secs
+begin gen 2510
+Gen 2510  run time = 2.552798215000 secs
+Gen 2510  run time + message passing = 2.558184545000 secs
+begin gen 2520
+Gen 2520  run time = 2.300016219000 secs
+Gen 2520  run time + message passing = 2.563040886000 secs
+begin gen 2530
+Gen 2530  run time = 2.550993678000 secs
+Gen 2530  run time + message passing = 2.561021793000 secs
+begin gen 2540
+Gen 2540  run time = 2.296818369000 secs
+Gen 2540  run time + message passing = 2.561717371000 secs
+begin gen 2550
+Gen 2550  run time = 2.297717384000 secs
+Gen 2550  run time + message passing = 2.305601484000 secs
+begin gen 2560
+Gen 2560  run time = 2.298361190000 secs
+Gen 2560  run time + message passing = 2.307561453000 secs
+begin gen 2570
+Gen 2570  run time = 2.553239054000 secs
+Gen 2570  run time + message passing = 2.562807989000 secs
+begin gen 2580
+Gen 2580  run time = 2.553947813000 secs
+Gen 2580  run time + message passing = 2.561707732000 secs
+begin gen 2590
+Gen 2590  run time = 2.298309062000 secs
+Gen 2590  run time + message passing = 2.565401371000 secs
+begin gen 2600
+Gen 2600  run time = 2.558212034000 secs
+Gen 2600  run time + message passing = 2.563893019000 secs
+begin gen 2610
+Gen 2610  run time = 2.553766193000 secs
+Gen 2610  run time + message passing = 2.564091585000 secs
+begin gen 2620
+Gen 2620  run time = 2.297061482000 secs
+Gen 2620  run time + message passing = 2.562848480000 secs
+begin gen 2630
+Gen 2630  run time = 2.297413998000 secs
+Gen 2630  run time + message passing = 2.565370901000 secs
+begin gen 2640
+Gen 2640  run time = 2.294100738000 secs
+Gen 2640  run time + message passing = 2.560799474000 secs
+begin gen 2650
+Gen 2650  run time = 2.040895512000 secs
+Gen 2650  run time + message passing = 2.049996676000 secs
+begin gen 2660
+Gen 2660  run time = 2.546654967000 secs
+Gen 2660  run time + message passing = 2.554531838000 secs
+begin gen 2670
+Gen 2670  run time = 2.545952711000 secs
+Gen 2670  run time + message passing = 2.553773267000 secs
+begin gen 2680
+Gen 2680  run time = 2.547420606000 secs
+Gen 2680  run time + message passing = 2.556281817000 secs
+begin gen 2690
+Gen 2690  run time = 2.544716588000 secs
+Gen 2690  run time + message passing = 2.553595313000 secs
+begin gen 2700
+Gen 2700  run time = 2.291803940000 secs
+Gen 2700  run time + message passing = 2.297311780000 secs
+begin gen 2710
+Gen 2710  run time = 2.546612192000 secs
+Gen 2710  run time + message passing = 2.554390509000 secs
+begin gen 2720
+Gen 2720  run time = 2.545403396000 secs
+Gen 2720  run time + message passing = 2.553390590000 secs
+begin gen 2730
+Gen 2730  run time = 2.290340435000 secs
+Gen 2730  run time + message passing = 2.553315544000 secs
+begin gen 2740
+Gen 2740  run time = 2.291321510000 secs
+Gen 2740  run time + message passing = 2.556538623000 secs
+begin gen 2750
+Gen 2750  run time = 2.293671775000 secs
+Gen 2750  run time + message passing = 2.298469186000 secs
+begin gen 2760
+Gen 2760  run time = 2.548199270000 secs
+Gen 2760  run time + message passing = 2.553159211000 secs
+begin gen 2770
+Gen 2770  run time = 2.292906373000 secs
+Gen 2770  run time + message passing = 2.555201809000 secs
+begin gen 2780
+Gen 2780  run time = 2.545830760000 secs
+Gen 2780  run time + message passing = 2.554354175000 secs
+begin gen 2790
+Gen 2790  run time = 2.546970554000 secs
+Gen 2790  run time + message passing = 2.553865324000 secs
+begin gen 2800
+Gen 2800  run time = 2.037757659000 secs
+Gen 2800  run time + message passing = 2.559632067000 secs
+begin gen 2810
+Gen 2810  run time = 2.291472857000 secs
+Gen 2810  run time + message passing = 2.556476341000 secs
+begin gen 2820
+Gen 2820  run time = 2.547392127000 secs
+Gen 2820  run time + message passing = 2.555835832000 secs
+begin gen 2830
+Gen 2830  run time = 2.295853787000 secs
+Gen 2830  run time + message passing = 2.560184339000 secs
+begin gen 2840
+Gen 2840  run time = 2.551722995000 secs
+Gen 2840  run time + message passing = 2.560284993000 secs
+begin gen 2850
+Gen 2850  run time = 2.301703929000 secs
+Gen 2850  run time + message passing = 2.306724439000 secs
+begin gen 2860
+Gen 2860  run time = 2.556405758000 secs
+Gen 2860  run time + message passing = 2.562080894000 secs
+begin gen 2870
+Gen 2870  run time = 2.297619006000 secs
+Gen 2870  run time + message passing = 2.561148127000 secs
+begin gen 2880
+Gen 2880  run time = 2.297735097000 secs
+Gen 2880  run time + message passing = 2.562731458000 secs
+begin gen 2890
+Gen 2890  run time = 2.552890255000 secs
+Gen 2890  run time + message passing = 2.561698352000 secs
+begin gen 2900
+Gen 2900  run time = 2.043368977000 secs
+Gen 2900  run time + message passing = 2.050990922000 secs
+begin gen 2910
+Gen 2910  run time = 2.298379160000 secs
+Gen 2910  run time + message passing = 2.562774744000 secs
+begin gen 2920
+Gen 2920  run time = 2.298204439000 secs
+Gen 2920  run time + message passing = 2.568877105000 secs
+begin gen 2930
+Gen 2930  run time = 2.554853596000 secs
+Gen 2930  run time + message passing = 2.562724487000 secs
+begin gen 2940
+Gen 2940  run time = 2.298816205000 secs
+Gen 2940  run time + message passing = 2.563668424000 secs
+begin gen 2950
+Gen 2950  run time = 1.789582255000 secs
+Gen 2950  run time + message passing = 2.310705361000 secs
+begin gen 2960
+Gen 2960  run time = 2.553168879000 secs
+Gen 2960  run time + message passing = 2.559729832000 secs
+begin gen 2970
+Gen 2970  run time = 2.041495451000 secs
+Gen 2970  run time + message passing = 2.562163902000 secs
+begin gen 2980
+Gen 2980  run time = 2.550489438000 secs
+Gen 2980  run time + message passing = 2.555192298000 secs
+begin gen 2990
+Gen 2990  run time = 2.548462002000 secs
+Gen 2990  run time + message passing = 2.556163088000 secs
+begin gen 3000
+Gen 3000  run time = 2.037705966000 secs
+Gen 3000  run time + message passing = 2.299820297000 secs
+begin gen 3010
+Gen 3010  run time = 2.545314896000 secs
+Gen 3010  run time + message passing = 2.551863495000 secs
+begin gen 3020
+Gen 3020  run time = 2.548247287000 secs
+Gen 3020  run time + message passing = 2.552928018000 secs
+begin gen 3030
+Gen 3030  run time = 2.546697602000 secs
+Gen 3030  run time + message passing = 2.551640095000 secs
+begin gen 3040
+Gen 3040  run time = 2.294051662000 secs
+Gen 3040  run time + message passing = 2.298620929000 secs
+begin gen 3050
+Gen 3050  run time = 2.547198947000 secs
+Gen 3050  run time + message passing = 2.553511205000 secs
+begin gen 3060
+Gen 3060  run time = 2.548326432000 secs
+Gen 3060  run time + message passing = 2.553530429000 secs
+begin gen 3070
+Gen 3070  run time = 2.547800283000 secs
+Gen 3070  run time + message passing = 2.555028205000 secs
+begin gen 3080
+Gen 3080  run time = 2.547603332000 secs
+Gen 3080  run time + message passing = 2.552575390000 secs
+begin gen 3090
+Gen 3090  run time = 2.291232073000 secs
+Gen 3090  run time + message passing = 2.555062893000 secs
+begin gen 3100
+Gen 3100  run time = 2.289936134000 secs
+Gen 3100  run time + message passing = 2.298215788000 secs
+begin gen 3110
+Gen 3110  run time = 2.547469873000 secs
+Gen 3110  run time + message passing = 2.552013677000 secs
+begin gen 3120
+Gen 3120  run time = 2.548070727000 secs
+Gen 3120  run time + message passing = 2.553400074000 secs
+begin gen 3130
+Gen 3130  run time = 2.548050811000 secs
+Gen 3130  run time + message passing = 2.554732256000 secs
+begin gen 3140
+Gen 3140  run time = 2.549983269000 secs
+Gen 3140  run time + message passing = 2.556682106000 secs
+begin gen 3150
+Gen 3150  run time = 2.299503087000 secs
+Gen 3150  run time + message passing = 2.307828238000 secs
+begin gen 3160
+Gen 3160  run time = 2.548991443000 secs
+Gen 3160  run time + message passing = 2.555679666000 secs
+begin gen 3170
+Gen 3170  run time = 2.550779510000 secs
+Gen 3170  run time + message passing = 2.557897386000 secs
+begin gen 3180
+Gen 3180  run time = 2.552407280000 secs
+Gen 3180  run time + message passing = 2.557169165000 secs
+begin gen 3190
+Gen 3190  run time = 2.299810836000 secs
+Gen 3190  run time + message passing = 2.561724585000 secs
+begin gen 3200
+Gen 3200  run time = 2.041063059000 secs
+Gen 3200  run time + message passing = 2.299360362000 secs
+begin gen 3210
+Gen 3210  run time = 2.557120166000 secs
+Gen 3210  run time + message passing = 2.562071803000 secs
+begin gen 3220
+Gen 3220  run time = 2.553201982000 secs
+Gen 3220  run time + message passing = 2.558883276000 secs
+begin gen 3230
+Gen 3230  run time = 2.552617567000 secs
+Gen 3230  run time + message passing = 2.558934253000 secs
+begin gen 3240
+Gen 3240  run time = 2.552870732000 secs
+Gen 3240  run time + message passing = 2.558046190000 secs
+begin gen 3250
+Gen 3250  run time = 2.341605933000 secs
+Gen 3250  run time + message passing = 2.363206136000 secs
+begin gen 3260
+Gen 3260  run time = 2.583371048000 secs
+Gen 3260  run time + message passing = 2.588666629000 secs
+begin gen 3270
+Gen 3270  run time = 2.577799135000 secs
+Gen 3270  run time + message passing = 2.585441296000 secs
+begin gen 3280
+Gen 3280  run time = 2.581111143000 secs
+Gen 3280  run time + message passing = 2.587391251000 secs
+begin gen 3290
+Gen 3290  run time = 2.580887840000 secs
+Gen 3290  run time + message passing = 2.588570581000 secs
+begin gen 3300
+Gen 3300  run time = 2.068105836000 secs
+Gen 3300  run time + message passing = 2.333724985000 secs
+begin gen 3310
+Gen 3310  run time = 2.575905343000 secs
+Gen 3310  run time + message passing = 2.582181998000 secs
+begin gen 3320
+Gen 3320  run time = 2.598995493000 secs
+Gen 3320  run time + message passing = 2.605409380000 secs
+begin gen 3330
+Gen 3330  run time = 2.353979393000 secs
+Gen 3330  run time + message passing = 2.623610893000 secs
+begin gen 3340
+Gen 3340  run time = 2.587165038000 secs
+Gen 3340  run time + message passing = 2.594886163000 secs
+begin gen 3350
+Gen 3350  run time = 1.806645304000 secs
+Gen 3350  run time + message passing = 1.815345264000 secs
+begin gen 3360
+Gen 3360  run time = 2.613570456000 secs
+Gen 3360  run time + message passing = 2.659033824000 secs
+begin gen 3370
+Gen 3370  run time = 2.657441764000 secs
+Gen 3370  run time + message passing = 2.679143176000 secs
+begin gen 3380
+Gen 3380  run time = 2.597414891000 secs
+Gen 3380  run time + message passing = 2.602159575000 secs
+begin gen 3390
+Gen 3390  run time = 2.704134827000 secs
+Gen 3390  run time + message passing = 2.737405272000 secs
+begin gen 3400
+Gen 3400  run time = 2.617565782000 secs
+Gen 3400  run time + message passing = 2.642117982000 secs
+begin gen 3410
+Gen 3410  run time = 2.662278066000 secs
+Gen 3410  run time + message passing = 2.713105248000 secs
+begin gen 3420
+Gen 3420  run time = 2.625578553000 secs
+Gen 3420  run time + message passing = 2.638764050000 secs
+begin gen 3430
+Gen 3430  run time = 2.630277376000 secs
+Gen 3430  run time + message passing = 2.669778455000 secs
+begin gen 3440
+Gen 3440  run time = 2.601575457000 secs
+Gen 3440  run time + message passing = 2.957080514000 secs
+begin gen 3450
+Gen 3450  run time = 1.785516286000 secs
+Gen 3450  run time + message passing = 2.293621157000 secs
+begin gen 3460
+Gen 3460  run time = 2.555161614000 secs
+Gen 3460  run time + message passing = 2.597614975000 secs
+begin gen 3470
+Gen 3470  run time = 2.650293839000 secs
+Gen 3470  run time + message passing = 2.706468997000 secs
+begin gen 3480
+Gen 3480  run time = 2.604146611000 secs
+Gen 3480  run time + message passing = 2.609150899000 secs
+begin gen 3490
+Gen 3490  run time = 2.602593347000 secs
+Gen 3490  run time + message passing = 2.814304121000 secs
+begin gen 3500
+Gen 3500  run time = 2.342827349000 secs
+Gen 3500  run time + message passing = 2.363204011000 secs
+begin gen 3510
+Gen 3510  run time = 2.697490062000 secs
+Gen 3510  run time + message passing = 2.715853710000 secs
+begin gen 3520
+Gen 3520  run time = 2.607369178000 secs
+Gen 3520  run time + message passing = 2.632635436000 secs
+begin gen 3530
+Gen 3530  run time = 2.607485093000 secs
+Gen 3530  run time + message passing = 2.616303711000 secs
+begin gen 3540
+Gen 3540  run time = 2.559485813000 secs
+Gen 3540  run time + message passing = 2.582715220000 secs
+begin gen 3550
+Gen 3550  run time = 2.043843247000 secs
+Gen 3550  run time + message passing = 2.306876713000 secs
+begin gen 3560
+Gen 3560  run time = 2.552342762000 secs
+Gen 3560  run time + message passing = 2.558434611000 secs
+begin gen 3570
+Gen 3570  run time = 2.610090765000 secs
+Gen 3570  run time + message passing = 2.627738829000 secs
+begin gen 3580
+Gen 3580  run time = 2.551221567000 secs
+Gen 3580  run time + message passing = 2.565360547000 secs
+begin gen 3590
+Gen 3590  run time = 2.550158096000 secs
+Gen 3590  run time + message passing = 2.573576204000 secs
+begin gen 3600
+Gen 3600  run time = 1.816872655000 secs
+Gen 3600  run time + message passing = 2.287728430000 secs
+begin gen 3610
+Gen 3610  run time = 2.652691928000 secs
+Gen 3610  run time + message passing = 4.379115297000 secs
+begin gen 3620
+Gen 3620  run time = 2.295701173000 secs
+Gen 3620  run time + message passing = 2.312955964000 secs
+begin gen 3630
+Gen 3630  run time = 2.649769246000 secs
+Gen 3630  run time + message passing = 3.264213450000 secs
+begin gen 3640
+Gen 3640  run time = 2.601351738000 secs
+Gen 3640  run time + message passing = 2.617577140000 secs
+begin gen 3650
+Gen 3650  run time = 2.341539521000 secs
+Gen 3650  run time + message passing = 2.714428507000 secs
+begin gen 3660
+Gen 3660  run time = 2.602813484000 secs
+Gen 3660  run time + message passing = 2.618861460000 secs
+begin gen 3670
+Gen 3670  run time = 2.602725405000 secs
+Gen 3670  run time + message passing = 2.619218533000 secs
+begin gen 3680
+Gen 3680  run time = 2.340282707000 secs
+Gen 3680  run time + message passing = 2.631050808000 secs
+begin gen 3690
+Gen 3690  run time = 2.605286669000 secs
+Gen 3690  run time + message passing = 2.686355726000 secs
+begin gen 3700
+Gen 3700  run time = 2.037126686000 secs
+Gen 3700  run time + message passing = 2.052965305000 secs
+begin gen 3710
+Gen 3710  run time = 2.321403738000 secs
+Gen 3710  run time + message passing = 2.530827457000 secs
+begin gen 3720
+Gen 3720  run time = 2.572048526000 secs
+Gen 3720  run time + message passing = 2.597800901000 secs
+begin gen 3730
+Gen 3730  run time = 2.644495632000 secs
+Gen 3730  run time + message passing = 2.666891500000 secs
+begin gen 3740
+Gen 3740  run time = 2.543999743000 secs
+Gen 3740  run time + message passing = 2.563591602000 secs
+begin gen 3750
+Gen 3750  run time = 2.032318136000 secs
+Gen 3750  run time + message passing = 2.056354819000 secs
+begin gen 3760
+Gen 3760  run time = 2.541985826000 secs
+Gen 3760  run time + message passing = 2.559548897000 secs
+begin gen 3770
+Gen 3770  run time = 2.289125478000 secs
+Gen 3770  run time + message passing = 2.555471819000 secs
+begin gen 3780
+Gen 3780  run time = 2.288315076000 secs
+Gen 3780  run time + message passing = 2.584050745000 secs
+begin gen 3790
+Gen 3790  run time = 2.544049052000 secs
+Gen 3790  run time + message passing = 2.553551628000 secs
+begin gen 3800
+Gen 3800  run time = 1.778802133000 secs
+Gen 3800  run time + message passing = 2.046235126000 secs
+begin gen 3810
+Gen 3810  run time = 2.545984472000 secs
+Gen 3810  run time + message passing = 2.608719957000 secs
+begin gen 3820
+Gen 3820  run time = 2.545277092000 secs
+Gen 3820  run time + message passing = 2.554272413000 secs
+begin gen 3830
+Gen 3830  run time = 2.546739830000 secs
+Gen 3830  run time + message passing = 2.554467828000 secs
+begin gen 3840
+Gen 3840  run time = 2.546046428000 secs
+Gen 3840  run time + message passing = 2.631320676000 secs
+begin gen 3850
+Gen 3850  run time = 2.659981879000 secs
+Gen 3850  run time + message passing = 2.669175968000 secs
+begin gen 3860
+Gen 3860  run time = 2.550019582000 secs
+Gen 3860  run time + message passing = 2.571164829000 secs
+begin gen 3870
+Gen 3870  run time = 2.551154913000 secs
+Gen 3870  run time + message passing = 2.604109176000 secs
+begin gen 3880
+Gen 3880  run time = 2.350107406000 secs
+Gen 3880  run time + message passing = 2.584498207000 secs
+begin gen 3890
+Gen 3890  run time = 2.548983840000 secs
+Gen 3890  run time + message passing = 2.559890242000 secs
+begin gen 3900
+Gen 3900  run time = 2.294753030000 secs
+Gen 3900  run time + message passing = 2.349253143000 secs
+begin gen 3910
+Gen 3910  run time = 2.551090240000 secs
+Gen 3910  run time + message passing = 2.559076356000 secs
+begin gen 3920
+Gen 3920  run time = 2.554116285000 secs
+Gen 3920  run time + message passing = 2.574515305000 secs
+begin gen 3930
+Gen 3930  run time = 2.325245116000 secs
+Gen 3930  run time + message passing = 2.580592252000 secs
+begin gen 3940
+Gen 3940  run time = 2.550457226000 secs
+Gen 3940  run time + message passing = 2.560877395000 secs
+begin gen 3950
+Gen 3950  run time = 1.299390064000 secs
+Gen 3950  run time + message passing = 2.307500900000 secs
+begin gen 3960
+Gen 3960  run time = 2.605744570000 secs
+Gen 3960  run time + message passing = 2.646805770000 secs
+begin gen 3970
+Gen 3970  run time = 2.296189740000 secs
+Gen 3970  run time + message passing = 2.563606978000 secs
+begin gen 3980
+Gen 3980  run time = 2.297067353000 secs
+Gen 3980  run time + message passing = 2.302530473000 secs
+begin gen 3990
+Gen 3990  run time = 2.329338242000 secs
+Gen 3990  run time + message passing = 2.615830844000 secs
+begin gen 4000
+Gen 4000  run time = 1.585745324000 secs
+Gen 4000  run time + message passing = 2.344364614000 secs
+begin gen 4010
+Gen 4010  run time = 2.128232229000 secs
+Gen 4010  run time + message passing = 2.544679953000 secs
+begin gen 4020
+Gen 4020  run time = 2.338800695000 secs
+Gen 4020  run time + message passing = 2.621808536000 secs
+begin gen 4030
+Gen 4030  run time = 2.607542981000 secs
+Gen 4030  run time + message passing = 2.619660823000 secs
+begin gen 4040
+Gen 4040  run time = 2.605779142000 secs
+Gen 4040  run time + message passing = 2.617971182000 secs
+begin gen 4050
+Gen 4050  run time = 1.066960424000 secs
+Gen 4050  run time + message passing = 2.100665030000 secs
+begin gen 4060
+Gen 4060  run time = 2.602449368000 secs
+Gen 4060  run time + message passing = 2.612835914000 secs
+begin gen 4070
+Gen 4070  run time = 2.604542645000 secs
+Gen 4070  run time + message passing = 2.624581464000 secs
+begin gen 4080
+Gen 4080  run time = 2.657701107000 secs
+Gen 4080  run time + message passing = 2.673917182000 secs
+begin gen 4090
+Gen 4090  run time = 2.595345760000 secs
+Gen 4090  run time + message passing = 2.600136035000 secs
+begin gen 4100
+Gen 4100  run time = 1.560912178000 secs
+Gen 4100  run time + message passing = 2.091492136000 secs
+begin gen 4110
+Gen 4110  run time = 2.602880561000 secs
+Gen 4110  run time + message passing = 2.626641895000 secs
+begin gen 4120
+Gen 4120  run time = 2.344295332000 secs
+Gen 4120  run time + message passing = 2.354176547000 secs
+begin gen 4130
+Gen 4130  run time = 2.654559316000 secs
+Gen 4130  run time + message passing = 2.676317906000 secs
+begin gen 4140
+Gen 4140  run time = 2.654902375000 secs
+Gen 4140  run time + message passing = 2.674676671000 secs
+begin gen 4150
+Gen 4150  run time = 1.559706509000 secs
+Gen 4150  run time + message passing = 1.570077050000 secs
+begin gen 4160
+Gen 4160  run time = 2.597851363000 secs
+Gen 4160  run time + message passing = 2.621515305000 secs
+begin gen 4170
+Gen 4170  run time = 2.339333057000 secs
+Gen 4170  run time + message passing = 2.471722544000 secs
+begin gen 4180
+Gen 4180  run time = 2.597008464000 secs
+Gen 4180  run time + message passing = 2.608885387000 secs
+begin gen 4190
+Gen 4190  run time = 2.602368052000 secs
+Gen 4190  run time + message passing = 2.626728166000 secs
+begin gen 4200
+Gen 4200  run time = 2.400373327000 secs
+Gen 4200  run time + message passing = 2.421769565000 secs
+begin gen 4210
+Gen 4210  run time = 2.601104253000 secs
+Gen 4210  run time + message passing = 2.614840355000 secs
+begin gen 4220
+Gen 4220  run time = 2.599995583000 secs
+Gen 4220  run time + message passing = 2.736624195000 secs
+begin gen 4230
+Gen 4230  run time = 2.607415777000 secs
+Gen 4230  run time + message passing = 2.618718455000 secs
+begin gen 4240
+Gen 4240  run time = 2.605620046000 secs
+Gen 4240  run time + message passing = 2.610550213000 secs
+begin gen 4250
+Gen 4250  run time = 2.648095097000 secs
+Gen 4250  run time + message passing = 2.671649012000 secs
+begin gen 4260
+Gen 4260  run time = 2.604251676000 secs
+Gen 4260  run time + message passing = 2.613620660000 secs
+begin gen 4270
+Gen 4270  run time = 2.599058801000 secs
+Gen 4270  run time + message passing = 2.605273911000 secs
+begin gen 4280
+Gen 4280  run time = 2.339922804000 secs
+Gen 4280  run time + message passing = 2.589974048000 secs
+begin gen 4290
+Gen 4290  run time = 2.581568108000 secs
+Gen 4290  run time + message passing = 2.600545165000 secs
+begin gen 4300
+Gen 4300  run time = 2.301996418000 secs
+Gen 4300  run time + message passing = 2.337263938000 secs
+begin gen 4310
+Gen 4310  run time = 2.608574697000 secs
+Gen 4310  run time + message passing = 2.628581398000 secs
+begin gen 4320
+Gen 4320  run time = 2.546803506000 secs
+Gen 4320  run time + message passing = 2.567206166000 secs
+begin gen 4330
+Gen 4330  run time = 2.543068077000 secs
+Gen 4330  run time + message passing = 2.557045033000 secs
+begin gen 4340
+Gen 4340  run time = 2.287324968000 secs
+Gen 4340  run time + message passing = 2.571791396000 secs
+begin gen 4350
+Gen 4350  run time = 1.525143298000 secs
+Gen 4350  run time + message passing = 2.303264570000 secs
+begin gen 4360
+Gen 4360  run time = 2.545728241000 secs
+Gen 4360  run time + message passing = 2.560853911000 secs
+begin gen 4370
+Gen 4370  run time = 2.548052217000 secs
+Gen 4370  run time + message passing = 2.564383413000 secs
+begin gen 4380
+Gen 4380  run time = 2.550383901000 secs
+Gen 4380  run time + message passing = 2.685397575000 secs
+begin gen 4390
+Gen 4390  run time = 2.554183793000 secs
+Gen 4390  run time + message passing = 2.569612653000 secs
+begin gen 4400
+Gen 4400  run time = 1.532761807000 secs
+Gen 4400  run time + message passing = 2.313692797000 secs
+begin gen 4410
+Gen 4410  run time = 2.553374027000 secs
+Gen 4410  run time + message passing = 2.567190007000 secs
+begin gen 4420
+Gen 4420  run time = 2.554135608000 secs
+Gen 4420  run time + message passing = 2.570243785000 secs
+begin gen 4430
+Gen 4430  run time = 2.042369931000 secs
+Gen 4430  run time + message passing = 2.569158227000 secs
+begin gen 4440
+Gen 4440  run time = 2.555844297000 secs
+Gen 4440  run time + message passing = 2.571606871000 secs
+begin gen 4450
+Gen 4450  run time = 2.044312539000 secs
+Gen 4450  run time + message passing = 2.570168581000 secs
+begin gen 4460
+Gen 4460  run time = 2.553682141000 secs
+Gen 4460  run time + message passing = 2.836447749000 secs
+begin gen 4470
+Gen 4470  run time = 2.352523905000 secs
+Gen 4470  run time + message passing = 2.378546543000 secs
+begin gen 4480
+Gen 4480  run time = 2.555910228000 secs
+Gen 4480  run time + message passing = 2.562348813000 secs
+begin gen 4490
+Gen 4490  run time = 2.336056766000 secs
+Gen 4490  run time + message passing = 2.568663466000 secs
+begin gen 4500
+Gen 4500  run time = 1.535389066000 secs
+Gen 4500  run time + message passing = 2.147502727000 secs
+begin gen 4510
+Gen 4510  run time = 2.304361187000 secs
+Gen 4510  run time + message passing = 2.310678396000 secs
+begin gen 4520
+Gen 4520  run time = 2.624501615000 secs
+Gen 4520  run time + message passing = 2.639111236000 secs
+begin gen 4530
+Gen 4530  run time = 2.312616940000 secs
+Gen 4530  run time + message passing = 3.056110113000 secs
+begin gen 4540
+Gen 4540  run time = 2.311880644000 secs
+Gen 4540  run time + message passing = 2.583783101000 secs
+begin gen 4550
+Gen 4550  run time = 2.095985775000 secs
+Gen 4550  run time + message passing = 2.593429929000 secs
+begin gen 4560
+Gen 4560  run time = 2.564201942000 secs
+Gen 4560  run time + message passing = 3.324920922000 secs
+begin gen 4570
+Gen 4570  run time = 2.612657101000 secs
+Gen 4570  run time + message passing = 2.625463573000 secs
+begin gen 4580
+Gen 4580  run time = 2.606452568000 secs
+Gen 4580  run time + message passing = 2.681171344000 secs
+begin gen 4590
+Gen 4590  run time = 2.608879672000 secs
+Gen 4590  run time + message passing = 2.628281131000 secs
+begin gen 4600
+Gen 4600  run time = 2.348769759000 secs
+Gen 4600  run time + message passing = 2.371512104000 secs
+begin gen 4610
+Gen 4610  run time = 2.702434664000 secs
+Gen 4610  run time + message passing = 2.894298380000 secs
+begin gen 4620
+Gen 4620  run time = 2.697298109000 secs
+Gen 4620  run time + message passing = 2.820791929000 secs
+begin gen 4630
+Gen 4630  run time = 2.609990785000 secs
+Gen 4630  run time + message passing = 2.622430547000 secs
+begin gen 4640
+Gen 4640  run time = 2.615557460000 secs
+Gen 4640  run time + message passing = 2.643833441000 secs
+begin gen 4650
+Gen 4650  run time = 2.345656767000 secs
+Gen 4650  run time + message passing = 2.394718579000 secs
+begin gen 4660
+Gen 4660  run time = 2.678554186000 secs
+Gen 4660  run time + message passing = 2.693269002000 secs
+begin gen 4670
+Gen 4670  run time = 2.717187521000 secs
+Gen 4670  run time + message passing = 7.906235056000 secs
+begin gen 4680
+Gen 4680  run time = 2.711082721000 secs
+Gen 4680  run time + message passing = 9.165305524000 secs
+begin gen 4690
+Gen 4690  run time = 2.616404591000 secs
+Gen 4690  run time + message passing = 2.851238860000 secs
+begin gen 4700
+Gen 4700  run time = 2.191246838000 secs
+Gen 4700  run time + message passing = 2.281748470000 secs
+begin gen 4710
+Gen 4710  run time = 2.426868350000 secs
+Gen 4710  run time + message passing = 2.763388199000 secs
+begin gen 4720
+Gen 4720  run time = 2.718821634000 secs
+Gen 4720  run time + message passing = 2.810769946000 secs
+begin gen 4730
+Gen 4730  run time = 2.662576678000 secs
+Gen 4730  run time + message passing = 2.887990748000 secs
+begin gen 4740
+Gen 4740  run time = 2.710078522000 secs
+Gen 4740  run time + message passing = 2.911630108000 secs
+begin gen 4750
+Gen 4750  run time = 2.429437560000 secs
+Gen 4750  run time + message passing = 2.500484221000 secs
+begin gen 4760
+Gen 4760  run time = 2.605229280000 secs
+Gen 4760  run time + message passing = 2.728984202000 secs
+begin gen 4770
+Gen 4770  run time = 2.701252719000 secs
+Gen 4770  run time + message passing = 2.846213963000 secs
+begin gen 4780
+Gen 4780  run time = 2.698035877000 secs
+Gen 4780  run time + message passing = 2.800334549000 secs
+begin gen 4790
+Gen 4790  run time = 2.493376984000 secs
+Gen 4790  run time + message passing = 2.771194105000 secs
+begin gen 4800
+Gen 4800  run time = 2.160459111000 secs
+Gen 4800  run time + message passing = 2.704572102000 secs
+begin gen 4810
+Gen 4810  run time = 2.662573711000 secs
+Gen 4810  run time + message passing = 2.798352136000 secs
+begin gen 4820
+Gen 4820  run time = 2.368447262000 secs
+Gen 4820  run time + message passing = 2.651518011000 secs
+begin gen 4830
+Gen 4830  run time = 2.734022520000 secs
+Gen 4830  run time + message passing = 2.810388392000 secs
+begin gen 4840
+Gen 4840  run time = 2.706860914000 secs
+Gen 4840  run time + message passing = 2.785993264000 secs
+begin gen 4850
+Gen 4850  run time = 1.922223935000 secs
+Gen 4850  run time + message passing = 2.124583753000 secs
+begin gen 4860
+Gen 4860  run time = 2.774476114000 secs
+Gen 4860  run time + message passing = 2.893261329000 secs
+begin gen 4870
+Gen 4870  run time = 2.622073228000 secs
+Gen 4870  run time + message passing = 2.677705338000 secs
+begin gen 4880
+Gen 4880  run time = 2.668496532000 secs
+Gen 4880  run time + message passing = 2.762434630000 secs
+begin gen 4890
+Gen 4890  run time = 2.464052154000 secs
+Gen 4890  run time + message passing = 2.537234131000 secs
+begin gen 4900
+Gen 4900  run time = 1.843251514000 secs
+Gen 4900  run time + message passing = 2.181256196000 secs
+begin gen 4910
+Gen 4910  run time = 2.409851997000 secs
+Gen 4910  run time + message passing = 2.646293885000 secs
+begin gen 4920
+Gen 4920  run time = 2.607656048000 secs
+Gen 4920  run time + message passing = 2.697077271000 secs
+begin gen 4930
+Gen 4930  run time = 2.446692410000 secs
+Gen 4930  run time + message passing = 2.632056328000 secs
+begin gen 4940
+Gen 4940  run time = 2.359154771000 secs
+Gen 4940  run time + message passing = 2.676091084000 secs
+begin gen 4950
+Gen 4950  run time = 1.845353678000 secs
+Gen 4950  run time + message passing = 2.339277664000 secs
+begin gen 4960
+Gen 4960  run time = 2.756857813000 secs
+Gen 4960  run time + message passing = 2.876936528000 secs
+begin gen 4970
+Gen 4970  run time = 2.568663621000 secs
+Gen 4970  run time + message passing = 2.645205327000 secs
+begin gen 4980
+Gen 4980  run time = 2.629453443000 secs
+Gen 4980  run time + message passing = 2.738984010000 secs
+begin gen 4990
+Gen 4990  run time = 2.608788469000 secs
+Gen 4990  run time + message passing = 2.676750088000 secs
+begin gen 5000
+Gen 5000  run time = 2.396297369000 secs
+Gen 5000  run time + message passing = 2.626530003000 secs
+begin gen 5010
+Gen 5010  run time = 2.645238547000 secs
+Gen 5010  run time + message passing = 2.749530864000 secs
+begin gen 5020
+Gen 5020  run time = 2.783013708000 secs
+Gen 5020  run time + message passing = 2.866991059000 secs
+begin gen 5030
+Gen 5030  run time = 2.698235793000 secs
+Gen 5030  run time + message passing = 2.965438447000 secs
+begin gen 5040
+Gen 5040  run time = 2.320083707000 secs
+Gen 5040  run time + message passing = 2.610396471000 secs
+begin gen 5050
+Gen 5050  run time = 2.119939329000 secs
+Gen 5050  run time + message passing = 2.194731051000 secs
+begin gen 5060
+Gen 5060  run time = 2.683732095000 secs
+Gen 5060  run time + message passing = 2.784063528000 secs
+begin gen 5070
+Gen 5070  run time = 2.697422400000 secs
+Gen 5070  run time + message passing = 2.766076757000 secs
+begin gen 5080
+Gen 5080  run time = 2.431116551000 secs
+Gen 5080  run time + message passing = 2.709168844000 secs
+begin gen 5090
+Gen 5090  run time = 2.779623711000 secs
+Gen 5090  run time + message passing = 2.952537231000 secs
+begin gen 5100
+Gen 5100  run time = 2.136235358000 secs
+Gen 5100  run time + message passing = 2.604314059000 secs
+begin gen 5110
+Gen 5110  run time = 2.711269517000 secs
+Gen 5110  run time + message passing = 2.948123526000 secs
+begin gen 5120
+Gen 5120  run time = 2.652929831000 secs
+Gen 5120  run time + message passing = 2.750069906000 secs
+begin gen 5130
+Gen 5130  run time = 2.611052203000 secs
+Gen 5130  run time + message passing = 2.751035847000 secs
+begin gen 5140
+Gen 5140  run time = 2.687469771000 secs
+Gen 5140  run time + message passing = 2.789239171000 secs
+begin gen 5150
+Gen 5150  run time = 2.167166499000 secs
+Gen 5150  run time + message passing = 2.301606587000 secs
+begin gen 5160
+Gen 5160  run time = 2.391894547000 secs
+Gen 5160  run time + message passing = 2.558205571000 secs
+begin gen 5170
+Gen 5170  run time = 2.556145881000 secs
+Gen 5170  run time + message passing = 2.629660605000 secs
+begin gen 5180
+Gen 5180  run time = 2.404319091000 secs
+Gen 5180  run time + message passing = 2.775292500000 secs
+begin gen 5190
+Gen 5190  run time = 2.664266669000 secs
+Gen 5190  run time + message passing = 2.827413923000 secs
+begin gen 5200
+Gen 5200  run time = 2.357839249000 secs
+Gen 5200  run time + message passing = 2.523698004000 secs
+begin gen 5210
+Gen 5210  run time = 2.653589019000 secs
+Gen 5210  run time + message passing = 2.809870865000 secs
+begin gen 5220
+Gen 5220  run time = 2.652976600000 secs
+Gen 5220  run time + message passing = 2.829346666000 secs
+begin gen 5230
+Gen 5230  run time = 2.786427207000 secs
+Gen 5230  run time + message passing = 2.864203777000 secs
+begin gen 5240
+Gen 5240  run time = 2.654645933000 secs
+Gen 5240  run time + message passing = 2.753548143000 secs
+begin gen 5250
+Gen 5250  run time = 2.110827198000 secs
+Gen 5250  run time + message passing = 2.244655279000 secs
+begin gen 5260
+Gen 5260  run time = 2.686887511000 secs
+Gen 5260  run time + message passing = 2.775734137000 secs
+begin gen 5270
+Gen 5270  run time = 2.510835159000 secs
+Gen 5270  run time + message passing = 2.594996662000 secs
+begin gen 5280
+Gen 5280  run time = 2.623496654000 secs
+Gen 5280  run time + message passing = 2.686081326000 secs
+begin gen 5290
+Gen 5290  run time = 2.400352595000 secs
+Gen 5290  run time + message passing = 2.516683491000 secs
+begin gen 5300
+Gen 5300  run time = 2.092388086000 secs
+Gen 5300  run time + message passing = 2.198771520000 secs
+begin gen 5310
+Gen 5310  run time = 2.368542144000 secs
+Gen 5310  run time + message passing = 2.615390331000 secs
+begin gen 5320
+Gen 5320  run time = 2.725126351000 secs
+Gen 5320  run time + message passing = 2.792291751000 secs
+begin gen 5330
+Gen 5330  run time = 2.425463511000 secs
+Gen 5330  run time + message passing = 2.949415254000 secs
+begin gen 5340
+Gen 5340  run time = 2.659935328000 secs
+Gen 5340  run time + message passing = 2.794165112000 secs
+begin gen 5350
+Gen 5350  run time = 1.392928117000 secs
+Gen 5350  run time + message passing = 2.395279570000 secs
+begin gen 5360
+Gen 5360  run time = 2.409389499000 secs
+Gen 5360  run time + message passing = 2.618953941000 secs
+begin gen 5370
+Gen 5370  run time = 2.638823725000 secs
+Gen 5370  run time + message passing = 2.864469285000 secs
+begin gen 5380
+Gen 5380  run time = 2.420693563000 secs
+Gen 5380  run time + message passing = 2.639895494000 secs
+begin gen 5390
+Gen 5390  run time = 2.394008201000 secs
+Gen 5390  run time + message passing = 2.494068280000 secs
+begin gen 5400
+Gen 5400  run time = 2.384993330000 secs
+Gen 5400  run time + message passing = 2.463330422000 secs
+begin gen 5410
+Gen 5410  run time = 2.619207265000 secs
+Gen 5410  run time + message passing = 2.754274016000 secs
+begin gen 5420
+Gen 5420  run time = 2.616931801000 secs
+Gen 5420  run time + message passing = 2.713787751000 secs
+begin gen 5430
+Gen 5430  run time = 2.711435921000 secs
+Gen 5430  run time + message passing = 2.801922117000 secs
+begin gen 5440
+Gen 5440  run time = 2.668335459000 secs
+Gen 5440  run time + message passing = 2.769655183000 secs
+begin gen 5450
+Gen 5450  run time = 1.697666297000 secs
+Gen 5450  run time + message passing = 2.058135546000 secs
+begin gen 5460
+Gen 5460  run time = 2.705073418000 secs
+Gen 5460  run time + message passing = 2.840875691000 secs
+begin gen 5470
+Gen 5470  run time = 2.628842375000 secs
+Gen 5470  run time + message passing = 2.695899350000 secs
+begin gen 5480
+Gen 5480  run time = 2.714770976000 secs
+Gen 5480  run time + message passing = 2.766234672000 secs
+begin gen 5490
+Gen 5490  run time = 2.706676358000 secs
+Gen 5490  run time + message passing = 2.749252589000 secs
+begin gen 5500
+Gen 5500  run time = 2.089955964000 secs
+Gen 5500  run time + message passing = 2.162598550000 secs
+begin gen 5510
+Gen 5510  run time = 2.461614065000 secs
+Gen 5510  run time + message passing = 2.749495341000 secs
+begin gen 5520
+Gen 5520  run time = 2.657051496000 secs
+Gen 5520  run time + message passing = 2.725165336000 secs
+begin gen 5530
+Gen 5530  run time = 2.423094436000 secs
+Gen 5530  run time + message passing = 2.653971342000 secs
+begin gen 5540
+Gen 5540  run time = 2.768624189000 secs
+Gen 5540  run time + message passing = 2.874156500000 secs
+begin gen 5550
+Gen 5550  run time = 2.151428725000 secs
+Gen 5550  run time + message passing = 2.627824867000 secs
+begin gen 5560
+Gen 5560  run time = 2.448125354000 secs
+Gen 5560  run time + message passing = 2.618865959000 secs
+begin gen 5570
+Gen 5570  run time = 2.752554962000 secs
+Gen 5570  run time + message passing = 2.978754489000 secs
+begin gen 5580
+Gen 5580  run time = 2.745148787000 secs
+Gen 5580  run time + message passing = 2.816219394000 secs
+begin gen 5590
+Gen 5590  run time = 2.755369991000 secs
+Gen 5590  run time + message passing = 2.880606995000 secs
+begin gen 5600
+Gen 5600  run time = 2.767397478000 secs
+Gen 5600  run time + message passing = 2.869336905000 secs
+begin gen 5610
+Gen 5610  run time = 2.701980551000 secs
+Gen 5610  run time + message passing = 2.761602162000 secs
+begin gen 5620
+Gen 5620  run time = 2.638773101000 secs
+Gen 5620  run time + message passing = 2.703396042000 secs
+begin gen 5630
+Gen 5630  run time = 2.721424159000 secs
+Gen 5630  run time + message passing = 2.920336416000 secs
+begin gen 5640
+Gen 5640  run time = 2.768649827000 secs
+Gen 5640  run time + message passing = 3.092699662000 secs
+begin gen 5650
+Gen 5650  run time = 1.597214672000 secs
+Gen 5650  run time + message passing = 2.147960313000 secs
+begin gen 5660
+Gen 5660  run time = 2.766885287000 secs
+Gen 5660  run time + message passing = 2.912488766000 secs
+begin gen 5670
+Gen 5670  run time = 2.759677404000 secs
+Gen 5670  run time + message passing = 2.823787159000 secs
+begin gen 5680
+Gen 5680  run time = 2.766360872000 secs
+Gen 5680  run time + message passing = 2.855984796000 secs
+begin gen 5690
+Gen 5690  run time = 2.681447400000 secs
+Gen 5690  run time + message passing = 3.052293490000 secs
+begin gen 5700
+Gen 5700  run time = 2.232675262000 secs
+Gen 5700  run time + message passing = 2.324831112000 secs
+begin gen 5710
+Gen 5710  run time = 2.710698193000 secs
+Gen 5710  run time + message passing = 3.417613284000 secs
+begin gen 5720
+Gen 5720  run time = 2.730458627000 secs
+Gen 5720  run time + message passing = 2.783565560000 secs
+begin gen 5730
+Gen 5730  run time = 2.694594468000 secs
+Gen 5730  run time + message passing = 2.799008187000 secs
+begin gen 5740
+Gen 5740  run time = 2.684770150000 secs
+Gen 5740  run time + message passing = 2.787694360000 secs
+begin gen 5750
+Gen 5750  run time = 2.143358991000 secs
+Gen 5750  run time + message passing = 2.684356233000 secs
+begin gen 5760
+Gen 5760  run time = 2.348269741000 secs
+Gen 5760  run time + message passing = 2.777623219000 secs
+begin gen 5770
+Gen 5770  run time = 2.661367810000 secs
+Gen 5770  run time + message passing = 2.747206869000 secs
+begin gen 5780
+Gen 5780  run time = 2.437059634000 secs
+Gen 5780  run time + message passing = 2.638158411000 secs
+begin gen 5790
+Gen 5790  run time = 2.625862544000 secs
+Gen 5790  run time + message passing = 2.757082924000 secs
+begin gen 5800
+Gen 5800  run time = 2.589604334000 secs
+Gen 5800  run time + message passing = 2.703817985000 secs
+begin gen 5810
+Gen 5810  run time = 2.593919618000 secs
+Gen 5810  run time + message passing = 2.658679584000 secs
+begin gen 5820
+Gen 5820  run time = 2.395291698000 secs
+Gen 5820  run time + message passing = 2.604235684000 secs
+begin gen 5830
+Gen 5830  run time = 2.560075004000 secs
+Gen 5830  run time + message passing = 2.645132723000 secs
+begin gen 5840
+Gen 5840  run time = 2.653022310000 secs
+Gen 5840  run time + message passing = 2.767325267000 secs
+begin gen 5850
+Gen 5850  run time = 2.305466246000 secs
+Gen 5850  run time + message passing = 2.449946679000 secs
+begin gen 5860
+Gen 5860  run time = 2.667676559000 secs
+Gen 5860  run time + message passing = 2.759585836000 secs
+begin gen 5870
+Gen 5870  run time = 2.568250798000 secs
+Gen 5870  run time + message passing = 2.663638709000 secs
+begin gen 5880
+Gen 5880  run time = 2.735244370000 secs
+Gen 5880  run time + message passing = 2.810082003000 secs
+begin gen 5890
+Gen 5890  run time = 2.686840345000 secs
+Gen 5890  run time + message passing = 2.825959006000 secs
+begin gen 5900
+Gen 5900  run time = 2.420332168000 secs
+Gen 5900  run time + message passing = 2.744187672000 secs
+begin gen 5910
+Gen 5910  run time = 2.691138201000 secs
+Gen 5910  run time + message passing = 2.756132268000 secs
+begin gen 5920
+Gen 5920  run time = 2.316501963000 secs
+Gen 5920  run time + message passing = 2.427202817000 secs
+begin gen 5930
+Gen 5930  run time = 2.689465309000 secs
+Gen 5930  run time + message passing = 2.896963173000 secs
+begin gen 5940
+Gen 5940  run time = 2.686359777000 secs
+Gen 5940  run time + message passing = 2.762629896000 secs
+begin gen 5950
+Gen 5950  run time = 1.882980135000 secs
+Gen 5950  run time + message passing = 2.456861181000 secs
+begin gen 5960
+Gen 5960  run time = 2.689263851000 secs
+Gen 5960  run time + message passing = 2.785415663000 secs
+begin gen 5970
+Gen 5970  run time = 2.691143413000 secs
+Gen 5970  run time + message passing = 2.827402717000 secs
+begin gen 5980
+Gen 5980  run time = 2.689523863000 secs
+Gen 5980  run time + message passing = 2.739206816000 secs
+begin gen 5990
+Gen 5990  run time = 2.696965338000 secs
+Gen 5990  run time + message passing = 2.751853561000 secs
+begin gen 6000
+Gen 6000  run time = 1.710187133000 secs
+Gen 6000  run time + message passing = 2.440187805000 secs
+begin gen 6010
+Gen 6010  run time = 2.705900869000 secs
+Gen 6010  run time + message passing = 2.781953803000 secs
+begin gen 6020
+Gen 6020  run time = 2.750593362000 secs
+Gen 6020  run time + message passing = 2.798757728000 secs
+begin gen 6030
+Gen 6030  run time = 2.624151826000 secs
+Gen 6030  run time + message passing = 2.700829540000 secs
+begin gen 6040
+Gen 6040  run time = 2.698406819000 secs
+Gen 6040  run time + message passing = 2.844248104000 secs
+begin gen 6050
+Gen 6050  run time = 1.628803915000 secs
+Gen 6050  run time + message passing = 2.517486841000 secs
+begin gen 6060
+Gen 6060  run time = 2.708924872000 secs
+Gen 6060  run time + message passing = 2.869388516000 secs
+begin gen 6070
+Gen 6070  run time = 2.694686981000 secs
+Gen 6070  run time + message passing = 2.749096437000 secs
+begin gen 6080
+Gen 6080  run time = 2.636963496000 secs
+Gen 6080  run time + message passing = 2.720127062000 secs
+begin gen 6090
+Gen 6090  run time = 2.745710759000 secs
+Gen 6090  run time + message passing = 2.833388426000 secs
+begin gen 6100
+Gen 6100  run time = 1.658633126000 secs
+Gen 6100  run time + message passing = 1.902755592000 secs
+begin gen 6110
+Gen 6110  run time = 2.778767253000 secs
+Gen 6110  run time + message passing = 2.900360579000 secs
+begin gen 6120
+Gen 6120  run time = 2.773125742000 secs
+Gen 6120  run time + message passing = 2.826649718000 secs
+begin gen 6130
+Gen 6130  run time = 2.424607549000 secs
+Gen 6130  run time + message passing = 2.634632685000 secs
+begin gen 6140
+Gen 6140  run time = 2.754684673000 secs
+Gen 6140  run time + message passing = 2.851487741000 secs
+begin gen 6150
+Gen 6150  run time = 1.685275166000 secs
+Gen 6150  run time + message passing = 1.855965159000 secs
+begin gen 6160
+Gen 6160  run time = 2.692754954000 secs
+Gen 6160  run time + message passing = 2.848446506000 secs
+begin gen 6170
+Gen 6170  run time = 2.690627965000 secs
+Gen 6170  run time + message passing = 2.833836293000 secs
+begin gen 6180
+Gen 6180  run time = 2.717354623000 secs
+Gen 6180  run time + message passing = 2.787876522000 secs
+begin gen 6190
+Gen 6190  run time = 2.155060133000 secs
+Gen 6190  run time + message passing = 2.398889014000 secs
+begin gen 6200
+Gen 6200  run time = 1.915537008000 secs
+Gen 6200  run time + message passing = 2.082459630000 secs
+begin gen 6210
+Gen 6210  run time = 2.669406278000 secs
+Gen 6210  run time + message passing = 2.730264562000 secs
+begin gen 6220
+Gen 6220  run time = 2.406654433000 secs
+Gen 6220  run time + message passing = 2.631520009000 secs
+begin gen 6230
+Gen 6230  run time = 2.667301326000 secs
+Gen 6230  run time + message passing = 2.751366231000 secs
+begin gen 6240
+Gen 6240  run time = 2.699562561000 secs
+Gen 6240  run time + message passing = 2.784901440000 secs
+begin gen 6250
+Gen 6250  run time = 2.097615341000 secs
+Gen 6250  run time + message passing = 2.453154220000 secs
+begin gen 6260
+Gen 6260  run time = 2.696460771000 secs
+Gen 6260  run time + message passing = 2.758676896000 secs
+begin gen 6270
+Gen 6270  run time = 2.674186589000 secs
+Gen 6270  run time + message passing = 2.745283910000 secs
+begin gen 6280
+Gen 6280  run time = 2.621658824000 secs
+Gen 6280  run time + message passing = 2.698092019000 secs
+begin gen 6290
+Gen 6290  run time = 2.359953532000 secs
+Gen 6290  run time + message passing = 2.682869627000 secs
+begin gen 6300
+Gen 6300  run time = 2.153898532000 secs
+Gen 6300  run time + message passing = 2.429767415000 secs
+begin gen 6310
+Gen 6310  run time = 2.630927465000 secs
+Gen 6310  run time + message passing = 3.325994392000 secs
+begin gen 6320
+Gen 6320  run time = 2.407220004000 secs
+Gen 6320  run time + message passing = 2.620780091000 secs
+begin gen 6330
+Gen 6330  run time = 2.400045378000 secs
+Gen 6330  run time + message passing = 2.608880765000 secs
+begin gen 6340
+Gen 6340  run time = 2.655621941000 secs
+Gen 6340  run time + message passing = 2.772595507000 secs
+begin gen 6350
+Gen 6350  run time = 1.832004805000 secs
+Gen 6350  run time + message passing = 2.561820780000 secs
+begin gen 6360
+Gen 6360  run time = 2.617072207000 secs
+Gen 6360  run time + message passing = 2.736411642000 secs
+begin gen 6370
+Gen 6370  run time = 2.663360922000 secs
+Gen 6370  run time + message passing = 2.767099713000 secs
+begin gen 6380
+Gen 6380  run time = 2.664168673000 secs
+Gen 6380  run time + message passing = 2.831684116000 secs
+begin gen 6390
+Gen 6390  run time = 2.570232572000 secs
+Gen 6390  run time + message passing = 2.708692892000 secs
+begin gen 6400
+Gen 6400  run time = 2.448243655000 secs
+Gen 6400  run time + message passing = 2.639767633000 secs
+begin gen 6410
+Gen 6410  run time = 2.698091583000 secs
+Gen 6410  run time + message passing = 2.786671446000 secs
+begin gen 6420
+Gen 6420  run time = 2.737860297000 secs
+Gen 6420  run time + message passing = 2.856948841000 secs
+begin gen 6430
+Gen 6430  run time = 2.774757075000 secs
+Gen 6430  run time + message passing = 3.103790193000 secs
+begin gen 6440
+Gen 6440  run time = 2.229603150000 secs
+Gen 6440  run time + message passing = 2.477039874000 secs
+begin gen 6450
+Gen 6450  run time = 2.233997341000 secs
+Gen 6450  run time + message passing = 3.192547648000 secs
+begin gen 6460
+Gen 6460  run time = 2.764075048000 secs
+Gen 6460  run time + message passing = 2.885705325000 secs
+begin gen 6470
+Gen 6470  run time = 2.724989170000 secs
+Gen 6470  run time + message passing = 2.844294146000 secs
+begin gen 6480
+Gen 6480  run time = 2.782571642000 secs
+Gen 6480  run time + message passing = 2.875596819000 secs
+begin gen 6490
+Gen 6490  run time = 2.701556024000 secs
+Gen 6490  run time + message passing = 2.769604198000 secs
+begin gen 6500
+Gen 6500  run time = 2.431632266000 secs
+Gen 6500  run time + message passing = 2.778912698000 secs
+begin gen 6510
+Gen 6510  run time = 2.490173882000 secs
+Gen 6510  run time + message passing = 2.725753880000 secs
+begin gen 6520
+Gen 6520  run time = 2.737870271000 secs
+Gen 6520  run time + message passing = 2.911309442000 secs
+begin gen 6530
+Gen 6530  run time = 2.441136965000 secs
+Gen 6530  run time + message passing = 2.614939395000 secs
+begin gen 6540
+Gen 6540  run time = 2.671282237000 secs
+Gen 6540  run time + message passing = 2.805882364000 secs
+begin gen 6550
+Gen 6550  run time = 2.185208540000 secs
+Gen 6550  run time + message passing = 2.653045689000 secs
+begin gen 6560
+Gen 6560  run time = 2.615397110000 secs
+Gen 6560  run time + message passing = 2.782330437000 secs
+begin gen 6570
+Gen 6570  run time = 2.519705471000 secs
+Gen 6570  run time + message passing = 2.711959112000 secs
+begin gen 6580
+Gen 6580  run time = 2.443526039000 secs
+Gen 6580  run time + message passing = 2.581080553000 secs
+begin gen 6590
+Gen 6590  run time = 2.734861584000 secs
+Gen 6590  run time + message passing = 3.398031861000 secs
+begin gen 6600
+Gen 6600  run time = 1.994014606000 secs
+Gen 6600  run time + message passing = 2.834035349000 secs
+begin gen 6610
+Gen 6610  run time = 2.705654267000 secs
+Gen 6610  run time + message passing = 3.456041978000 secs
+begin gen 6620
+Gen 6620  run time = 2.481451636000 secs
+Gen 6620  run time + message passing = 2.638365030000 secs
+begin gen 6630
+Gen 6630  run time = 2.708529655000 secs
+Gen 6630  run time + message passing = 2.816099682000 secs
+begin gen 6640
+Gen 6640  run time = 2.525309185000 secs
+Gen 6640  run time + message passing = 2.819904359000 secs
+begin gen 6650
+Gen 6650  run time = 2.158813375000 secs
+Gen 6650  run time + message passing = 2.717340826000 secs
+begin gen 6660
+Gen 6660  run time = 2.711767817000 secs
+Gen 6660  run time + message passing = 2.815542555000 secs
+begin gen 6670
+Gen 6670  run time = 2.704312121000 secs
+Gen 6670  run time + message passing = 2.863505809000 secs
+begin gen 6680
+Gen 6680  run time = 2.669627770000 secs
+Gen 6680  run time + message passing = 2.928155527000 secs
+begin gen 6690
+Gen 6690  run time = 2.824880073000 secs
+Gen 6690  run time + message passing = 2.977380885000 secs
+begin gen 6700
+Gen 6700  run time = 2.710525302000 secs
+Gen 6700  run time + message passing = 2.831355442000 secs
+begin gen 6710
+Gen 6710  run time = 2.770210751000 secs
+Gen 6710  run time + message passing = 2.901675609000 secs
+begin gen 6720
+Gen 6720  run time = 2.716252348000 secs
+Gen 6720  run time + message passing = 2.898436573000 secs
+begin gen 6730
+Gen 6730  run time = 2.710145429000 secs
+Gen 6730  run time + message passing = 2.834322918000 secs
+begin gen 6740
+Gen 6740  run time = 2.678718077000 secs
+Gen 6740  run time + message passing = 3.366554037000 secs
+begin gen 6750
+Gen 6750  run time = 2.139282154000 secs
+Gen 6750  run time + message passing = 3.039361322000 secs
+begin gen 6760
+Gen 6760  run time = 2.675795260000 secs
+Gen 6760  run time + message passing = 3.098299916000 secs
+begin gen 6770
+Gen 6770  run time = 2.713566983000 secs
+Gen 6770  run time + message passing = 2.814070198000 secs
+begin gen 6780
+Gen 6780  run time = 2.729663125000 secs
+Gen 6780  run time + message passing = 2.823319061000 secs
+begin gen 6790
+Gen 6790  run time = 2.768337754000 secs
+Gen 6790  run time + message passing = 2.904946895000 secs
+begin gen 6800
+Gen 6800  run time = 2.730406471000 secs
+Gen 6800  run time + message passing = 2.887309932000 secs
+begin gen 6810
+Gen 6810  run time = 2.763572687000 secs
+Gen 6810  run time + message passing = 2.920757197000 secs
+begin gen 6820
+Gen 6820  run time = 2.671678582000 secs
+Gen 6820  run time + message passing = 3.331733333000 secs
+begin gen 6830
+Gen 6830  run time = 2.708236161000 secs
+Gen 6830  run time + message passing = 2.805100282000 secs
+begin gen 6840
+Gen 6840  run time = 2.706266020000 secs
+Gen 6840  run time + message passing = 3.456556016000 secs
+begin gen 6850
+Gen 6850  run time = 1.635707026000 secs
+Gen 6850  run time + message passing = 2.051558582000 secs
+begin gen 6860
+Gen 6860  run time = 2.708203294000 secs
+Gen 6860  run time + message passing = 2.861577608000 secs
+begin gen 6870
+Gen 6870  run time = 2.409733959000 secs
+Gen 6870  run time + message passing = 2.712368780000 secs
+begin gen 6880
+Gen 6880  run time = 2.674042624000 secs
+Gen 6880  run time + message passing = 2.824465129000 secs
+begin gen 6890
+Gen 6890  run time = 2.697037680000 secs
+Gen 6890  run time + message passing = 2.838427043000 secs
+begin gen 6900
+Gen 6900  run time = 1.856573075000 secs
+Gen 6900  run time + message passing = 1.969049188000 secs
+begin gen 6910
+Gen 6910  run time = 2.620213527000 secs
+Gen 6910  run time + message passing = 2.696950424000 secs
+begin gen 6920
+Gen 6920  run time = 2.617407495000 secs
+Gen 6920  run time + message passing = 3.125513680000 secs
+begin gen 6930
+Gen 6930  run time = 2.563990805000 secs
+Gen 6930  run time + message passing = 2.661849585000 secs
+begin gen 6940
+Gen 6940  run time = 2.397967600000 secs
+Gen 6940  run time + message passing = 2.640879093000 secs
+begin gen 6950
+Gen 6950  run time = 1.630685488000 secs
+Gen 6950  run time + message passing = 2.130750953000 secs
+begin gen 6960
+Gen 6960  run time = 2.621945305000 secs
+Gen 6960  run time + message passing = 2.696776424000 secs
+begin gen 6970
+Gen 6970  run time = 2.312992437000 secs
+Gen 6970  run time + message passing = 2.763430020000 secs
+begin gen 6980
+Gen 6980  run time = 2.364331542000 secs
+Gen 6980  run time + message passing = 2.485626287000 secs
+begin gen 6990
+Gen 6990  run time = 2.400384727000 secs
+Gen 6990  run time + message passing = 2.570001990000 secs
+begin gen 7000
+Gen 7000  run time = 1.890918058000 secs
+Gen 7000  run time + message passing = 2.843128362000 secs
+begin gen 7010
+Gen 7010  run time = 2.659143272000 secs
+Gen 7010  run time + message passing = 2.827215161000 secs
+begin gen 7020
+Gen 7020  run time = 2.622719930000 secs
+Gen 7020  run time + message passing = 2.745123754000 secs
+begin gen 7030
+Gen 7030  run time = 2.664110781000 secs
+Gen 7030  run time + message passing = 2.742957441000 secs
+begin gen 7040
+Gen 7040  run time = 2.621675079000 secs
+Gen 7040  run time + message passing = 3.228339890000 secs
+begin gen 7050
+Gen 7050  run time = 2.449010652000 secs
+Gen 7050  run time + message passing = 2.568515809000 secs
+begin gen 7060
+Gen 7060  run time = 2.706096909000 secs
+Gen 7060  run time + message passing = 2.785136520000 secs
+begin gen 7070
+Gen 7070  run time = 2.385323128000 secs
+Gen 7070  run time + message passing = 2.656045048000 secs
+begin gen 7080
+Gen 7080  run time = 2.736334835000 secs
+Gen 7080  run time + message passing = 2.836895833000 secs
+begin gen 7090
+Gen 7090  run time = 2.176530849000 secs
+Gen 7090  run time + message passing = 2.803975785000 secs
+begin gen 7100
+Gen 7100  run time = 1.396087757000 secs
+Gen 7100  run time + message passing = 2.763146428000 secs
+begin gen 7110
+Gen 7110  run time = 2.761134355000 secs
+Gen 7110  run time + message passing = 2.832330737000 secs
+begin gen 7120
+Gen 7120  run time = 2.209449479000 secs
+Gen 7120  run time + message passing = 2.472798407000 secs
+begin gen 7130
+Gen 7130  run time = 2.451375634000 secs
+Gen 7130  run time + message passing = 2.697511157000 secs
+begin gen 7140
+Gen 7140  run time = 2.488286102000 secs
+Gen 7140  run time + message passing = 2.696353985000 secs
+begin gen 7150
+Gen 7150  run time = 1.966840929000 secs
+Gen 7150  run time + message passing = 2.494819025000 secs
+begin gen 7160
+Gen 7160  run time = 2.765961673000 secs
+Gen 7160  run time + message passing = 3.293651528000 secs
+begin gen 7170
+Gen 7170  run time = 2.627361988000 secs
+Gen 7170  run time + message passing = 2.728649833000 secs
+begin gen 7180
+Gen 7180  run time = 2.724973445000 secs
+Gen 7180  run time + message passing = 2.821966252000 secs
+begin gen 7190
+Gen 7190  run time = 2.769987562000 secs
+Gen 7190  run time + message passing = 2.885382005000 secs
+begin gen 7200
+Gen 7200  run time = 1.441410619000 secs
+Gen 7200  run time + message passing = 2.176037816000 secs
+begin gen 7210
+Gen 7210  run time = 2.628112954000 secs
+Gen 7210  run time + message passing = 2.735360449000 secs
+begin gen 7220
+Gen 7220  run time = 2.405446984000 secs
+Gen 7220  run time + message passing = 2.652408953000 secs
+begin gen 7230
+Gen 7230  run time = 2.638442695000 secs
+Gen 7230  run time + message passing = 2.704803998000 secs
+begin gen 7240
+Gen 7240  run time = 2.798128640000 secs
+Gen 7240  run time + message passing = 2.856701418000 secs
+begin gen 7250
+Gen 7250  run time = 2.236870436000 secs
+Gen 7250  run time + message passing = 2.812544164000 secs
+begin gen 7260
+Gen 7260  run time = 2.423337712000 secs
+Gen 7260  run time + message passing = 2.502284257000 secs
+begin gen 7270
+Gen 7270  run time = 2.727790382000 secs
+Gen 7270  run time + message passing = 3.182184282000 secs
+begin gen 7280
+Gen 7280  run time = 2.666702182000 secs
+Gen 7280  run time + message passing = 2.988887082000 secs
+begin gen 7290
+Gen 7290  run time = 2.783355702000 secs
+Gen 7290  run time + message passing = 4.485411567000 secs
+begin gen 7300
+Gen 7300  run time = 1.623095523000 secs
+Gen 7300  run time + message passing = 2.391373659000 secs
+begin gen 7310
+Gen 7310  run time = 2.683906579000 secs
+Gen 7310  run time + message passing = 2.819773602000 secs
+begin gen 7320
+Gen 7320  run time = 2.221007304000 secs
+Gen 7320  run time + message passing = 2.716774549000 secs
+begin gen 7330
+Gen 7330  run time = 2.622578429000 secs
+Gen 7330  run time + message passing = 2.690241675000 secs
+begin gen 7340
+Gen 7340  run time = 2.657480841000 secs
+Gen 7340  run time + message passing = 2.730541538000 secs
+begin gen 7350
+Gen 7350  run time = 1.668487928000 secs
+Gen 7350  run time + message passing = 2.540758120000 secs
+begin gen 7360
+Gen 7360  run time = 2.662489300000 secs
+Gen 7360  run time + message passing = 2.756011697000 secs
+begin gen 7370
+Gen 7370  run time = 2.488184614000 secs
+Gen 7370  run time + message passing = 2.756002537000 secs
+begin gen 7380
+Gen 7380  run time = 2.417149774000 secs
+Gen 7380  run time + message passing = 3.137413206000 secs
+begin gen 7390
+Gen 7390  run time = 2.346541561000 secs
+Gen 7390  run time + message passing = 2.806518410000 secs
+begin gen 7400
+Gen 7400  run time = 2.234314962000 secs
+Gen 7400  run time + message passing = 2.447712871000 secs
+begin gen 7410
+Gen 7410  run time = 2.684633481000 secs
+Gen 7410  run time + message passing = 2.866579544000 secs
+begin gen 7420
+Gen 7420  run time = 2.701769183000 secs
+Gen 7420  run time + message passing = 3.012593795000 secs
+begin gen 7430
+Gen 7430  run time = 2.436251374000 secs
+Gen 7430  run time + message passing = 2.688314620000 secs
+begin gen 7440
+Gen 7440  run time = 2.443199357000 secs
+Gen 7440  run time + message passing = 3.496702086000 secs
+begin gen 7450
+Gen 7450  run time = 2.157521363000 secs
+Gen 7450  run time + message passing = 2.712345773000 secs
+begin gen 7460
+Gen 7460  run time = 2.705588869000 secs
+Gen 7460  run time + message passing = 2.827216356000 secs
+begin gen 7470
+Gen 7470  run time = 2.671021934000 secs
+Gen 7470  run time + message passing = 2.788437694000 secs
+begin gen 7480
+Gen 7480  run time = 2.408342206000 secs
+Gen 7480  run time + message passing = 3.250622190000 secs
+begin gen 7490
+Gen 7490  run time = 2.670061760000 secs
+Gen 7490  run time + message passing = 2.759008161000 secs
+begin gen 7500
+Gen 7500  run time = 1.904932326000 secs
+Gen 7500  run time + message passing = 2.509444231000 secs
+begin gen 7510
+Gen 7510  run time = 2.705958522000 secs
+Gen 7510  run time + message passing = 3.055958688000 secs
+begin gen 7520
+Gen 7520  run time = 2.698844521000 secs
+Gen 7520  run time + message passing = 2.959943324000 secs
+begin gen 7530
+Gen 7530  run time = 2.592561317000 secs
+Gen 7530  run time + message passing = 3.019297188000 secs
+begin gen 7540
+Gen 7540  run time = 2.663167776000 secs
+Gen 7540  run time + message passing = 3.468096753000 secs
+begin gen 7550
+Gen 7550  run time = 2.147224391000 secs
+Gen 7550  run time + message passing = 2.352625800000 secs
+begin gen 7560
+Gen 7560  run time = 2.143096114000 secs
+Gen 7560  run time + message passing = 2.820482393000 secs
+begin gen 7570
+Gen 7570  run time = 2.405685877000 secs
+Gen 7570  run time + message passing = 2.670394152000 secs
+begin gen 7580
+Gen 7580  run time = 2.599830005000 secs
+Gen 7580  run time + message passing = 2.850848223000 secs
+begin gen 7590
+Gen 7590  run time = 2.664558731000 secs
+Gen 7590  run time + message passing = 3.021286980000 secs
+begin gen 7600
+Gen 7600  run time = 2.088001060000 secs
+Gen 7600  run time + message passing = 2.606378321000 secs
+begin gen 7610
+Gen 7610  run time = 2.601640292000 secs
+Gen 7610  run time + message passing = 3.174916377000 secs
+begin gen 7620
+Gen 7620  run time = 2.353907195000 secs
+Gen 7620  run time + message passing = 2.437679126000 secs
+begin gen 7630
+Gen 7630  run time = 2.348480800000 secs
+Gen 7630  run time + message passing = 2.640226118000 secs
+begin gen 7640
+Gen 7640  run time = 2.669430879000 secs
+Gen 7640  run time + message passing = 2.766845282000 secs
+begin gen 7650
+Gen 7650  run time = 2.148586425000 secs
+Gen 7650  run time + message passing = 2.732611217000 secs
+begin gen 7660
+Gen 7660  run time = 2.448786077000 secs
+Gen 7660  run time + message passing = 2.577035178000 secs
+begin gen 7670
+Gen 7670  run time = 2.410664326000 secs
+Gen 7670  run time + message passing = 3.427671207000 secs
+begin gen 7680
+Gen 7680  run time = 2.454165164000 secs
+Gen 7680  run time + message passing = 2.654320557000 secs
+begin gen 7690
+Gen 7690  run time = 2.656669236000 secs
+Gen 7690  run time + message passing = 3.142605833000 secs
+begin gen 7700
+Gen 7700  run time = 1.857322721000 secs
+Gen 7700  run time + message passing = 2.823536331000 secs
+begin gen 7710
+Gen 7710  run time = 2.432946473000 secs
+Gen 7710  run time + message passing = 2.754064663000 secs
+begin gen 7720
+Gen 7720  run time = 2.654356720000 secs
+Gen 7720  run time + message passing = 2.748271246000 secs
+begin gen 7730
+Gen 7730  run time = 2.729674244000 secs
+Gen 7730  run time + message passing = 3.015499361000 secs
+begin gen 7740
+Gen 7740  run time = 2.724765647000 secs
+Gen 7740  run time + message passing = 2.967494179000 secs
+begin gen 7750
+Gen 7750  run time = 2.201296196000 secs
+Gen 7750  run time + message passing = 2.366556208000 secs
+begin gen 7760
+Gen 7760  run time = 2.741555034000 secs
+Gen 7760  run time + message passing = 2.951182571000 secs
+begin gen 7770
+Gen 7770  run time = 2.778446577000 secs
+Gen 7770  run time + message passing = 3.030520364000 secs
+begin gen 7780
+Gen 7780  run time = 2.767322606000 secs
+Gen 7780  run time + message passing = 3.582655397000 secs
+begin gen 7790
+Gen 7790  run time = 2.647527120000 secs
+Gen 7790  run time + message passing = 3.103814033000 secs
+begin gen 7800
+Gen 7800  run time = 2.671581424000 secs
+Gen 7800  run time + message passing = 2.781664461000 secs
+begin gen 7810
+Gen 7810  run time = 2.677802813000 secs
+Gen 7810  run time + message passing = 2.764947512000 secs
+begin gen 7820
+Gen 7820  run time = 2.682817697000 secs
+Gen 7820  run time + message passing = 4.099925335000 secs
+begin gen 7830
+Gen 7830  run time = 2.636623247000 secs
+Gen 7830  run time + message passing = 2.780809416000 secs
+begin gen 7840
+Gen 7840  run time = 2.641679836000 secs
+Gen 7840  run time + message passing = 2.704111261000 secs
+begin gen 7850
+Gen 7850  run time = 2.455342725000 secs
+Gen 7850  run time + message passing = 2.779075039000 secs
+begin gen 7860
+Gen 7860  run time = 2.627972481000 secs
+Gen 7860  run time + message passing = 2.809000835000 secs
+begin gen 7870
+Gen 7870  run time = 2.694616209000 secs
+Gen 7870  run time + message passing = 3.023878943000 secs
+begin gen 7880
+Gen 7880  run time = 2.660610960000 secs
+Gen 7880  run time + message passing = 2.767356006000 secs
+begin gen 7890
+Gen 7890  run time = 2.630077426000 secs
+Gen 7890  run time + message passing = 2.774048103000 secs
+begin gen 7900
+Gen 7900  run time = 2.105206532000 secs
+Gen 7900  run time + message passing = 2.327682780000 secs
+begin gen 7910
+Gen 7910  run time = 2.407395363000 secs
+Gen 7910  run time + message passing = 2.553394251000 secs
+begin gen 7920
+Gen 7920  run time = 2.728035778000 secs
+Gen 7920  run time + message passing = 3.254945810000 secs
+begin gen 7930
+Gen 7930  run time = 2.667171290000 secs
+Gen 7930  run time + message passing = 3.440520360000 secs
+begin gen 7940
+Gen 7940  run time = 2.688978861000 secs
+Gen 7940  run time + message passing = 2.832360563000 secs
+begin gen 7950
+Gen 7950  run time = 2.486158916000 secs
+Gen 7950  run time + message passing = 2.660661721000 secs
+begin gen 7960
+Gen 7960  run time = 2.757440049000 secs
+Gen 7960  run time + message passing = 2.974379713000 secs
+begin gen 7970
+Gen 7970  run time = 2.734970013000 secs
+Gen 7970  run time + message passing = 2.940091490000 secs
+begin gen 7980
+Gen 7980  run time = 2.743392043000 secs
+Gen 7980  run time + message passing = 2.923062857000 secs
+begin gen 7990
+Gen 7990  run time = 2.630981045000 secs
+Gen 7990  run time + message passing = 3.388313030000 secs
+begin gen 8000
+Gen 8000  run time = 2.438001751000 secs
+Gen 8000  run time + message passing = 2.961027026000 secs
+begin gen 8010
+Gen 8010  run time = 2.709965808000 secs
+Gen 8010  run time + message passing = 2.866458146000 secs
+begin gen 8020
+Gen 8020  run time = 2.402319143000 secs
+Gen 8020  run time + message passing = 2.617372931000 secs
+begin gen 8030
+Gen 8030  run time = 2.709259137000 secs
+Gen 8030  run time + message passing = 2.830058626000 secs
+begin gen 8040
+Gen 8040  run time = 2.709210506000 secs
+Gen 8040  run time + message passing = 2.826935836000 secs
+begin gen 8050
+Gen 8050  run time = 1.923310672000 secs
+Gen 8050  run time + message passing = 2.061591761000 secs
+begin gen 8060
+Gen 8060  run time = 2.686480066000 secs
+Gen 8060  run time + message passing = 3.213118734000 secs
+begin gen 8070
+Gen 8070  run time = 2.703742717000 secs
+Gen 8070  run time + message passing = 3.412146399000 secs
+begin gen 8080
+Gen 8080  run time = 2.706724230000 secs
+Gen 8080  run time + message passing = 2.826900020000 secs
+begin gen 8090
+Gen 8090  run time = 2.697192138000 secs
+Gen 8090  run time + message passing = 2.910322220000 secs
+begin gen 8100
+Gen 8100  run time = 2.101061905000 secs
+Gen 8100  run time + message passing = 2.257410544000 secs
+begin gen 8110
+Gen 8110  run time = 2.612051028000 secs
+Gen 8110  run time + message passing = 2.785350343000 secs
+begin gen 8120
+Gen 8120  run time = 2.613853950000 secs
+Gen 8120  run time + message passing = 2.822439106000 secs
+begin gen 8130
+Gen 8130  run time = 2.653397030000 secs
+Gen 8130  run time + message passing = 3.011656826000 secs
+begin gen 8140
+Gen 8140  run time = 2.658053106000 secs
+Gen 8140  run time + message passing = 2.802720075000 secs
+begin gen 8150
+Gen 8150  run time = 2.115283910000 secs
+Gen 8150  run time + message passing = 2.472527604000 secs
+begin gen 8160
+Gen 8160  run time = 2.368676391000 secs
+Gen 8160  run time + message passing = 2.937529047000 secs
+begin gen 8170
+Gen 8170  run time = 2.397982860000 secs
+Gen 8170  run time + message passing = 2.881639597000 secs
+begin gen 8180
+Gen 8180  run time = 2.621525215000 secs
+Gen 8180  run time + message passing = 2.761137510000 secs
+begin gen 8190
+Gen 8190  run time = 2.592456260000 secs
+Gen 8190  run time + message passing = 2.717741015000 secs
+begin gen 8200
+Gen 8200  run time = 1.926954244000 secs
+Gen 8200  run time + message passing = 2.101665729000 secs
+begin gen 8210
+Gen 8210  run time = 2.710001659000 secs
+Gen 8210  run time + message passing = 3.076252987000 secs
+begin gen 8220
+Gen 8220  run time = 2.710724811000 secs
+Gen 8220  run time + message passing = 2.827797808000 secs
+begin gen 8230
+Gen 8230  run time = 2.708881253000 secs
+Gen 8230  run time + message passing = 2.870039037000 secs
+begin gen 8240
+Gen 8240  run time = 2.715772137000 secs
+Gen 8240  run time + message passing = 2.844005008000 secs
+begin gen 8250
+Gen 8250  run time = 2.184426795000 secs
+Gen 8250  run time + message passing = 2.412709075000 secs
+begin gen 8260
+Gen 8260  run time = 2.676755224000 secs
+Gen 8260  run time + message passing = 2.880257350000 secs
+begin gen 8270
+Gen 8270  run time = 2.449354380000 secs
+Gen 8270  run time + message passing = 2.681268417000 secs
+begin gen 8280
+Gen 8280  run time = 2.712732634000 secs
+Gen 8280  run time + message passing = 2.826788312000 secs
+begin gen 8290
+Gen 8290  run time = 2.484794841000 secs
+Gen 8290  run time + message passing = 2.768103680000 secs
+begin gen 8300
+Gen 8300  run time = 1.898534594000 secs
+Gen 8300  run time + message passing = 2.112624860000 secs
+begin gen 8310
+Gen 8310  run time = 2.771132726000 secs
+Gen 8310  run time + message passing = 2.975107006000 secs
+begin gen 8320
+Gen 8320  run time = 2.718270429000 secs
+Gen 8320  run time + message passing = 2.851499364000 secs
+begin gen 8330
+Gen 8330  run time = 2.763862118000 secs
+Gen 8330  run time + message passing = 2.965385252000 secs
+begin gen 8340
+Gen 8340  run time = 2.719095873000 secs
+Gen 8340  run time + message passing = 2.847195580000 secs
+begin gen 8350
+Gen 8350  run time = 2.409967743000 secs
+Gen 8350  run time + message passing = 2.903036183000 secs
+begin gen 8360
+Gen 8360  run time = 2.634033154000 secs
+Gen 8360  run time + message passing = 2.738987076000 secs
+begin gen 8370
+Gen 8370  run time = 2.467637821000 secs
+Gen 8370  run time + message passing = 2.910110468000 secs
+begin gen 8380
+Gen 8380  run time = 2.675108550000 secs
+Gen 8380  run time + message passing = 2.945453907000 secs
+begin gen 8390
+Gen 8390  run time = 2.774360064000 secs
+Gen 8390  run time + message passing = 2.864874532000 secs
+begin gen 8400
+Gen 8400  run time = 2.760695403000 secs
+Gen 8400  run time + message passing = 3.207165780000 secs
+begin gen 8410
+Gen 8410  run time = 2.766969232000 secs
+Gen 8410  run time + message passing = 3.164144745000 secs
+begin gen 8420
+Gen 8420  run time = 2.662191486000 secs
+Gen 8420  run time + message passing = 2.783432276000 secs
+begin gen 8430
+Gen 8430  run time = 2.358463058000 secs
+Gen 8430  run time + message passing = 2.563546678000 secs
+begin gen 8440
+Gen 8440  run time = 2.490135277000 secs
+Gen 8440  run time + message passing = 2.643643740000 secs
+begin gen 8450
+Gen 8450  run time = 2.142152987000 secs
+Gen 8450  run time + message passing = 2.512815252000 secs
+begin gen 8460
+Gen 8460  run time = 2.348292522000 secs
+Gen 8460  run time + message passing = 2.986875385000 secs
+begin gen 8470
+Gen 8470  run time = 2.395800493000 secs
+Gen 8470  run time + message passing = 3.130415093000 secs
+begin gen 8480
+Gen 8480  run time = 2.754215035000 secs
+Gen 8480  run time + message passing = 2.852790920000 secs
+begin gen 8490
+Gen 8490  run time = 2.436387057000 secs
+Gen 8490  run time + message passing = 3.156053642000 secs
+begin gen 8500
+Gen 8500  run time = 1.845754818000 secs
+Gen 8500  run time + message passing = 2.188133987000 secs
+begin gen 8510
+Gen 8510  run time = 2.708029694000 secs
+Gen 8510  run time + message passing = 2.888985905000 secs
+begin gen 8520
+Gen 8520  run time = 2.452690365000 secs
+Gen 8520  run time + message passing = 2.680719613000 secs
+begin gen 8530
+Gen 8530  run time = 2.388398948000 secs
+Gen 8530  run time + message passing = 2.703875256000 secs
+begin gen 8540
+Gen 8540  run time = 2.661054052000 secs
+Gen 8540  run time + message passing = 2.803533101000 secs
+begin gen 8550
+Gen 8550  run time = 2.185564226000 secs
+Gen 8550  run time + message passing = 2.435079591000 secs
+begin gen 8560
+Gen 8560  run time = 2.675516099000 secs
+Gen 8560  run time + message passing = 3.875995116000 secs
+begin gen 8570
+Gen 8570  run time = 2.653436508000 secs
+Gen 8570  run time + message passing = 2.797328825000 secs
+begin gen 8580
+Gen 8580  run time = 2.386913445000 secs
+Gen 8580  run time + message passing = 2.675000531000 secs
+begin gen 8590
+Gen 8590  run time = 2.701150348000 secs
+Gen 8590  run time + message passing = 2.786465297000 secs
+begin gen 8600
+Gen 8600  run time = 2.417643992000 secs
+Gen 8600  run time + message passing = 2.530861222000 secs
+begin gen 8610
+Gen 8610  run time = 2.621573492000 secs
+Gen 8610  run time + message passing = 3.234862498000 secs
+begin gen 8620
+Gen 8620  run time = 2.587934327000 secs
+Gen 8620  run time + message passing = 2.758155805000 secs
+begin gen 8630
+Gen 8630  run time = 2.619235962000 secs
+Gen 8630  run time + message passing = 2.762607691000 secs
+begin gen 8640
+Gen 8640  run time = 2.604609936000 secs
+Gen 8640  run time + message passing = 2.704714076000 secs
+begin gen 8650
+Gen 8650  run time = 2.141576542000 secs
+Gen 8650  run time + message passing = 2.374719767000 secs
+begin gen 8660
+Gen 8660  run time = 2.377149988000 secs
+Gen 8660  run time + message passing = 2.906905151000 secs
+begin gen 8670
+Gen 8670  run time = 2.635825147000 secs
+Gen 8670  run time + message passing = 2.793264859000 secs
+begin gen 8680
+Gen 8680  run time = 2.460482114000 secs
+Gen 8680  run time + message passing = 2.711550530000 secs
+begin gen 8690
+Gen 8690  run time = 2.730873476000 secs
+Gen 8690  run time + message passing = 2.928815536000 secs
+begin gen 8700
+Gen 8700  run time = 1.627874763000 secs
+Gen 8700  run time + message passing = 1.732978521000 secs
+begin gen 8710
+Gen 8710  run time = 2.459421794000 secs
+Gen 8710  run time + message passing = 3.069259878000 secs
+begin gen 8720
+Gen 8720  run time = 2.499291407000 secs
+Gen 8720  run time + message passing = 2.635671387000 secs
+begin gen 8730
+Gen 8730  run time = 2.692833030000 secs
+Gen 8730  run time + message passing = 2.957652204000 secs
+begin gen 8740
+Gen 8740  run time = 2.728972949000 secs
+Gen 8740  run time + message passing = 2.808189036000 secs
+begin gen 8750
+Gen 8750  run time = 2.158883385000 secs
+Gen 8750  run time + message passing = 2.237966920000 secs
+begin gen 8760
+Gen 8760  run time = 2.679285918000 secs
+Gen 8760  run time + message passing = 3.161100446000 secs
+begin gen 8770
+Gen 8770  run time = 2.741919035000 secs
+Gen 8770  run time + message passing = 2.864197733000 secs
+begin gen 8780
+Gen 8780  run time = 2.716569394000 secs
+Gen 8780  run time + message passing = 2.841022993000 secs
+begin gen 8790
+Gen 8790  run time = 2.725703315000 secs
+Gen 8790  run time + message passing = 2.882749705000 secs
+begin gen 8800
+Gen 8800  run time = 2.409907165000 secs
+Gen 8800  run time + message passing = 2.576529690000 secs
+begin gen 8810
+Gen 8810  run time = 2.712865470000 secs
+Gen 8810  run time + message passing = 2.883704180000 secs
+begin gen 8820
+Gen 8820  run time = 2.659375382000 secs
+Gen 8820  run time + message passing = 3.160748225000 secs
+begin gen 8830
+Gen 8830  run time = 2.747428073000 secs
+Gen 8830  run time + message passing = 3.320643705000 secs
+begin gen 8840
+Gen 8840  run time = 2.711254695000 secs
+Gen 8840  run time + message passing = 2.807553663000 secs
+begin gen 8850
+Gen 8850  run time = 1.917770915000 secs
+Gen 8850  run time + message passing = 2.050522778000 secs
+begin gen 8860
+Gen 8860  run time = 2.705430387000 secs
+Gen 8860  run time + message passing = 3.024634951000 secs
+begin gen 8870
+Gen 8870  run time = 2.711296191000 secs
+Gen 8870  run time + message passing = 2.837795544000 secs
+begin gen 8880
+Gen 8880  run time = 2.677216771000 secs
+Gen 8880  run time + message passing = 2.768185477000 secs
+begin gen 8890
+Gen 8890  run time = 2.705309569000 secs
+Gen 8890  run time + message passing = 2.855358717000 secs
+begin gen 8900
+Gen 8900  run time = 2.722035208000 secs
+Gen 8900  run time + message passing = 2.824526492000 secs
+begin gen 8910
+Gen 8910  run time = 2.758036267000 secs
+Gen 8910  run time + message passing = 3.456213040000 secs
+begin gen 8920
+Gen 8920  run time = 2.686098398000 secs
+Gen 8920  run time + message passing = 2.842435591000 secs
+begin gen 8930
+Gen 8930  run time = 2.641038929000 secs
+Gen 8930  run time + message passing = 3.250315301000 secs
+begin gen 8940
+Gen 8940  run time = 2.766576247000 secs
+Gen 8940  run time + message passing = 2.980603729000 secs
+begin gen 8950
+Gen 8950  run time = 2.626668311000 secs
+Gen 8950  run time + message passing = 3.173316496000 secs
+begin gen 8960
+Gen 8960  run time = 2.690915413000 secs
+Gen 8960  run time + message passing = 2.811962440000 secs
+begin gen 8970
+Gen 8970  run time = 2.664190997000 secs
+Gen 8970  run time + message passing = 2.863042976000 secs
+begin gen 8980
+Gen 8980  run time = 2.631443379000 secs
+Gen 8980  run time + message passing = 3.272634831000 secs
+begin gen 8990
+Gen 8990  run time = 2.671326638000 secs
+Gen 8990  run time + message passing = 2.790173074000 secs
+begin gen 9000
+Gen 9000  run time = 2.422416042000 secs
+Gen 9000  run time + message passing = 2.559874095000 secs
+begin gen 9010
+Gen 9010  run time = 2.673787095000 secs
+Gen 9010  run time + message passing = 2.789580913000 secs
+begin gen 9020
+Gen 9020  run time = 2.666790954000 secs
+Gen 9020  run time + message passing = 2.788214680000 secs
+begin gen 9030
+Gen 9030  run time = 2.614093848000 secs
+Gen 9030  run time + message passing = 2.815148733000 secs
+begin gen 9040
+Gen 9040  run time = 2.770601939000 secs
+Gen 9040  run time + message passing = 3.089441004000 secs
+begin gen 9050
+Gen 9050  run time = 2.716611116000 secs
+Gen 9050  run time + message passing = 2.850454204000 secs
+begin gen 9060
+Gen 9060  run time = 2.744438496000 secs
+Gen 9060  run time + message passing = 2.846975337000 secs
+begin gen 9070
+Gen 9070  run time = 2.665055123000 secs
+Gen 9070  run time + message passing = 3.641047432000 secs
+begin gen 9080
+Gen 9080  run time = 2.710008607000 secs
+Gen 9080  run time + message passing = 2.828929796000 secs
+begin gen 9090
+Gen 9090  run time = 2.705886253000 secs
+Gen 9090  run time + message passing = 3.480033694000 secs
+begin gen 9100
+Gen 9100  run time = 2.391638287000 secs
+Gen 9100  run time + message passing = 2.530213570000 secs
+begin gen 9110
+Gen 9110  run time = 2.702022887000 secs
+Gen 9110  run time + message passing = 2.971042660000 secs
+begin gen 9120
+Gen 9120  run time = 2.679512643000 secs
+Gen 9120  run time + message passing = 2.793644336000 secs
+begin gen 9130
+Gen 9130  run time = 2.741710892000 secs
+Gen 9130  run time + message passing = 2.947181978000 secs
+begin gen 9140
+Gen 9140  run time = 2.693679348000 secs
+Gen 9140  run time + message passing = 2.881958154000 secs
+begin gen 9150
+Gen 9150  run time = 2.759136116000 secs
+Gen 9150  run time + message passing = 2.933561741000 secs
+begin gen 9160
+Gen 9160  run time = 2.462016905000 secs
+Gen 9160  run time + message passing = 3.626494452000 secs
+begin gen 9170
+Gen 9170  run time = 2.150014106000 secs
+Gen 9170  run time + message passing = 2.770183147000 secs
+begin gen 9180
+Gen 9180  run time = 2.706053211000 secs
+Gen 9180  run time + message passing = 2.881216042000 secs
+begin gen 9190
+Gen 9190  run time = 2.712525415000 secs
+Gen 9190  run time + message passing = 2.809875026000 secs
+begin gen 9200
+Gen 9200  run time = 2.191234911000 secs
+Gen 9200  run time + message passing = 2.957051409000 secs
+begin gen 9210
+Gen 9210  run time = 2.676217670000 secs
+Gen 9210  run time + message passing = 2.802510217000 secs
+begin gen 9220
+Gen 9220  run time = 2.713172832000 secs
+Gen 9220  run time + message passing = 2.858986702000 secs
+begin gen 9230
+Gen 9230  run time = 2.711497014000 secs
+Gen 9230  run time + message passing = 2.895990562000 secs
+begin gen 9240
+Gen 9240  run time = 2.709033410000 secs
+Gen 9240  run time + message passing = 3.821375903000 secs
+begin gen 9250
+Gen 9250  run time = 1.908921791000 secs
+Gen 9250  run time + message passing = 2.191269190000 secs
+begin gen 9260
+Gen 9260  run time = 2.188246697000 secs
+Gen 9260  run time + message passing = 2.855990359000 secs
+begin gen 9270
+Gen 9270  run time = 2.399065629000 secs
+Gen 9270  run time + message passing = 3.083378914000 secs
+begin gen 9280
+Gen 9280  run time = 2.420102375000 secs
+Gen 9280  run time + message passing = 2.843495091000 secs
+begin gen 9290
+Gen 9290  run time = 2.665622769000 secs
+Gen 9290  run time + message passing = 2.837808010000 secs
+begin gen 9300
+Gen 9300  run time = 1.633811601000 secs
+Gen 9300  run time + message passing = 3.106751671000 secs
+begin gen 9310
+Gen 9310  run time = 2.611861279000 secs
+Gen 9310  run time + message passing = 2.764252236000 secs
+begin gen 9320
+Gen 9320  run time = 2.593797958000 secs
+Gen 9320  run time + message passing = 3.186981914000 secs
+begin gen 9330
+Gen 9330  run time = 2.600546108000 secs
+Gen 9330  run time + message passing = 2.727985859000 secs
+begin gen 9340
+Gen 9340  run time = 2.664077537000 secs
+Gen 9340  run time + message passing = 2.824909962000 secs
+begin gen 9350
+Gen 9350  run time = 1.840402375000 secs
+Gen 9350  run time + message passing = 2.355354662000 secs
+begin gen 9360
+Gen 9360  run time = 2.350478017000 secs
+Gen 9360  run time + message passing = 2.614145957000 secs
+begin gen 9370
+Gen 9370  run time = 2.709699170000 secs
+Gen 9370  run time + message passing = 3.107579483000 secs
+begin gen 9380
+Gen 9380  run time = 2.710036245000 secs
+Gen 9380  run time + message passing = 2.869102221000 secs
+begin gen 9390
+Gen 9390  run time = 2.655817984000 secs
+Gen 9390  run time + message passing = 2.748690503000 secs
+begin gen 9400
+Gen 9400  run time = 1.659604643000 secs
+Gen 9400  run time + message passing = 1.852513375000 secs
+begin gen 9410
+Gen 9410  run time = 2.682089689000 secs
+Gen 9410  run time + message passing = 3.840579978000 secs
+begin gen 9420
+Gen 9420  run time = 2.708316354000 secs
+Gen 9420  run time + message passing = 3.140479542000 secs
+begin gen 9430
+Gen 9430  run time = 2.640994034000 secs
+Gen 9430  run time + message passing = 2.815556938000 secs
+begin gen 9440
+Gen 9440  run time = 2.703335143000 secs
+Gen 9440  run time + message passing = 2.890213385000 secs
+begin gen 9450
+Gen 9450  run time = 2.439391790000 secs
+Gen 9450  run time + message passing = 2.911895202000 secs
+begin gen 9460
+Gen 9460  run time = 2.758160954000 secs
+Gen 9460  run time + message passing = 2.905112479000 secs
+begin gen 9470
+Gen 9470  run time = 2.769873469000 secs
+Gen 9470  run time + message passing = 2.906582729000 secs
+begin gen 9480
+Gen 9480  run time = 2.776329074000 secs
+Gen 9480  run time + message passing = 2.911620601000 secs
+begin gen 9490
+Gen 9490  run time = 2.717778146000 secs
+Gen 9490  run time + message passing = 2.826062388000 secs
+begin gen 9500
+Gen 9500  run time = 2.240409603000 secs
+Gen 9500  run time + message passing = 2.353068310000 secs
+begin gen 9510
+Gen 9510  run time = 2.400264500000 secs
+Gen 9510  run time + message passing = 2.653269161000 secs
+begin gen 9520
+Gen 9520  run time = 2.765547590000 secs
+Gen 9520  run time + message passing = 2.966870570000 secs
+begin gen 9530
+Gen 9530  run time = 2.613928449000 secs
+Gen 9530  run time + message passing = 2.750068150000 secs
+begin gen 9540
+Gen 9540  run time = 2.706077452000 secs
+Gen 9540  run time + message passing = 2.888550807000 secs
+begin gen 9550
+Gen 9550  run time = 2.407727542000 secs
+Gen 9550  run time + message passing = 2.674602737000 secs
+begin gen 9560
+Gen 9560  run time = 2.712747872000 secs
+Gen 9560  run time + message passing = 2.953263758000 secs
+begin gen 9570
+Gen 9570  run time = 2.714027599000 secs
+Gen 9570  run time + message passing = 2.889509282000 secs
+begin gen 9580
+Gen 9580  run time = 2.690915759000 secs
+Gen 9580  run time + message passing = 3.022999061000 secs
+begin gen 9590
+Gen 9590  run time = 2.724613937000 secs
+Gen 9590  run time + message passing = 2.934450590000 secs
+begin gen 9600
+Gen 9600  run time = 2.422527240000 secs
+Gen 9600  run time + message passing = 2.695287731000 secs
+begin gen 9610
+Gen 9610  run time = 2.733555132000 secs
+Gen 9610  run time + message passing = 3.014026386000 secs
+begin gen 9620
+Gen 9620  run time = 2.683940777000 secs
+Gen 9620  run time + message passing = 2.775404454000 secs
+begin gen 9630
+Gen 9630  run time = 2.707449954000 secs
+Gen 9630  run time + message passing = 3.843206850000 secs
+begin gen 9640
+Gen 9640  run time = 2.667106726000 secs
+Gen 9640  run time + message passing = 2.843342816000 secs
+begin gen 9650
+Gen 9650  run time = 1.657872960000 secs
+Gen 9650  run time + message passing = 2.666776163000 secs
+begin gen 9660
+Gen 9660  run time = 2.672267421000 secs
+Gen 9660  run time + message passing = 2.818650994000 secs
+begin gen 9670
+Gen 9670  run time = 2.706029052000 secs
+Gen 9670  run time + message passing = 2.890434425000 secs
+begin gen 9680
+Gen 9680  run time = 2.661412893000 secs
+Gen 9680  run time + message passing = 2.764078328000 secs
+begin gen 9690
+Gen 9690  run time = 2.712652839000 secs
+Gen 9690  run time + message passing = 2.928419935000 secs
+begin gen 9700
+Gen 9700  run time = 2.418316290000 secs
+Gen 9700  run time + message passing = 2.721076155000 secs
+begin gen 9710
+Gen 9710  run time = 2.724923752000 secs
+Gen 9710  run time + message passing = 3.050194137000 secs
+begin gen 9720
+Gen 9720  run time = 2.663472227000 secs
+Gen 9720  run time + message passing = 2.824840960000 secs
+begin gen 9730
+Gen 9730  run time = 2.714235566000 secs
+Gen 9730  run time + message passing = 2.843347712000 secs
+begin gen 9740
+Gen 9740  run time = 2.657566806000 secs
+Gen 9740  run time + message passing = 2.812511331000 secs
+begin gen 9750
+Gen 9750  run time = 2.611433353000 secs
+Gen 9750  run time + message passing = 3.027830581000 secs
+begin gen 9760
+Gen 9760  run time = 2.657689891000 secs
+Gen 9760  run time + message passing = 2.838926794000 secs
+begin gen 9770
+Gen 9770  run time = 2.645734964000 secs
+Gen 9770  run time + message passing = 2.789420603000 secs
+begin gen 9780
+Gen 9780  run time = 2.621952584000 secs
+Gen 9780  run time + message passing = 2.743031312000 secs
+begin gen 9790
+Gen 9790  run time = 2.661262396000 secs
+Gen 9790  run time + message passing = 2.810284103000 secs
+begin gen 9800
+Gen 9800  run time = 2.146090802000 secs
+Gen 9800  run time + message passing = 2.602969267000 secs
+begin gen 9810
+Gen 9810  run time = 2.619176270000 secs
+Gen 9810  run time + message passing = 2.697281191000 secs
+begin gen 9820
+Gen 9820  run time = 2.679865802000 secs
+Gen 9820  run time + message passing = 4.282305433000 secs
+begin gen 9830
+Gen 9830  run time = 2.601474967000 secs
+Gen 9830  run time + message passing = 2.746054985000 secs
+begin gen 9840
+Gen 9840  run time = 2.707436852000 secs
+Gen 9840  run time + message passing = 2.817533037000 secs
+begin gen 9850
+Gen 9850  run time = 2.395381162000 secs
+Gen 9850  run time + message passing = 3.211290036000 secs
+begin gen 9860
+Gen 9860  run time = 2.658604094000 secs
+Gen 9860  run time + message passing = 2.829192319000 secs
+begin gen 9870
+Gen 9870  run time = 2.710868203000 secs
+Gen 9870  run time + message passing = 2.825528038000 secs
+begin gen 9880
+Gen 9880  run time = 2.702035455000 secs
+Gen 9880  run time + message passing = 3.031308332000 secs
+begin gen 9890
+Gen 9890  run time = 2.650970195000 secs
+Gen 9890  run time + message passing = 3.443535461000 secs
+begin gen 9900
+Gen 9900  run time = 2.131159413000 secs
+Gen 9900  run time + message passing = 2.626277908000 secs
+begin gen 9910
+Gen 9910  run time = 2.704934321000 secs
+Gen 9910  run time + message passing = 2.868187072000 secs
+begin gen 9920
+Gen 9920  run time = 2.742337092000 secs
+Gen 9920  run time + message passing = 3.277345382000 secs
+begin gen 9930
+Gen 9930  run time = 2.706216750000 secs
+Gen 9930  run time + message passing = 2.894485802000 secs
+begin gen 9940
+Gen 9940  run time = 2.768165801000 secs
+Gen 9940  run time + message passing = 2.900795943000 secs
+begin gen 9950
+Gen 9950  run time = 2.448009457000 secs
+Gen 9950  run time + message passing = 2.692147267000 secs
+begin gen 9960
+Gen 9960  run time = 2.729160298000 secs
+Gen 9960  run time + message passing = 2.855487416000 secs
+begin gen 9970
+Gen 9970  run time = 2.748843164000 secs
+Gen 9970  run time + message passing = 2.893697655000 secs
+begin gen 9980
+Gen 9980  run time = 2.705536787000 secs
+Gen 9980  run time + message passing = 2.957243032000 secs
+begin gen 9990
+Gen 9990  run time = 2.659731754000 secs
+Gen 9990  run time + message passing = 2.778272120000 secs
+begin gen 10000
+Gen 10000  run time = 2.423705943000 secs
+Gen 10000  run time + message passing = 2.503076339000 secs
