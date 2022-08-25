@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#SBATCH --job-name=K2-19
+#SBATCH --output=sbatch.o
+#SBATCH --error=sbatch.o
+#SBATCH --cpus-per-task=2
+#SBATCH --ntasks=2
+#SBATCH -A probert1_lab
+
+module load mpi/openmpi-x86_64
+module load gsl/2.6/gcc.8.4.0
+
+
+rm *.png
+rm xyz*
+rm analysis_dir -r
+rm gamma*
+rm mcmc*
+rm *.lcout
+rm demcmc.stdout
+rm post_demcmc.pldin
+rm aei*
+rm Transits -r
+mkdir Transits
+./lcout k2-19_massprior.in k2-19_initialguess.pldin
+python LC_Plot.py orig
+mpirun demcmc k2-19_massprior.in k2-19_initialguess.pldin
+python demcmc_quick_analyze.py k2-19_massprior.in
+rm tbv*
+rm *.lcout
+rm xyz*
+python Make_Pldin.py 3
+./lcout k2-19_massprior.in post_demcmc.pldin
+python LC_Plot.py post_demcmc
+
+

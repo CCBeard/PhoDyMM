@@ -1,0 +1,67 @@
+rm: cannot remove ‘*.png’: No such file or directory
+rm: cannot remove ‘analysis_dir’: No such file or directory
+rm: cannot remove ‘post_demcmc.pldin’: No such file or directory
+cadenceswitch = 1
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+celerite=0
+RVcelerite=0
+pstar=5
+spectroscopy = 1, 0.860000, 0.040000, 0.040000
+MASS spectroscopy = 1, 0.870000, 0.030000, 0.030000
+LDLAW = 0
+Mass ratio prior for planet 1: 0.000000 +/- 0.000010
+Mass ratio prior for planet 2: 0.000100 +/- 0.000010
+Mass ratio prior for planet 3: 0.000000 +/- 0.000010
+sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.030000
+bimodf = 50
+t0 = 1950.000000
+t1 = 3300.000000
+ttvfilei = ttv_01.in
+ttvfilei = ttv_02.in
+ttvfilei = ttv_03.in
+ttvread in planet 1 num 0 index 24 time 2218.004130 err 0.002180
+ttvread in planet 1 num 1 index 28 time 2249.695500 err 0.001400
+ttvread in planet 1 num 2 index 35 time 2305.150470 err 0.001450
+ttvread in planet 1 num 3 index 127 time 3033.860700 err 0.000900
+ttvread in planet 1 num 4 index 135 time 3097.250200 err 0.002400
+ttvread in planet 1 num 5 index 144 time 3168.537100 err 0.001100
+ttvread in planet 2 num 0 index 84 time 3019.471000 err 0.002000
+ttvread in planet 2 num 1 index 99 time 3197.863000 err 0.002300
+2.507921
+7.922374
+11.897967
+./k2-19_flux_data.tsv
+pre RV
+Sanity check:
+p[][2]=2.507921, orbelemets[2]=2.507921
+int_in 4.000000, 2020.000000, 0.898958, 0.000000
+starting integration.
+t=2020.000000 tepoch=2020.000000 t1=3300.000000 t0=1950.000000 h=0.000010
+RE starting integration.
+t=2020.000000 tepoch=2020.000000 t1=3300.000000 t0=1950.000000 h=-0.000010
+Integration Complete
+kk=3541
+pre rvjitter:
+neg2loglike=4099.873198
+8.000000 8.000000 8.000000 8.000000
+ttvts
+post ttvjitter:
+neg2loglike=6591.040537
+post priors:
+neg2loglike=6533.328796
+Total run time = 0.498503242000 secs
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
+  plotlc(time, flux, err, model, outname, trange)
+/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/dfs6/pub/ccbeard/PhoDyMM/runs/k2-19/LC_Plot.py:140: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  othertts = np.hstack(np.array(othertts))
