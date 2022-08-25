@@ -1,5 +1,5 @@
 ### Edit this range to plot a different segment of data
-trange = [[2000., 2050.]]
+trange = [[2000., 2050.],[2050., 2100]]
 #
 
 import numpy as np
@@ -25,13 +25,14 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
 
 
     top = np.max(flux + 0.0001)
+    bot = np.min([np.min(flux), np.min(model)])
     timemin = np.min(time)
     timemax = np.max(time)
 
     tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     for i in range(len(tbv)):
         f = tbv[i]
-        ttimes = pd.read_csv(f, '  ', header=None)
+        ttimes = pd.read_csv(f, sep='  ', header=None)
         for j in range(len(ttimes[1])):
             label = 'Planet {}'.format(letters[i])
             if j > 0:
@@ -43,10 +44,12 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
     plt.ylabel('Flux', fontsize=20)
     savestr = 'lcplot'
 
+    
     plt.xlim(timemin-1, timemax + 1)
-    plt.ylim(0.999, top+1e-4/2)
+    plt.ylim(bot-1e4/2, top+1e-4/2)
     plt.legend(fontsize=16)
     plt.savefig(outname+'_all.png',dpi=300)
+
 
     if zoomrange is not None:
         for z in zoomrange:
@@ -56,13 +59,13 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
 
             plt.plot(time, model, c=colorlist[0], zorder=1000)
 
-
+            bot = np.min([np.min(flux), np.min(model)])
             top = np.max(flux + 0.0001)
 
             tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
             for i in range(len(tbv)):
                 f = tbv[i]
-                ttimes = pd.read_csv(f, '  ', header=None)
+                ttimes = pd.read_csv(f, sep='  ', header=None)
                 for j in range(len(ttimes[1])):
                     label = 'Planet {}'.format(letters[i])
                     if j > 0:
@@ -74,10 +77,11 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
             plt.ylabel('Flux', fontsize=20)
             plt.legend(fontsize=16)
 
-            plt.ylim(0.999, top+1e-4/2)
+            plt.ylim(bot-1e-4/2, top+1e-4/2)
             plt.xlim(z[0], z[1])
             plt.savefig(outname+'_zoom_{}.png'.format(z), dpi=300)
-
+            
+            plt.close()
 ####
 
 lcdatafile = glob.glob("./lc_*.lcout")
@@ -98,12 +102,14 @@ model = lcdata[:,2]
 err = lcdata[:,3]
 
 ####
-
+print('Doing the lc plot')
 plotlc(time, flux, err, model, outname, trange)
 
 
 def Plot_Phasefold(time, flux, err, outname):
 
+
+    print('Phasefolding')
     tbvfilelist = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     nfiles = len(tbvfilelist)
     npl = nfiles
@@ -135,12 +141,14 @@ def Plot_Phasefold(time, flux, err, outname):
             phasewidth[i] = 3.*(13./24.) * ((meanper/365.25)**(1./3.))
             collisionwidth = [pwi for pwi in phasewidth] #0.15
 
+
+    print('Going by planet')
     for i in range(nfiles):
         phases = []
         fluxes = []
         othertts = transtimes[:i] + transtimes[i+1:]
         if len(othertts) > 0:
-            othertts = np.hstack(np.array(othertts))
+            othertts = np.hstack(np.array(othertts,dtype=object))
         thistts = np.array(transtimes[i])
         for tti in thistts:
             if len(othertts) == 0:
@@ -180,9 +188,9 @@ def Plot_Phasefold(time, flux, err, outname):
                     break
             if len(mbinvals) > 0:
                 mbinned[k] = np.mean(mbinvals)
-                k += 1
-                if k >= nbins:
-                    break
+            k += 1
+            if k >= nbins:
+                break
 
         axes[i].scatter(bincenters, mbinned, s=10., c=colorlist[i], label='Planet {}'.format(letters[i]))
         axes[i].set_xlim((-phasewidth[i], phasewidth[i]))
@@ -194,7 +202,6 @@ def Plot_Phasefold(time, flux, err, outname):
     #plt.ylabel('Normalized Flux')
     f.tight_layout()
     plt.savefig(outname+'.png')
-
 
 Plot_Phasefold(time, flux, err, outname)
 
@@ -246,7 +253,6 @@ def Plot_all_transits(time, flux, error, model, outname):
                 plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
 
                 plt.close()    
-
 
 
 

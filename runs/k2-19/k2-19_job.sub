@@ -22,15 +22,15 @@ rm post_demcmc.pldin
 rm aei*
 rm Transits -r
 mkdir Transits
-./lcout k2-19_massprior.in k2-19_initialguess.pldin
+./lcout k2-19_massprior_flat.in k2-19_initialguess.pldin
 python LC_Plot.py orig
-mpirun demcmc k2-19_massprior.in k2-19_initialguess.pldin
-python demcmc_quick_analyze.py k2-19_massprior.in
+mpirun demcmc k2-19_massprior_flat.in k2-19_initialguess.pldin
+python demcmc_quick_analyze.py k2-19_massprior_flat.in
 rm tbv*
 rm *.lcout
 rm xyz*
 python Make_Pldin.py 3
-./lcout k2-19_massprior.in post_demcmc.pldin
+./lcout k2-19_massprior_flat.in post_demcmc.pldin
 python LC_Plot.py post_demcmc
 
 
