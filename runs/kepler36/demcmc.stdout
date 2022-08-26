@@ -1,0 +1,82 @@
+begin gen 0
+Gen 0  run time = 1.827097531000 secs
+Chain 0 has Best neg2loglike so far: 110136.486301
+Chain 2 has Best neg2loglike so far: 109981.160417
+Gen 0  run time + message passing = 2.479146529000 secs
+Chain 7 has Best neg2loglike so far: 109949.862550
+Chain 7 has Best neg2loglike so far: 109942.712799
+Chain 17 has Best neg2loglike so far: 109933.775784
+Chain 17 has Best neg2loglike so far: 109901.509391
+Chain 5 has Best neg2loglike so far: 109892.831404
+Chain 17 has Best neg2loglike so far: 109819.648451
+Chain 5 has Best neg2loglike so far: 109755.199118
+Chain 3 has Best neg2loglike so far: 109714.516271
+Chain 4 has Best neg2loglike so far: 109686.745805
+Chain 5 has Best neg2loglike so far: 109505.680589
+begin gen 10
+Gen 10  run time = 0.697912261000 secs
+Chain 11 has Best neg2loglike so far: 109406.206049
+Gen 10  run time + message passing = 1.896394831000 secs
+Chain 11 has Best neg2loglike so far: 109380.637999
+Chain 12 has Best neg2loglike so far: 109024.226047
+Chain 18 has Best neg2loglike so far: 108803.883814
+Chain 3 has Best neg2loglike so far: 107951.195501
+Chain 0 has Best neg2loglike so far: 107138.061925
+Chain 2 has Best neg2loglike so far: 104809.125418
+Chain 11 has Best neg2loglike so far: 104397.924794
+Chain 4 has Best neg2loglike so far: 102079.856424
+Chain 19 has Best neg2loglike so far: 101281.761327
+Chain 4 has Best neg2loglike so far: 99427.331485
+Chain 8 has Best neg2loglike so far: 99369.115501
+Chain 19 has Best neg2loglike so far: 98556.233968
+begin gen 20
+Gen 20  run time = 0.737087997000 secs
+Gen 20  run time + message passing = 0.742076644000 secs
+Chain 1 has Best neg2loglike so far: 98528.558178
+begin gen 30
+Gen 30  run time = 0.931361060000 secs
+Gen 30  run time + message passing = 0.936330764000 secs
+Chain 0 has Best neg2loglike so far: 98520.787992
+Chain 16 has Best neg2loglike so far: 98519.141879
+Chain 16 has Best neg2loglike so far: 98518.231128
+begin gen 40
+Gen 40  run time = 1.636732001000 secs
+Chain 13 has Best neg2loglike so far: 98517.827099
+Gen 40  run time + message passing = 1.666332490000 secs
+Chain 0 has Best neg2loglike so far: 98514.909449
+Chain 17 has Best neg2loglike so far: 98511.501870
+Chain 5 has Best neg2loglike so far: 98508.871621
+begin gen 50
+Gen 50  run time = 1.395834239000 secs
+Gen 50  run time + message passing = 1.943663958000 secs
+Chain 5 has Best neg2loglike so far: 98499.649245
+Chain 1 has Best neg2loglike so far: 98497.319466
+Chain 16 has Best neg2loglike so far: 98496.493511
+begin gen 60
+Gen 60  run time = 0.926925529000 secs
+Gen 60  run time + message passing = 1.198833782000 secs
+Chain 5 has Best neg2loglike so far: 98496.082358
+Chain 7 has Best neg2loglike so far: 98491.426521
+Chain 6 has Best neg2loglike so far: 98483.440261
+Chain 6 has Best neg2loglike so far: 98474.662708
+Chain 5 has Best neg2loglike so far: 98466.698802
+begin gen 70
+Gen 70  run time = 1.393953727000 secs
+Gen 70  run time + message passing = 2.443766056000 secs
+Chain 11 has Best neg2loglike so far: 98463.429190
+Chain 11 has Best neg2loglike so far: 98449.875543
+Chain 11 has Best neg2loglike so far: 98443.996825
+begin gen 80
+Gen 80  run time = 2.089669907000 secs
+Gen 80  run time + message passing = 2.150487326000 secs
+Chain 14 has Best neg2loglike so far: 98443.774167
+begin gen 90
+Gen 90  run time = 2.086572470000 secs
+Chain 16 has Best neg2loglike so far: 98438.366836
+Gen 90  run time + message passing = 2.204937471000 secs
+begin gen 100
+Gen 100  run time = 1.618666894000 secs
+Gen 100  run time + message passing = 2.104762222000 secs
+begin gen 110
+Gen 110  run time = 2.318529781000 secs
+Gen 110  run time + message passing = 2.329995762000 secs
