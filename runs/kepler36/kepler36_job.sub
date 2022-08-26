@@ -19,12 +19,13 @@ rm mcmc*
 rm *.lcout
 rm demcmc.stdout
 rm post_demcmc.pldin
+rm *.out
 rm aei*
 rm Transits -r
 mkdir Transits
-./lcout kepler36_longcadence.in kepler36.pldin
+./lcout kepler36_longcadence.in kepler36_badguesses.pldin
 python LC_Plot.py orig
-mpirun demcmc kepler36_longcadence.in kepler36.pldin
+mpirun demcmc kepler36_longcadence.in kepler36_badguesses.pldin
 python demcmc_quick_analyze.py kepler36_longcadence.in 8000
 rm tbv*
 rm *.lcout
