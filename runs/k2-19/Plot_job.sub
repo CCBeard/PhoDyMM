@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#SBATCH --job-name=dym_plt
+#SBATCH -A probert1_lab
+#SBATCH --cpus-per-task=10
+#SBATCH --ntasks=1
+#SBATCH --partition=hugemem
+#SBATCH --mem-per-cpu=1800
+
+
+python demcmc_quick_analyze.py k2-19_massprior_flat.in 20000
+
