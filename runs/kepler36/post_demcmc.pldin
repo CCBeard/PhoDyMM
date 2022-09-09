@@ -1,0 +1,10 @@
+planet         period (d)               T0 (d)                  e                   i (deg)                 Omega (deg)               omega(deg)               mp (mjup)              rpors           
+0.1	13.870702215494275	808.704571661516297	 0.030575514646260	90.229355920426798	0.000000000000000	56.979476254362844	0.010584617601663	0.004609948951539
+0.2	16.217361010505787	802.661200610174319	 0.017865352580070	90.063492135976901	0.000000000000000	 9.246923804880597	0.091987410754940	0.021366192182121
+1.071000000000000 ; Mstar (M_sol)
+1.626000000000000 ; Rstar (R_sol)
+0.421286268812013 ; c1 (linear limb darkening) 
+0.085080623609355 ; c2 (quadratic limb darkening) 
+0.000000000000000 ; dilution (frac light not from stars in system)
+ ; Comments: These coordinates are jacobian (see Lee & Peale 2003).   gen = 9862   ch=3
+ ; neg2loglike = 77919.194453032672754

@@ -7,9 +7,9 @@
 #SBATCH --ntasks=2
 #SBATCH -A probert1_lab
 
-module load mpi/openmpi-x86_64
 module load gsl/2.6/gcc.8.4.0
-
+module load openmpi/4.0.3/gcc.8.4.0
+module load eigen/3.3.7
 
 rm *.png
 rm xyz*
@@ -23,9 +23,9 @@ rm *.out
 rm aei*
 rm Transits -r
 mkdir Transits
-./lcout kepler36_longcadence.in kepler36_badguesses.pldin
+./lcout kepler36_longcadence.in kepler36_badguess.pldin
 python LC_Plot.py orig
-mpirun demcmc kepler36_longcadence.in kepler36_badguesses.pldin
+mpirun demcmc kepler36_longcadence.in kepler36_badguess.pldin
 python demcmc_quick_analyze.py kepler36_longcadence.in 8000
 rm tbv*
 rm *.lcout
