@@ -17,7 +17,7 @@ t1 = 1570.000000
 pre RV
 Sanity check:
 p[][2]=13.869843, orbelemets[2]=13.869843
-int_in 3.000000, 800.000000, 1.071000, 0.000022
+int_in 3.000000, 800.000000, 1.071000, 0.000013
 Starting Forward Integration
 Doing first seteq
 Finished first seteq
@@ -28,30 +28,22 @@ t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=-0.000010
 Integration Complete
 kk=57084
 pre rvjitter:
-neg2loglike=587239.137090
+neg2loglike=57367.246634
 post ttvjitter:
-neg2loglike=587239.137090
+neg2loglike=57367.246634
 post priors:
-neg2loglike=587239.137090
-Total run time = 0.793486497000 secs
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  Plot_all_transits(time, flux, err, model, outname)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  Plot_all_transits(time, flux, err, model, outname)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
+neg2loglike=57367.246634
+Total run time = 0.719492700000 secs
+LC_Plot.py:32: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:62: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:62: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:208: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:208: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
 cadenceswitch = 1
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -61,20 +53,20 @@ pstar=5
 radius spectroscopy off
 mass spectroscopy off
 LDLAW = 0
-cadenceswitch = 1
-pperplan=8
-rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
-celerite=0
-RVcelerite=0
-pstar=5
-radius spectroscopy off
-mass spectroscopy off
-LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, 1520634912, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, 599096352, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-sqrte, ecuton, eprior[0], esigma = 1, 1, 1205025824, 0.050000
+cadenceswitch = 1
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+celerite=0
+RVcelerite=0
+pstar=5
+radius spectroscopy off
+mass spectroscopy off
+LDLAW = 0
+sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
@@ -86,14 +78,16 @@ t1 = 1570.000000
 ./kplr011401755_1440_1a.txt
 pre RV
 Initializing Walkers
+Initialized Walkers
+Setup Complete
+Beginning DEMCMC (this may take a very long time)
+Doing first seteq
+Finished first seteq
 pre RV
 Initializing Walkers
 Initialized Walkers
 Setup Complete
 Beginning DEMCMC (this may take a very long time)
-Initialized Walkers
-Setup Complete
-Beginning DEMCMC (this may take a very long time)
 Doing first seteq
 Finished first seteq
 Doing first seteq
@@ -39162,14 +39156,479 @@ Doing first seteq
 Finished first seteq
 Doing first seteq
 Finished first seteq
-Total run time = 894.598656127000 secs
-Total run time = 894.599865843000 secs
-WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Total run time = 907.073764587000 secs
+Total run time = 907.075009895000 secs
 WARNING:root:Too few points to create valid contours
 WARNING:root:Too few points to create valid contours
 WARNING:root:Too few points to create valid contours
 WARNING:root:Too few points to create valid contours
-WARNING:root:Pandas support in corner is deprecated; use ArviZ directly
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
+WARNING:root:Too few points to create valid contours
 No burnin given, using 0.
 
 number of lines per output in demcmc_kepler36_longcadence.out, number of planets, number of extra parameters, number of lines to skip : 
@@ -39188,13 +39647,13 @@ sqrte, ecuton, eprior[0], esigma = 1, 1, 0, 0.050000
 bimodf = 50
 t0 = 50.000000
 t1 = 1570.000000
-13.914170
-16.231775
+13.869867
+16.217335
 ./kplr011401755_1440_1a.txt
 pre RV
 Sanity check:
-p[][2]=13.914170, orbelemets[2]=13.914170
-int_in 3.000000, 800.000000, 1.071000, 0.000001
+p[][2]=13.869867, orbelemets[2]=13.869867
+int_in 3.000000, 800.000000, 1.071000, 0.000013
 Starting Forward Integration
 Doing first seteq
 Finished first seteq
@@ -39205,27 +39664,19 @@ t=800.000000 tepoch=800.000000 t1=1570.000000 t0=50.000000 h=-0.000010
 Integration Complete
 kk=57084
 pre rvjitter:
-neg2loglike=69067.850384
+neg2loglike=57366.642988
 post ttvjitter:
-neg2loglike=69067.850384
+neg2loglike=57366.642988
 post priors:
-neg2loglike=69067.850384
-Total run time = 0.858377198000 secs
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  Plot_all_transits(time, flux, err, model, outname)
-/dfs6/pub/ccbeard/PhoDyMM/runs/kepler36/LC_Plot.py:250: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  Plot_all_transits(time, flux, err, model, outname)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
+neg2loglike=57366.642988
+Total run time = 0.679046663000 secs
+LC_Plot.py:32: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:62: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:62: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:208: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:208: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)

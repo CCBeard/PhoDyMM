@@ -23,9 +23,9 @@ rm *.out
 rm aei*
 rm Transits -r
 mkdir Transits
-./lcout kepler36_longcadence.in kepler36_badguess.pldin
+./lcout kepler36_longcadence.in kepler36.pldin
 python LC_Plot.py orig
-mpirun demcmc kepler36_longcadence.in kepler36_badguess.pldin
+mpirun demcmc kepler36_longcadence.in kepler36.pldin
 python demcmc_quick_analyze.py kepler36_longcadence.in 
 rm tbv*
 rm *.lcout
