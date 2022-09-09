@@ -14,7 +14,7 @@ double epoch= 800.0
 // Number of individual demcmc walkers
 long nwalkers= 20
 // Number of generations the demcmc will run (i.e. the number of steps per walker)
-long nsteps= 10001
+long nsteps= 1001
 // Data cadence type switch. 0 = short cadence data, 1 = long cadence data, 2 = mixed
 int cadenceswitch= 1
 // File path and name for data
@@ -140,7 +140,7 @@ int xyzflag= 0
 int xyzlist= 0 0 
 // Initial guess at step size for planet parameters
 // Format: double pstep= P_step T0_step ecosomega_step esinomega_step inclination_step Omega_step mass_step rpors_step [brightness_step c1_step c2_step]
-double pstep= 1e-7      1e-7   1e-6    1e-6    1e-5    1e-5    1e-5    1e-5
+double pstep= 1e-3      1e-3   1e-3    1e-3    1e-3    1e-3    1e-3    1e-3
 // Initial guess at step size for stellar and noise parameters
 // Format: double sstep= Mstar_step Rstar_step c1_step c2_step dilute_step [jitter_step(s)] [celerite_steps]
 double sstep= 1e-7      1e-6    1e-6    1e-6    1e-8  

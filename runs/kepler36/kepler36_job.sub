@@ -26,7 +26,7 @@ mkdir Transits
 ./lcout kepler36_longcadence.in kepler36_badguess.pldin
 python LC_Plot.py orig
 mpirun demcmc kepler36_longcadence.in kepler36_badguess.pldin
-python demcmc_quick_analyze.py kepler36_longcadence.in 8000
+python demcmc_quick_analyze.py kepler36_longcadence.in 
 rm tbv*
 rm *.lcout
 rm xyz*
