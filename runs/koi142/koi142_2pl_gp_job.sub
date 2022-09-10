@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#SBATCH --job-name=KOI142
+#SBATCH --output=sbatch.o
+#SBATCH --error=sbatch.o
+#SBATCH --cpus-per-task=2
+#SBATCH --ntasks=2
+#SBATCH -A probert1_lab
+
+module load gsl/2.6/gcc.8.4.0
+module load openmpi/4.0.3/gcc.8.4.0
+module load eigen/3.3.7
+
+rm *.png
+rm xyz*
+rm analysis_dir -r
+rm gamma*
+rm mcmc*
+rm *.lcout
+rm demcmc.stdout
+rm post_demcmc.pldin
+rm *.out
+rm aei*
+rm Transits -r
+mkdir Transits
+./lcout_cele koi142_2pl_gp.in koi142_2pl_gp.pldin
+python LC_Plot.py orig
+mpirun demcmc_cele koi142_2pl_gp.in koi142_2pl_gp.pldin
+python demcmc_quick_analyze.py koi142_2pl_gp.in 
+rm tbv*
+rm *.lcout
+rm xyz*
+python Make_Pldin.py 2
+./lcout koi142_2pl_gp.in post_demcmc.pldin
+python LC_Plot.py post_demcmc
+
+
