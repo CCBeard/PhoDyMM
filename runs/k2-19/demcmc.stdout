@@ -785,3 +785,98 @@ Gen 49980  run time + message passing = 1.509890767000 secs
 begin gen 49990
 Gen 49990  run time = 1.480465974000 secs
 Gen 49990  run time + message passing = 1.503994470000 secs
+begin gen 1750
+Gen 1750  run time = 1.437116089000 secs
+Gen 1750  run time + message passing = 1.440049424000 secs
+begin gen 1760
+Gen 1760  run time = 1.432426833000 secs
+Gen 1760  run time + message passing = 1.435163282000 secs
+begin gen 1770
+Gen 1770  run time = 1.339064205000 secs
+Gen 1770  run time + message passing = 1.341961314000 secs
+begin gen 1780
+Gen 1780  run time = 1.363303730000 secs
+Gen 1780  run time + message passing = 1.366216066000 secs
+begin gen 1790
+Gen 1790  run time = 1.437721755000 secs
+Gen 1790  run time + message passing = 1.441473280000 secs
+begin gen 1800
+Gen 1800  run time = 1.435801391000 secs
+Gen 1800  run time + message passing = 1.442499728000 secs
+begin gen 1810
+Gen 1810  run time = 1.368856389000 secs
+Gen 1810  run time + message passing = 1.371539618000 secs
+begin gen 1820
+Gen 1820  run time = 1.439057898000 secs
+Gen 1820  run time + message passing = 1.442457138000 secs
+begin gen 1830
+Gen 1830  run time = 1.366169004000 secs
+Gen 1830  run time + message passing = 1.376718177000 secs
+begin gen 1840
+Gen 1840  run time = 1.360328140000 secs
+Gen 1840  run time + message passing = 1.363075380000 secs
+begin gen 1850
+Gen 1850  run time = 1.363267184000 secs
+Gen 1850  run time + message passing = 1.366226092000 secs
+begin gen 1860
+Gen 1860  run time = 1.364234355000 secs
+Gen 1860  run time + message passing = 1.382682146000 secs
+begin gen 1870
+Gen 1870  run time = 1.355774030000 secs
+Gen 1870  run time + message passing = 1.359247907000 secs
+begin gen 1880
+Gen 1880  run time = 1.418913398000 secs
+Gen 1880  run time + message passing = 1.421464273000 secs
+begin gen 1890
+Gen 1890  run time = 1.441407652000 secs
+Gen 1890  run time + message passing = 1.444240968000 secs
+begin gen 1900
+Gen 1900  run time = 1.429227198000 secs
+Gen 1900  run time + message passing = 1.432808503000 secs
+begin gen 1910
+Gen 1910  run time = 1.294190536000 secs
+Gen 1910  run time + message passing = 1.301077759000 secs
+begin gen 1920
+Gen 1920  run time = 1.361192942000 secs
+Gen 1920  run time + message passing = 1.365126968000 secs
+begin gen 1930
+Gen 1930  run time = 1.364298395000 secs
+Gen 1930  run time + message passing = 1.369233260000 secs
+begin gen 1940
+Gen 1940  run time = 1.364512823000 secs
+Gen 1940  run time + message passing = 1.367376002000 secs
+begin gen 1950
+Gen 1950  run time = 1.366190124000 secs
+Gen 1950  run time + message passing = 1.380440061000 secs
+Chain 0 has Best neg2loglike so far: 3475.750183
+begin gen 1960
+Gen 1960  run time = 1.329849748000 secs
+Chain 0 has Best neg2loglike so far: 3474.695674
+Gen 1960  run time + message passing = 1.649044588000 secs
+begin gen 1970
+Gen 1970  run time = 1.435661028000 secs
+Gen 1970  run time + message passing = 1.450954605000 secs
+begin gen 1980
+Gen 1980  run time = 1.432930302000 secs
+Gen 1980  run time + message passing = 1.472475289000 secs
+begin gen 1990
+Gen 1990  run time = 1.364027996000 secs
+Gen 1990  run time + message passing = 1.367455487000 secs
+begin gen 2000
+Gen 2000  run time = 1.365607502000 secs
+Gen 2000  run time + message passing = 1.504467691000 secs
+begin gen 2010
+Gen 2010  run time = 1.219039387000 secs
+Gen 2010  run time + message passing = 1.292532439000 secs
+begin gen 2020
+Gen 2020  run time = 1.433061613000 secs
+Gen 2020  run time + message passing = 1.449383924000 secs
+begin gen 2030
+Gen 2030  run time = 1.429463702000 secs
+Gen 2030  run time + message passing = 1.436070365000 secs
+begin gen 2040
+Gen 2040  run time = 1.430345980000 secs
+Gen 2040  run time + message passing = 1.514401843000 secs
+begin gen 2050
+Gen 2050  run time = 1.362130860000 secs
+Gen 2050  run time + message passing = 1.366017310000 secs
