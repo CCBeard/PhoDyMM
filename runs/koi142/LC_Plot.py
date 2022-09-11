@@ -15,17 +15,38 @@ outname = sys.argv[1]
 colorlist = ['b', 'r', 'g', 'y', 'c', 'm', 'midnightblue', 'yellow']
 letters = ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k']
 
-def plotlc(time, flux, error, model, outname, zoomrange=None):
+def plotlc(time, flux, error, model, outname, gpflux=None, zoomrange=None):
 
+
+    if gpflux is not None:
+        plt.figure(figsize=(14,8))
+        #make a plot of the gp on the lightcurve
+        plt.errorbar(time, flux, yerr=error, c='k', label='Flux') 
+        plt.errorbar(time, gpflux+1, yerr=None, c='r', label='GP Fit') 
+        plt.xlabel('Time (days)', fontsize=20)
+        plt.ylabel('Flux', fontsize=20)
+        plt.legend(fontsize=18)
+        plt.savefig("{}_gpfit_all.png".format(outname), dpi=300)        
+        
     plt.figure(figsize=(14,8))
 
-    plt.errorbar(time, flux, yerr=error, c='k')
+    
+    if gpflux is None:
+        plt.errorbar(time, flux, yerr=error, c='k') 
+    else:
+        plt.errorbar(time, flux - (gpflux+1) + 1, yerr=error, c='k') 
 
+    
     plt.plot(time, model, c=colorlist[0], zorder=1000)
-
-
+  
+    
     top = np.max(flux + 0.0001)
-
+    bot = np.min(flux - 0.0001)
+    if gpflux is not None:
+        top = np.max(flux - (gpflux+1)+0.0001) + 1
+        bot = np.min(flux - (gpflux+1) - 0.0001) + 1
+        
+    
     tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     for i in range(len(tbv)):
         f = tbv[i]
@@ -35,26 +56,45 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
             if j > 0:
                 label = None
             plt.plot([ttimes[1][j], ttimes[1][j]], [top, top+1e-4],
-                     c=colorlist[i], marker="None", label=label)
+                     c=colorlist[i], marker="None", label=label) 
 
     plt.xlabel('Time (days)', fontsize=20)
     plt.ylabel('Flux', fontsize=20)
     savestr = 'lcplot'
 
-    plt.ylim(0.999, top+1e-4/2)
+    plt.ylim(bot, top+1e-4/2)
     plt.legend(fontsize=16)
-    plt.savefig(outname+'_all.png',dpi=300)
-
+    plt.savefig('{}_all.png'.format(outname), dpi=300)
+    
     if zoomrange is not None:
         for z in zoomrange:
+            
+            if gpflux is not None:
+                plt.figure(figsize=(14,8))
+                #make a plot of the gp on the lightcurve
+                plt.errorbar(time, flux, yerr=error, c='k', label='Flux') 
+                plt.errorbar(time, gpflux+1, yerr=None, c='r', label='GP Fit') 
+                plt.xlabel('Time (days)', fontsize=20)
+                plt.ylabel('Flux', fontsize=20)
+                plt.legend(fontsize=18)
+                plt.xlim(z[0], z[1])
+                plt.savefig("{}_gpflux_zoom_{}.png".format(outname, z), dpi=300)
+            
             plt.figure(figsize=(14,8))
-
-            plt.errorbar(time, flux, yerr=error, c='k')
-
+    
+            if gpflux is None:
+                plt.errorbar(time, flux, yerr=error, c='k') 
+            else:
+                plt.errorbar(time, flux - (gpflux+1) + 1, yerr=error, c='k') 
+                
             plt.plot(time, model, c=colorlist[0], zorder=1000)
 
 
             top = np.max(flux + 0.0001)
+            bot = np.min(flux - 0.0001)
+            if gpflux is not None:
+                top = np.max(flux - (gpflux+1)+0.0001) + 1
+                bot = np.min(flux - (gpflux+1) - 0.0001) + 1
 
             tbv = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
             for i in range(len(tbv)):
@@ -65,19 +105,19 @@ def plotlc(time, flux, error, model, outname, zoomrange=None):
                     if j > 0:
                         label = None
                     plt.plot([ttimes[1][j], ttimes[1][j]], [top, top+1e-4],
-                         c=colorlist[i], marker="None", label=label)
+                         c=colorlist[i], marker="None", label=label) 
 
             plt.xlabel('Time (days)', fontsize=20)
             plt.ylabel('Flux', fontsize=20)
             plt.legend(fontsize=16)
 
-            plt.ylim(0.999, top+1e-4/2)
+            plt.ylim(bot, top+1e-4/2)
             plt.xlim(z[0], z[1])
-            plt.savefig(outname+'_zoom_{}.png'.format(z), dpi=300)
-
+            plt.savefig('{}_zoom_{}.png'.format(outname, z), dpi=300)
 ####
 
 lcdatafile = glob.glob("./lc_*.lcout")
+gplcdatafile = glob.glob("./lc_*.gp_lcout")
 if len(lcdatafile) == 0:
     print("This script must be run in the directory containing the lc_RUNNAME.lcout")
     print("    file produced with the 'lcout' command. No such file was not found here.")
@@ -88,18 +128,27 @@ if len(lcdatafile) > 1:
     print("    The default behavior is to plot the first one alphabetically")
 
 lcdata = np.loadtxt(lcdatafile[0])
+if len(gplcdatafile) != 0:
+    gpflux = np.loadtxt(gplcdatafile[0])
+else:
+    gpflux = None
+
+print(gpflux.shape)
+
 
 time = lcdata[:,0]
 flux = lcdata[:,1]
 model = lcdata[:,2]
 err = lcdata[:,3]
 
+print(flux.shape)
+
 ####
 
-plotlc(time, flux, err, model, outname, trange)
+plotlc(time, flux, err, model, outname, gpflux, trange)
 
 
-def Plot_Phasefold(time, flux, err, outname):
+def Plot_Phasefold(time, flux, err, outname, gpflux=None):
 
     tbvfilelist = glob.glob("./tbv[0-9][0-9]_[0-9][0-9].out")
     nfiles = len(tbvfilelist)
@@ -143,12 +192,18 @@ def Plot_Phasefold(time, flux, err, outname):
             if len(othertts) == 0:
                 trange = np.where(np.abs(time - tti) < phasewidth[i])[0]
                 phases.append(time[trange] - tti)
-                fluxes.append(flux[trange])
-            elif min(abs(othertts - tti)) > collisionwidth[i]:
+                if gpflux is None:
+                    fluxes.append(flux[trange])
+                else:
+                    fluxes.append((flux - (gpflux+1)+1)[trange])
+            elif min(abs(othertts - tti)) > collisionwidth[i]: 
                 trange = np.where(np.abs(time - tti) < phasewidth[i])[0]
                 try:
                     phases.append(time[trange] - tti)
-                    fluxes.append(flux[trange])
+                    if gpflux is None:
+                        fluxes.append(flux[trange])
+                    else:
+                        fluxes.append((flux - (gpflux+1)+1)[trange])
                 except AttributeError:
                     phases = np.append(phases, time[trange] - tti)
                     fluxes = np.append(fluxes, flux[trange])
@@ -193,10 +248,10 @@ def Plot_Phasefold(time, flux, err, outname):
     plt.savefig(outname+'.png')
 
 
-Plot_Phasefold(time, flux, err, outname)
+Plot_Phasefold(time, flux, err, outname, gpflux)
 
 
-def Plot_all_transits(time, flux, error, model, outname):
+def Plot_all_transits(time, flux, error, model, outname, gpflux=None):
     
     flux_start = np.min(time)
     flux_end = np.max(time)
@@ -216,14 +271,21 @@ def Plot_all_transits(time, flux, error, model, outname):
                 
                 
                 try:
-                    tran_min = np.min(flux[mask])
-                    tran_max = np.max(flux[mask])
+                    if gpflux is not None:
+                        tran_min = np.min((flux - (gpflux+1)+1)[mask])
+                        tran_max = np.max((flux - (gpflux+1)+1)[mask])   
+                    else:
+                        tran_min = np.min(flux[mask])
+                        tran_max = np.max(flux[mask])
                 except ValueError:
                     continue
             
                 plt.figure(figsize=(8,3))
+                if gpflux is None:
+                   plt.errorbar(time, flux, yerr=error, c='k', fmt='o') 
+                else:
+                   plt.errorbar(time, flux - (gpflux+1)+1, yerr=error, c='k', fmt='o')
 
-                plt.errorbar(time, flux, yerr=error, c='k', fmt='o') 
                 plt.plot(time, model, c=colorlist[i], zorder=1000)
                 plt.axvline(ttimes[1][j], ls='--', alpha=0.5, color='gray', label=np.round(ttimes[1][j],5))
                 plt.title('Planet {}'.format(letters[i]))
@@ -247,4 +309,4 @@ def Plot_all_transits(time, flux, error, model, outname):
 
 
 
-Plot_all_transits(time, flux, err, model, outname)
+Plot_all_transits(time, flux, err, model, outname, gpflux=None)

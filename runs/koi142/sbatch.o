@@ -7,7 +7,6 @@ rm: cannot remove '*.lcout': No such file or directory
 rm: cannot remove 'demcmc.stdout': No such file or directory
 rm: cannot remove 'post_demcmc.pldin': No such file or directory
 rm: cannot remove '*.out': No such file or directory
-rm: cannot remove 'aei*': No such file or directory
 cadenceswitch = 2
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -57,12 +56,37 @@ post ttvjitter:
 neg2loglike=-21911370.710381
 post priors:
 neg2loglike=-21911365.557356
-Total run time = 6.339449888000 secs
-/dfs6/pub/ccbeard/PhoDyMM/runs/koi142/LC_Plot.py:99: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only
-  plotlc(time, flux, err, model, outname, trange)
-/data/homezvol2/ccbeard/.conda/envs/exoenv/lib/python3.9/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
-  return func(*args, **kwargs)
-/export/spool/slurm/slurmd.spool/job15193420/slurm_script: line 27: 3022579 Killed                  python LC_Plot.py orig
+Total run time = 6.922527425000 secs
+LC_Plot.py:53: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:102: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:102: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:247: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  f.tight_layout()
+LC_Plot.py:263: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:263: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  ttimes = pd.read_csv(f, '  ', header=None)
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+LC_Plot.py:305: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig('Transits/{}_planet_{}_transit_{}.png'.format(outname, letters[i], ttimes[0][j]))
+(1564429,)
+(1564429,)
 cadenceswitch = 2
 pperplan=8
 rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
@@ -72,7 +96,7 @@ pstar=9
 spectroscopy = 1, 0.998000, 0.030000, 0.030000
 MASS spectroscopy = 1, 0.921000, 0.013000, 0.013000
 LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, -761496544, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, -1182446560, 0.050000
 bimodf = 0
 t0 = 50.000000
 t1 = 1570.000000
@@ -88,7 +112,7 @@ pstar=9
 spectroscopy = 1, 0.998000, 0.030000, 0.030000
 MASS spectroscopy = 1, 0.921000, 0.013000, 0.013000
 LDLAW = 0
-sqrte, ecuton, eprior[0], esigma = 1, 1, -2059281376, 0.050000
+sqrte, ecuton, eprior[0], esigma = 1, 1, 915704864, 0.050000
 bimodf = 0
 t0 = 50.000000
 t1 = 1570.000000
@@ -96,9 +120,9 @@ Warning: N_walkers = 20, N_free = 22
          N_Walkers should be > N free parameters.
          The DEMCMC algorithm may fail to perform correctly.
 10.916419
-22.264783
 10.916419
 22.264783
+22.264783
 ./kplr005446285_1440_2_nodetrend.txt
 ./kplr005446285_1440_2_nodetrend.txt
 
@@ -106,14 +130,84 @@ Warning: N_walkers = 20, N_free = 22
 
 ./kplr005446285_1440_2_nodetrend.txt read
 pre RV
-Warning: at least one planet has initial inclination that is not allowed
-         Compare the igt90 flag in the .in file to the planetary i values in the .pldin file
-         This may cause initialization to hang.
 Initializing Walkers
+Initialized Walkers
+Setup Complete
+Beginning DEMCMC (this may take a very long time)
+Doing first seteq
+Finished first seteq
 pre RV
-Warning: at least one planet has initial inclination that is not allowed
-         Compare the igt90 flag in the .in file to the planetary i values in the .pldin file
-         This may cause initialization to hang.
 Initializing Walkers
-slurmstepd: error: *** JOB 15193420 ON hpc3-21-18 CANCELLED AT 2022-09-10T10:05:38 ***
-slurmstepd: error: Detected 1 oom-kill event(s) in StepId=15193420.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+Initialized Walkers
+Setup Complete
+Beginning DEMCMC (this may take a very long time)
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+Doing first seteq
+Finished first seteq
+terminate called after throwing an instance of 'celerite::linalg_exception'
+  what():  failed to factorize or solve matrix
+[hpc3-14-08:2441483] *** Process received signal ***
+[hpc3-14-08:2441483] Signal: Aborted (6)
+[hpc3-14-08:2441483] Signal code:  (-6)
+[hpc3-14-08:2441483] [ 0] /lib64/libpthread.so.0(+0x12ce0)[0x7f77b986cce0]
+[hpc3-14-08:2441483] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x7f77b94e3a9f]
+[hpc3-14-08:2441483] [ 2] /lib64/libc.so.6(abort+0x127)[0x7f77b94b6e05]
+[hpc3-14-08:2441483] [ 3] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x94973)[0x7f77ba0bb973]
+[hpc3-14-08:2441483] [ 4] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9a8e6)[0x7f77ba0c18e6]
+[hpc3-14-08:2441483] [ 5] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9a921)[0x7f77ba0c1921]
+[hpc3-14-08:2441483] [ 6] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9ab54)[0x7f77ba0c1b54]
+[hpc3-14-08:2441483] [ 7] demcmc_cele[0x42f30f]
+[hpc3-14-08:2441483] [ 8] demcmc_cele[0x4106f7]
+[hpc3-14-08:2441483] [ 9] demcmc_cele[0x412e6e]
+[hpc3-14-08:2441483] [10] demcmc_cele[0x40374a]
+[hpc3-14-08:2441483] [11] /lib64/libc.so.6(__libc_start_main+0xf3)[0x7f77b94cfcf3]
+[hpc3-14-08:2441483] [12] demcmc_cele[0x40392e]
+[hpc3-14-08:2441483] *** End of error message ***
+terminate called after throwing an instance of 'celerite::linalg_exception'
+  what():  failed to factorize or solve matrix
+[hpc3-14-08:2441482] *** Process received signal ***
+[hpc3-14-08:2441482] Signal: Aborted (6)
+[hpc3-14-08:2441482] Signal code:  (-6)
+[hpc3-14-08:2441482] [ 0] /lib64/libpthread.so.0(+0x12ce0)[0x7f3536960ce0]
+[hpc3-14-08:2441482] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x7f35365d7a9f]
+[hpc3-14-08:2441482] [ 2] /lib64/libc.so.6(abort+0x127)[0x7f35365aae05]
+[hpc3-14-08:2441482] [ 3] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x94973)[0x7f35371af973]
+[hpc3-14-08:2441482] [ 4] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9a8e6)[0x7f35371b58e6]
+[hpc3-14-08:2441482] [ 5] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9a921)[0x7f35371b5921]
+[hpc3-14-08:2441482] [ 6] /opt/apps/gcc/8.4.0/lib64/libstdc++.so.6(+0x9ab54)[0x7f35371b5b54]
+[hpc3-14-08:2441482] [ 7] demcmc_cele[0x42f30f]
+[hpc3-14-08:2441482] [ 8] demcmc_cele[0x4106f7]
+[hpc3-14-08:2441482] [ 9] demcmc_cele[0x412e6e]
+[hpc3-14-08:2441482] [10] demcmc_cele[0x40374a]
+[hpc3-14-08:2441482] [11] /lib64/libc.so.6(__libc_start_main+0xf3)[0x7f35365c3cf3]
+[hpc3-14-08:2441482] [12] demcmc_cele[0x40392e]
+[hpc3-14-08:2441482] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 2441482 on node hpc3-14-08 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+No burnin given, using 0.
+
+number of lines per output in demcmc_koi142_2pl_gp.out, number of planets, number of extra parameters, number of lines to skip : 
+12 2 9 1
+
+Error: This script must be run in the same directory as the 'demcmc' output file:
+    demcmc_koi142_2pl_gp.out
+Traceback (most recent call last):
+  File "Make_Pldin.py", line 5, in <module>
+    mcmcfile = glob.glob('mcmc_*')[0]
+IndexError: list index out of range
+cadenceswitch = 2
+pperplan=8
+rvjitterflag, NstarsRV, Ntelescopes =  0, 0, 0
+Error: Celerite is set to True, but the code was compiled without celerite functionality
+Either recompile with celerite, or turn off celerite in the .in file.
+This script must be run in the directory containing the lc_RUNNAME.lcout
+    file produced with the 'lcout' command. No such file was not found here.
+    Aborting
