@@ -1032,3 +1032,14 @@ planet         period (d)               T0 (d)                  e               
 0.000000000000000 ; dilution (frac light not from stars in system)
  ; Comments: These coordinates are jacobian (see Lee & Peale 2003).   gen = 795   ch=24
  ; neg2loglike = 3470.405192366686151
+planet         period (d)               T0 (d)                  e                   i (deg)                 Omega (deg)               omega(deg)               mp (mjup)              rpors           
+0.1	2.508011594940341	2021.070958093732315	 0.000000000000000	89.798305630629329	0.000000000000000	 0.000000000000000	0.002238090193637	0.012385723705637
+0.2	7.922305987506173	2027.902885455012665	 0.132687513504460	88.668604768610962	0.000000000000000	-115.096096850544598	0.102524430854838	0.075799313104727
+0.3	11.897649091875280	2020.001425490693691	 0.157297098084437	89.006838792367802	0.000000000000000	-103.322476187437303	0.035525417599099	0.044942997952589
+0.892820721077140 ; Mstar (M_sol)
+0.827816849434690 ; Rstar (R_sol)
+0.362392489707795 ; c1 (linear limb darkening) 
+0.347920204789287 ; c2 (quadratic limb darkening) 
+0.000000000000000 ; dilution (frac light not from stars in system)
+ ; Comments: These coordinates are jacobian (see Lee & Peale 2003).   gen = 1255   ch=17
+ ; neg2loglike = 3469.817368922410878
