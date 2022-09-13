@@ -152,8 +152,11 @@ def Plot_Phasefold(time, flux, err, outname):
                 except AttributeError:
                     phases = np.append(phases, time[trange] - tti)
                     fluxes = np.append(fluxes, flux[trange])
-                phases = np.hstack(phases)
-                fluxes = np.hstack(fluxes)
+                try:
+                    phases = np.hstack(phases)
+                    fluxes = np.hstack(fluxes)
+                except ValueError:
+                    continue
                 axes[i].scatter(phases, fluxes, s=0.01, c='gray', alpha=0.5)
 
         binwidth = 1./1440. * 10.
